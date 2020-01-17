@@ -142,6 +142,88 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 /*Prashanto*/
 
+if( $('.main-slider').length ){
+    $('.main-slider').slick({
+      pauseOnHover: false,
+      autoplay: true,
+      autoplaySpeed: 7000,
+      dots: true,
+      arrows:false,
+      infinite: true,
+      fade: true,
+      speed: 700,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+}
+
+
+// if( $('.specialProductsSlider').length ){
+//     $('.specialProductsSlider').slick({
+      // pauseOnHover: false,
+      // autoplay: true,
+      // autoplaySpeed: 7000,
+      // dots: true,
+      // arrows:false,
+      // infinite: true,
+      // fade: true,
+      // speed: 700,
+      // slidesToShow: 2.6,
+      // slidesToScroll: 1
+
+      // dots: true,
+      // autoplay: true,
+      // autoplaySpeed: 4000,
+      // infinite: true,
+      // speed: 1000,
+      // arrows:false,
+      // slidesToShow: 2.6,
+      // slidesToScroll: 1
+
+
+
+
+//     });
+// }
+
+
+if( $('.specialProductsSlider').length ){
+    $('.specialProductsSlider').slick({
+      dots: true,
+      arrows:true,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 2.7,
+      slidesToScroll: 1,
+      responsive: [
+        
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 1.7
+          }
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1.7
+          }
+        },
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1.7
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1.7
+          }
+        }
+      ]
+    });
+}
 
 
 
@@ -153,10 +235,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 
-
 /*Rannojit*/
-
-
 
 
 
