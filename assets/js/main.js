@@ -193,7 +193,7 @@ if( $('.specialProductsSlider').length ){
       arrows:true,
       infinite: false,
       speed: 300,
-      slidesToShow: 2.7,
+      slidesToShow: 2.73,
       slidesToScroll: 1,
       responsive: [
         
