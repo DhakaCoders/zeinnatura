@@ -258,7 +258,7 @@ main-slider-sec-wrp
 
 .main-slider .slick-dots{
     position: relative;
-    bottom: 127px;
+    bottom: 105px;
     display: block;
     padding: 0;
     margin: 0;
@@ -533,12 +533,12 @@ main-slider-sec-wrp
 	color: #FFFFFF;
 	position: relative;
 	z-index: 1;
-	min-height: 470px;
 }
 .specialProductsSlider-item-innr{
 	padding:100px 70px 95px 25px;
 	position: relative;	
 	z-index: 3;
+	min-height: 470px;
 }
 .specialProductsSlider-item span{
 	display:block;
@@ -561,8 +561,9 @@ main-slider-sec-wrp
 	left: 25px;
 	display: inline-block;
 	vertical-align: baseline;
-	padding: 10px 42px 18px;
+	padding: 9px 41px 17px;
 	background: #fff;
+	border: 2px solid #fff;
 	border-radius: 22px;
 	font-weight: 500;
 	font-size: 16px;

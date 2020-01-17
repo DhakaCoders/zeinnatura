@@ -158,35 +158,6 @@ if( $('.main-slider').length ){
 }
 
 
-// if( $('.specialProductsSlider').length ){
-//     $('.specialProductsSlider').slick({
-      // pauseOnHover: false,
-      // autoplay: true,
-      // autoplaySpeed: 7000,
-      // dots: true,
-      // arrows:false,
-      // infinite: true,
-      // fade: true,
-      // speed: 700,
-      // slidesToShow: 2.6,
-      // slidesToScroll: 1
-
-      // dots: true,
-      // autoplay: true,
-      // autoplaySpeed: 4000,
-      // infinite: true,
-      // speed: 1000,
-      // arrows:false,
-      // slidesToShow: 2.6,
-      // slidesToScroll: 1
-
-
-
-
-//     });
-// }
-
-
 if( $('.specialProductsSlider').length ){
     $('.specialProductsSlider').slick({
       dots: true,
@@ -225,6 +196,10 @@ if( $('.specialProductsSlider').length ){
     });
 }
 
+//matchHeightCol
+if($('.mHc').length){
+  $('.mHc').matchHeight();
+};
 
 
 
