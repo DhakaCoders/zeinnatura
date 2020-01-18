@@ -70,7 +70,7 @@ hm-product-sec-wrp
     overflow: hidden;
     padding-top: 25px;
 }
-.hm-product-slide-item:nth-child(1+.hm-product-item-img) .hm-product-item-img{
+.hm-product-slide-item:nth-child(1) .hm-product-item-img{
 	border-left: 0;
 }
 .hm-product-item-img img{
