@@ -1,0 +1,123 @@
+.blog-grid-sct-wrap{
+	margin-top: -152px;
+	padding-bottom: 75px;
+}
+.blog-grid-sct-inner ul li{
+	float: left;
+	width: 50%;
+	padding-left: 27px;
+	padding-right: 27px;
+}
+.blog-grid-sct-inner ul li:first-child{
+	padding-left: 0;
+}
+.blog-grid-sct-inner ul li:last-child{
+	padding-right: 0;
+}
+.blog-grid-img,
+.bbgs-img{
+	min-height: 220px;
+	height: 100%;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+	transition: 0.5s ease-in-out;
+	-webkit-transition: 0.5s ease-in-out;
+}
+.blog-grid-title h4{
+	margin: 0;
+	line-height: 49px;
+	font-weight: normal;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	padding-left: 40px;
+}
+.blog-grid-title h4 a{
+	color: #3B3B3B;
+}
+.blog-grid-desc p{
+	margin: 0;
+	line-height: 28px;
+	padding-left: 40px;
+	padding-bottom: 47px;
+}
+.blog-grid-sct,
+.blog-btm-grid-sct{
+	border: 2px solid #8D9E2F;
+	mix-blend-mode: normal;
+}
+.blog-grid-sct,
+.blog-btm-grid-sct{
+	position: relative;
+	overflow: hidden;
+}
+.blog-grid-sct:hover .blog-grid-img,
+.blog-btm-grid-sct:hover .bbgs-img{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+}
+
+
+.blog-btm-grid-sct-wrap{
+	padding-top: 60px;
+}
+.blog-btm-grid-sct-inner ul li{
+	float: left;
+	width: 50%;
+	padding-left: 27px;
+	padding-right: 27px;
+	padding-bottom: 56px;
+}
+.blog-btm-grid-sct-inner ul li:nth-child(2n+1){
+	padding-left: 0px;
+	clear: left;
+}
+.blog-btm-grid-sct-inner ul li:nth-child(2n+2){
+	padding-right: 0px;
+}
+
+
+.blz-load-more-btn{
+	text-align: center;
+	padding-bottom: 95px;
+}
+.blz-load-more-btn a{
+	font-family: 'Abril Fatface', cursive;
+    display: inline-block;
+    vertical-align: baseline;
+    font-size: 26px;
+    line-height: 35px;
+    color: #8D9E2F;
+}
+.blz-load-more-btn a i{
+	display: inline-block;
+    vertical-align: baseline;
+    width: 77px;
+    height: 79px;
+    border: 2px solid #8D9E2F;
+    border-radius: 100%;
+    position: relative;
+    text-align: center;
+}
+.blz-load-more-btn a i img{
+	position: absolute;
+    top: 50%;
+    line-height: 20px;
+    width: 26px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.blz-load-more-btn a span{
+	display: inline-block;
+    vertical-align: baseline;
+    margin-top: 10px;
+}
+.blz-load-more-btn a:hover img{
+	top: 57%;
+}
+
+
