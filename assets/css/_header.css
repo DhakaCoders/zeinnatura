@@ -147,27 +147,6 @@ nav.main-nav > ul > li > a:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 ---------------------
 main-slider-sec-wrp
@@ -375,19 +354,6 @@ main-slider-sec-wrp
     -webkit-animation-delay: 2.2s;
     animation-delay: 2.2s;
 }
-.main-slider .slick-dots{
-    -webkit-animation-name: fadeInUpShort;
-    animation-name: fadeInUpShort;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -webkit-animation-delay: 2.7s;
-    animation-delay: 2.7s;
-}
-
-
-
 
 
 
@@ -571,12 +537,25 @@ main-slider-sec-wrp
 	color: #8D9E2F;
 }
 
+.specialProductsSlider-item-innr > a:hover{
+	border: 2px solid #8D9E2F;
+	background: #f8f8f8;
+}
+
 .specialProductsSlider-item-innr > i{
 	position: absolute;
 	top: 25px;
 	right: 25px;
 	color: #fff;
 	cursor: pointer;
+	-webkit-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease;	
+	
+}
+.specialProductsSlider-item-innr > i.active,
+.specialProductsSlider-item-innr > i:hover{
+	color: #000;
 }
 
 /* .specialProductsSlider-item::after{

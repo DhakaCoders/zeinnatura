@@ -196,12 +196,12 @@ if( $('.specialProductsSlider').length ){
     });
 }
 
-//matchHeightCol
-if($('.mHc').length){
-  $('.mHc').matchHeight();
-};
 
-
+if( $('.specialProductsSlider-item-innr').length ){
+  $('.specialProductsSlider-item-innr > i').on('click', function(){
+    $(this).toggleClass('active');
+  });
+}
 
 
 /*Shoriful*/
