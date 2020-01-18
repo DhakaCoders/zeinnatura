@@ -52,6 +52,23 @@ Responsive on 767px
 // https://stackoverflow.com/questions/38686650/slick-slides-on-pagination-hover
 
 
+if( $('.hm-product-slider').length ){
+    $('.hm-product-slider').slick({
+      pauseOnHover: false,
+      autoplay: true,
+      autoplaySpeed: 6000,
+      dots: false,
+      infinite: false,
+      arrows:true,
+      speed: 1000,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      prevArrow: $('.productsliderarrows .leftArrow'),
+      nextArrow: $('.productsliderarrows .rightArrow'),
+    });
+}
+
+
 /**
 Slick slider
 */
