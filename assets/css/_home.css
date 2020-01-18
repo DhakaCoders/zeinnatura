@@ -70,8 +70,14 @@ hm-product-sec-wrp
     overflow: hidden;
     padding-top: 25px;
 }
-.slick-slide.slick-current .hm-product-item-img{
+.hm-product-slide-item:nth-child(1) .hm-product-item-img{
 	 border-left: 1px solid #0000;
+}
+.slick-slide .hm-product-slide-item:nth-child(1) .hm-product-item-img{
+	 border-left: 1px solid #9D9D9D;
+}
+.slick-slide.slick-current .hm-product-item-img{
+	 border-left: 1px solid #0000!important;
 }
 
 .hm-product-item-img img{
