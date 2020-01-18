@@ -52,6 +52,23 @@ Responsive on 767px
 // https://stackoverflow.com/questions/38686650/slick-slides-on-pagination-hover
 
 
+if( $('.hm-product-slider').length ){
+    $('.hm-product-slider').slick({
+      pauseOnHover: false,
+      autoplay: true,
+      autoplaySpeed: 6000,
+      dots: false,
+      infinite: false,
+      arrows:true,
+      speed: 1000,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      prevArrow: $('.productsliderarrows .leftArrow'),
+      nextArrow: $('.productsliderarrows .rightArrow'),
+    });
+}
+
+
 /**
 Slick slider
 */
@@ -142,9 +159,66 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 /*Prashanto*/
 
+if( $('.main-slider').length ){
+    $('.main-slider').slick({
+      pauseOnHover: false,
+      autoplay: true,
+      autoplaySpeed: 7000,
+      dots: true,
+      arrows:false,
+      infinite: true,
+      fade: true,
+      speed: 700,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+}
 
 
+if( $('.specialProductsSlider').length ){
+    $('.specialProductsSlider').slick({
+      dots: true,
+      arrows:true,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 2.73,
+      slidesToScroll: 1,
+      responsive: [
+        
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 1.7
+          }
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1.7
+          }
+        },
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1.7
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1.7
+          }
+        }
+      ]
+    });
+}
 
+
+if( $('.specialProductsSlider-item-innr').length ){
+  $('.specialProductsSlider-item-innr > i').on('click', function(){
+    $(this).toggleClass('active');
+  });
+}
 
 
 /*Shoriful*/
@@ -153,10 +227,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 
 
-
 /*Rannojit*/
-
-
 
 
 
