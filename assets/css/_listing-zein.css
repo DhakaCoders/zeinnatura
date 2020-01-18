@@ -19,12 +19,33 @@
   border-left:0;
   clear: left;
 }
-
-
-
-
-
-
+#listing-zein-grd .load-more-btn{
+  width: 100%;
+  padding: 100px 0 50px;
+  text-align: center;
+  float: left;
+}
+#listing-zein-grd .load-more-btn a{
+  font-family: 'Abril Fatface', cursive;
+  display: inline-block;
+  vertical-align: baseline;
+  font-size: 26px;
+  line-height: 35px;
+  color: #8D9E2F;
+}
+#listing-zein-grd .load-more-btn a i{
+  display: inline-block;
+  vertical-align: baseline;
+  max-width: 77px;
+}
+#listing-zein-grd .load-more-btn a img{
+  width: 100%;
+}
+#listing-zein-grd .load-more-btn a span{
+  display: inline-block;
+  vertical-align: baseline;
+  margin-top: 10px;
+}
 
 
 
