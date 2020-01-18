@@ -39,7 +39,7 @@ hm-product-sec-wrp
 	position: relative;
 }
 .hm-product-slider{
-	max-width: 1100px;
+	max-width: 1110px;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -103,6 +103,7 @@ hm-product-sec-wrp
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	cursor: pointer;
 }
 .hm-product-item-btn button:last-child{
 	max-width: 114px;
