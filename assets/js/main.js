@@ -152,8 +152,41 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 /*Milon*/
 
+/*
+ Product Details Slider
+*/
 
+if( $('.product-thumb-slider-wrp').length ){
+  $('.product-big-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true,
+    speed: 700,
+    fade: true,
+    dots: false,
+    arrows: false,
+    asNavFor: '.product-thumb-slider'
+  });
+  $('.product-thumb-slider').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    infinite: true,
+    speed: 700,
+    dots: false,
+    arrows: true,
+    focusOnSelect: true,
+    vertical: true,
+    verticalSwiping: true,
+    asNavFor: '.product-big-slider',
+    prevArrow: $('.ThumbSliderArrows .leftArrow'),
+    nextArrow: $('.ThumbSliderArrows .rightArrow')
+  });
 
+}
+
+if( $('.sp-tabs-wrp').length ){
+  $( '.sp-tabs-wrp' ).tabs();
+}
 
 
 
