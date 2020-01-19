@@ -210,12 +210,12 @@ main-slider-sec-wrp
 	top: 11px;
 	left: -60px;
 	cursor: pointer;
-	-webkit-transition: all .3s ease;
-	-ms-transition: all .3s ease;
-	transition: all .3s ease;
+	-webkit-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
 }
 .main-slide-item-dsc i:hover{
-	opacity: .7;
+	top: 18px;
 }
 .main-slide-item-dsc i img{
 	width: 100%;

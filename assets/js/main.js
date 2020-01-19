@@ -221,6 +221,38 @@ if( $('.specialProductsSlider-item-innr').length ){
 }
 
 
+
+//product slider
+if( $('.slider-pro-big-view').length ){
+  $('.slider-pro-big-view').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: false,
+    speed: 700,
+    fade: false,
+    dots: false,
+    arrows: true,
+    asNavFor: '.slider-pro-thumb-img'
+  });
+  $('.slider-pro-thumb-img').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    infinite: false,
+    speed: 700,
+    dots: false,
+    arrows: true,
+    focusOnSelect: true,
+    asNavFor: '.slider-pro-big-view',
+    prevArrow: $('.thumb-slider-arrows .leftArrow'),
+    nextArrow: $('.thumb-slider-arrows .rightArrow')
+  });
+
+}
+
+
+
+
+
 /*Shoriful*/
 
 

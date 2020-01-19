@@ -1,7 +1,7 @@
 
 #product-grd-sec {
-    padding-top: 52px;
-    padding-bottom: 85px;
+  padding-top: 52px;
+  padding-bottom: 85px;
 }
 #product-grd-sec .product-grd-item{
   width: 33.333%;
@@ -124,9 +124,14 @@
 
 
 
+.type-pasts-sec.special-products-sec .specialProductsSlider-item-innr > i.active, 
+.type-pasts-sec.special-products-sec .specialProductsSlider-item-innr > i:hover {
+  color: #D0C300;
+}
 
-
-
+.type-pasts-sec.special-products-sec .specialProductsSlider-item-innr {
+  padding: 100px 40px 95px 25px;
+}
 
 
 
