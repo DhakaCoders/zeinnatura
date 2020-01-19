@@ -1,11 +1,13 @@
 /**
 All Transitions
 */
+.hm-product-slide-item:hover .hm-product-item-img-overflow img,
 a,input,img,textarea,button{
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 }
+.hm-product-slide-item:hover .hm-product-item-img-overflow img,
 .scale{
 	transform: scale(1.1);
 	-ms-transform: scale(1.1);
