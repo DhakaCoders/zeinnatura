@@ -595,13 +595,11 @@ main-slider-sec-wrp
     z-index: 2;
 }
 .specialProductsSlider-item:hover::after{
-    opacity: .7;
+    opacity: .77;
+    -webkit-transform: perspective(100px) rotateX(0);
+    -ms-transform: perspective(100px) rotateX(0);
     transform: perspective(100px) rotateX(0);
 }
-
-
-
-
 .banner-section{
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
