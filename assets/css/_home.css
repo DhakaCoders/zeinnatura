@@ -22,12 +22,12 @@
 hm-product-sec-wrp
 ----------------
 */
-.hm-product-sec-wrp{
-	padding-top: 52px;
-	padding-bottom: 85px;
+.hm-product-sec-wrp {
+    padding-top: 55px;
+    padding-bottom: 85px;
 }
-.hm-product-head{
-	padding-bottom: 80px;
+.hm-product-head {
+    padding-bottom: 70px;
 }
 .hm-product-head h5{
 	margin: 0;
