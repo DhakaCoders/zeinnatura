@@ -223,28 +223,30 @@ if( $('.specialProductsSlider-item-innr').length ){
 
 
 //product slider
-if( $('.slider-pro-big-view').length ){
-  $('.slider-pro-big-view').slick({
+if( $('.product-slider-wrp').length ){
+  $('.bigViewSlider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    infinite: false,
+    infinite: true,
     speed: 700,
-    fade: false,
+    fade: true,
     dots: false,
-    arrows: true,
-    asNavFor: '.slider-pro-thumb-img'
+    arrows: false,
+    asNavFor: '.thumbSlider'
   });
-  $('.slider-pro-thumb-img').slick({
-    slidesToShow: 3,
+  $('.thumbSlider').slick({
+    slidesToShow: 2,
     slidesToScroll: 1,
-    infinite: false,
+    infinite: true,
     speed: 700,
     dots: false,
     arrows: true,
     focusOnSelect: true,
-    asNavFor: '.slider-pro-big-view',
-    prevArrow: $('.thumb-slider-arrows .leftArrow'),
-    nextArrow: $('.thumb-slider-arrows .rightArrow')
+    vertical: true,
+    verticalSwiping: true,
+    asNavFor: '.bigViewSlider',
+    prevArrow: $('.thumbSlider-arrows .leftArrow'),
+    nextArrow: $('.thumbSlider-arrows .rightArrow')
   });
 
 }
