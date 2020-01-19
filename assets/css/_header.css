@@ -445,6 +445,7 @@ main-slider-sec-wrp
 
 .special-products-sec{
 	position: relative;
+	overflow: hidden;
 }
 .special-products-sec::after{
 	content: "";
