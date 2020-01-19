@@ -5,6 +5,7 @@
 @import url('_header.css');
 @import url('_page.css');
 @import url('_home.css');
+@import url('_blog-article-zein.css');
 
 
 /*Milon*/
@@ -30,7 +31,7 @@
 
 
 /*Rannojit*/
-
+@import url('_account.css');
 
 
 
