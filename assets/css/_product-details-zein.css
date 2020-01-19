@@ -150,7 +150,13 @@ sweet-potato-sec-wrp
 	     -o-transition: all .25s ease;
 	        transition: all .25s ease;
 }
-.sp-tabs-wrp{
+.product-tab{
+	max-width: 1075px;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+/*.sp-tabs-wrp{
 	max-width: 1075px;
 	width: 100%;
 	margin: 0 auto;
@@ -195,4 +201,10 @@ sweet-potato-sec-wrp
 .sp-tabs-dsc p{
 	margin-bottom: 25px;
 	text-align: justify;
+} */
+.pd-food-two-part-sec .hm-food-rgt-part-innr{
+    max-width: 650px;
+}
+.pd-food-two-part-sec .hm-food-rgt-part-innr p{
+	padding-right: 30px;
 }
