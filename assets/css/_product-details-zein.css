@@ -3,12 +3,14 @@
 sweet-potato-sec-wrp
 ---------------------
 */
-.product-detalis-wrp{
-	padding-bottom: 40px;
+.product-detalis-wrp {
+    padding-bottom: 30px;
 }
 .product-detalis-lft{
 	float: left;
 	width: 72%;
+	padding-left: 105px;
+	padding-top: 40px;
 }
 .product-detalis-rgt{
 	float: right;
@@ -17,26 +19,28 @@ sweet-potato-sec-wrp
 }
 .product-big-slider-wrp {
     float: right;
-    width: 64%;
-    padding-top: 100px;
+    width: 87%;
+    padding-top: 55px;
+    padding-left: 115px;
 }
-.product-thumb-lft{
-    float: left;
-    width: 36%;
-    padding: 114px 0 110px;
+.product-thumb-slider-wrp {
     position: relative;
+    padding: 70px 0 80px;
+    float: left;
+    width: 13%;
 }
-.product-thumb-slider .slick-slide{
-	float: none;
-	display: inline;
+.product-thumb-img {
+    width: 92px;
+    height: 93px;
+    margin: 0 auto;
 }
-.product-thumb-img{
-	max-width:90px;
-	width: 100%;
-	margin: 0 auto;
+.slick-current .product-thumb-img{
+    border: 2px solid #000;
+    overflow: hidden;
 }
-.product-thumb-img img{
-	width: 100%;
+.product-thumb-img img {
+    width: 100%;
+    height: 100%;
 }
 .product-detalis-tp{
 	float: right;
@@ -90,6 +94,15 @@ sweet-potato-sec-wrp
 	color: #fff;
 }
 
+.product-detalis-select form label {
+    display: block;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
 /*
 -----------------------------
  Main Slider Next Prev css
@@ -105,14 +118,14 @@ sweet-potato-sec-wrp
 	z-index: 5;
 }
 .ThumbSliderArrows .leftArrow{
-	top: 40px;
+	top: 0;
 	background: url(../images/tp-leftArrow.png);
 	background-size: 14px 20px;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 .ThumbSliderArrows .rightArrow{
-	bottom: 40px;	
+	bottom: 0;	
 	background: url(../images/btm-rightArrow.png);
 	background-size: 14px 20px;
 	background-repeat: no-repeat;
@@ -136,17 +149,6 @@ sweet-potato-sec-wrp
 	    -ms-transition: all .25s ease;
 	     -o-transition: all .25s ease;
 	        transition: all .25s ease;
-}
-.ThumbSliderArrows .rightArrow:hover,
-.ThumbSliderArrows .leftArrow:hover{
-	color: #0e857b;
-	border-color: #fd6406;
-	-webkit-transition: all .25s ease;
-	   -moz-transition: all .25s ease;
-	    -ms-transition: all .25s ease;
-	     -o-transition: all .25s ease;
-	        transition: all .25s ease;
-	opacity: 1;
 }
 .sp-tabs-wrp{
 	max-width: 1075px;
@@ -176,9 +178,16 @@ sweet-potato-sec-wrp
 	padding: 10px 10px 18px 4px;
 	border-bottom: 1px dashed #979797;
 	margin-right: 8px;
+	position: relative;
 }
-.sp-tabs-wrp ul li.ui-state-active a{
-	border-bottom: 2px solid #8D9E2F;
+.sp-tabs-wrp ul li.ui-state-active a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 2px;
+    background: #8D9E2F;
 }
 .sp-tabs-dsc{
 	padding-top: 25px;
