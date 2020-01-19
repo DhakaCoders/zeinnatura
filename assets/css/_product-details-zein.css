@@ -1,0 +1,189 @@
+/*
+---------------------
+sweet-potato-sec-wrp
+---------------------
+*/
+.product-detalis-wrp{
+	padding-bottom: 40px;
+}
+.product-detalis-lft{
+	float: left;
+	width: 72%;
+}
+.product-detalis-rgt{
+	float: right;
+	width: 28%;
+	padding: 115px 55px 20px 20px;
+}
+.product-big-slider-wrp {
+    float: right;
+    width: 64%;
+    padding-top: 100px;
+}
+.product-thumb-lft{
+    float: left;
+    width: 36%;
+    padding: 114px 0 110px;
+    position: relative;
+}
+.product-thumb-slider .slick-slide{
+	float: none;
+	display: inline;
+}
+.product-thumb-img{
+	max-width:90px;
+	width: 100%;
+	margin: 0 auto;
+}
+.product-thumb-img img{
+	width: 100%;
+}
+.product-detalis-tp{
+	float: right;
+	width: 100%;
+	text-align: right;
+}
+.product-detalis-tp strong{
+	font-size: 40px;
+	line-height: 42px;
+	color: #3B3B3B;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: baseline;
+	font-family: 'Abril Fatface', cursive;
+}
+.product-detalis-btn {
+    padding-top: 60px;
+    float: right;
+    max-width: 132px;
+}
+.product-detalis-btn button{
+	display: block;
+	font-size: 16px;
+	line-height: 18px;
+	text-align: center;
+	color: #8D9E2F;
+	font-weight: 500;
+	height: 46px;
+	background:transparent;
+	border: 2px solid #8D9E2F;
+	box-sizing: border-box;
+	border-radius: 100px;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	cursor: pointer;
+}
+.product-detalis-btn button:first-of-type{
+	max-width: 131px;
+	width: 100%;
+	float: right;
+}
+.product-detalis-btn button:last-of-type{
+	margin-top: 21px;
+	max-width: 113px;
+	width: 100%;
+	float: right;
+}
+.product-detalis-btn button:hover{
+	background:#8D9E2F;
+	color: #fff;
+}
+
+/*
+-----------------------------
+ Main Slider Next Prev css
+------------------------------
+*/
+.ThumbSliderArrows .leftArrow,
+.ThumbSliderArrows .rightArrow{
+	position: absolute;
+	left:50%;
+	-ms-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	z-index: 5;
+}
+.ThumbSliderArrows .leftArrow{
+	top: 40px;
+	background: url(../images/tp-leftArrow.png);
+	background-size: 14px 20px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.ThumbSliderArrows .rightArrow{
+	bottom: 40px;	
+	background: url(../images/btm-rightArrow.png);
+	background-size: 14px 20px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.ThumbSliderArrows .leftArrow,
+.ThumbSliderArrows .rightArrow{
+	display: block;
+	height: 42px;
+	width: 42px;
+	cursor: pointer;
+	text-align: center;
+	border: 2px solid #8D9E2F;
+	box-sizing: border-box;
+	font-size: 29px;
+	line-height: 34px;
+	border-radius: 50px;
+	opacity: .5;
+	-webkit-transition: all .25s ease;
+	   -moz-transition: all .25s ease;
+	    -ms-transition: all .25s ease;
+	     -o-transition: all .25s ease;
+	        transition: all .25s ease;
+}
+.ThumbSliderArrows .rightArrow:hover,
+.ThumbSliderArrows .leftArrow:hover{
+	color: #0e857b;
+	border-color: #fd6406;
+	-webkit-transition: all .25s ease;
+	   -moz-transition: all .25s ease;
+	    -ms-transition: all .25s ease;
+	     -o-transition: all .25s ease;
+	        transition: all .25s ease;
+	opacity: 1;
+}
+.sp-tabs-wrp{
+	max-width: 1075px;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+.sp-tabs-wrp ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	max-width: 525px;
+	width: 100%;
+}
+.sp-tabs-wrp ul li{
+	width: 50%;
+	float: left;
+	font-size: 20px;
+	line-height: 22px;
+}
+.sp-tabs-wrp ul li a{
+	display:block;
+	text-decoration: none;
+	color: #3B3B3B;
+	font-weight: 400;
+	font-family: 'Abril Fatface', cursive;
+	padding: 10px 10px 18px 4px;
+	border-bottom: 1px dashed #979797;
+	margin-right: 8px;
+}
+.sp-tabs-wrp ul li.ui-state-active a{
+	border-bottom: 2px solid #8D9E2F;
+}
+.sp-tabs-dsc{
+	padding-top: 25px;
+}
+.sp-tabs-dsc p{
+	margin-bottom: 25px;
+	text-align: justify;
+}
