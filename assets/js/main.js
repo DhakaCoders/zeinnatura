@@ -173,9 +173,6 @@ if( $('.product-thumb-slider-wrp').length ){
 
 }
 
-if( $('.sp-tabs-wrp').length ){
-  $( '.sp-tabs-wrp' ).tabs();
-}
 
 
 
