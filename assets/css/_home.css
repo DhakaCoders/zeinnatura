@@ -71,7 +71,6 @@ hm-product-sec-wrp
     padding-bottom: 42px;
     min-height: 285px;
     position: relative;
-    overflow: hidden;
 }
 .hm-product-item-img-overflow {
     position: absolute;
