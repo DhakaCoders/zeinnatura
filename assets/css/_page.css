@@ -77,7 +77,7 @@
   float: right;
 }
 .bigViewSlider-item {
-  padding: 0 20px 20px 20px;
+  padding: 0 20px 0 20px;
   position: relative;
 }
 .bigViewSlider-item img {
@@ -153,7 +153,7 @@
 .modal-des-rgt-con{
   width: 37%;
   float: left;
-  padding-top: 120px;
+  padding-top: 113px;
   line-height: 54px;
 }
 .modal-des-rgt-con h4{
@@ -217,9 +217,8 @@
 .modal-select .btn-light:not(:disabled):not(.disabled):active, 
 .modal-select .show > .btn-light.dropdown-toggle {
   background: #fff;
-  border: 0.2px solid #000000 !important;
+  border: 0.2px solid #000000;
   border-radius: 0;
-  border: 0;
   padding: 6px 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -259,8 +258,8 @@
   margin-bottom: 0;
 }
 .quick-by-modal-main-tab{
-  padding-top: 70px;
-  padding-bottom: 50px;
+  padding-top: 62px;
+  padding-bottom: 77px;
 }
 .quick-by-modal-main-tab .nav a{
   font-family: 'Abril Fatface', cursive;
@@ -288,7 +287,7 @@
   background: #8D9E2F;
 }
 .quick-by-modal-main-tab .tab-content{
-  padding-top: 20px;
+  padding-top: 30px;
 }
 .quick-by-modal-main-tab .tab-content p{
   margin-bottom: 30px;
@@ -314,9 +313,9 @@
   background-size: 100% 100%;
   left: 0;
   bottom: -25px;
-  transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -webkit-transition: all 0.5s;
+  transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
 }
 .modal-tab-ftr a:hover::after{
   left: 7px;
