@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basket</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!--   <?php $favicon = get_theme_mod('favicon'); if(!empty($favicon)) { ?> 
+  <link rel="shortcut icon" href="<?php echo $favicon; ?>" />
+  <?php } ?> -->
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome/font-awesome.css">
+  
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="assets/fancybox3/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/fonts/custom-fonts.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->	
+
+<svg style="display: none;">
+  <!-- account page -->
+  <symbol id="home-back-icon-svg" width="164" height="22" viewBox="0 0 164 22" fill="#8D9E2F" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M164 12.0675L3.75496 12.0675L12.2723 20.7004L10.9901 22L0 10.8608L1.28218 9.56118L1.37377 9.65401L10.807 0L12.0891 1.29958L3.29704 10.211L15.2887 10.211L164 10.211V12.0675Z" fill="#8D9E2F"/>
+  </symbol>
+
+  <symbol id="btn-right-angle-svg" width="6" height="10" viewBox="0 0 6 10" fill="white" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M1.17497 9.71293C1.10854 9.77931 1.02551 9.8125 0.934179 9.8125C0.842844 9.8125 0.759813 9.77931 0.693388 9.71293C0.560537 9.58017 0.560537 9.36444 0.693388 9.23168L4.92799 5L0.693388 0.768319C0.560537 0.63556 0.560537 0.419828 0.693388 0.287069C0.826238 0.15431 1.04212 0.15431 1.17497 0.287069L5.65036 4.75938C5.78321 4.89213 5.78321 5.10787 5.65036 5.24062L1.17497 9.71293Z" fill="white"/>
+  </symbol>
+
+
+</svg>
+
+
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="header-innr clearfix">
+          <div class="header-left">
+            <div class="header-logo">
+              <a href="#"><img src="assets/images/logo.png"></a>
+            </div>
+          </div>
+          <div class="header-right clearfix">
+            <div class="hide-md">
+              <div class="hdr-rgt-acc text-right">
+                <ul class="clearfix ulc">
+                  <li>
+                    <a href="#"><img src="assets/images/hdr-cell-icon.svg" alt="">Phone Orders: 2814003225</a>
+                  </li>
+                  <li>
+                    <a href="#">My profile</a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="assets/images/hdr-cart-icon.jpg" alt="">Basket</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="hdr-main-menu-controlar clearfix">        
+                <nav class="main-nav text-right">
+                  <ul class="clearfix ulc">   
+                    <li><a href="#">HONEY</a></li>
+                    <li><a href="#">HERBS</a></li>
+                    <li><a href="#">OLIVE OIL</a></li>
+                    <li><a href="#">VINEGAR</a></li>
+                    <li><a href="#">PASTA</a></li>
+                    <li><a href="#">SALT</a></li>
+                    <li><a href="#">SOAP</a></li>
+                    <li><a href="#">SPECIAL PRODUCTS</a></li>
+                  </ul>
+                </nav>                  
+              </div>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div style="height: 220px; background: #423f38;"></div>
+
+<section class="account-page-con-wrp fl-login-pge-wrp-ctlr">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="fl-account-page-entry-hdr">
+          <a href="#">
+            <span>HOME</span>
+            <i>
+              <svg class="home-back-icon-svg" width="164" height="22" viewBox="0 0 164 22" fill="8D9E2F">
+                <use xlink:href="#home-back-icon-svg"></use>
+              </svg> 
+            </i>
+          </a>
+          <h1>Basket </h1>
+        </div>
+      </div>
+    </div>
+    <div  class="row">
+      <div class="col-sm-12">
+
+        <div class="basket-sec-inr container-inner clearfix"> 
+          <div class="basket-sec-table"> 
+            <div class="basket-sec-table-controller">
+              <table class="clearfix">
+                <tbody>
+                  <tr class="tr-th">
+                    <th class="tbl-col-1"><div class="ctbl-th ctbl-th-img">Προϊόν</div></th>
+                    <th class="tbl-col-2"><div class="ctbl-th ctbl-th-price">Qty</div></th>
+                    <th class="tbl-col-2"><div class="ctbl-th ctbl-th-qty">Τιμή</div></th>
+                  </tr>
+                  <tr>
+                    <td class="tbl-col-1">
+                      <div class="cart-img-des clearfix">
+
+                        <div class="cart-img-inc"> 
+                          <a href="#">
+                            <i>
+                              <img src="assets/images/trash-blue-inc.svg" alt="">
+                            </i>
+                          </a>
+                          <a href="#">
+                            <i>
+                              <img src="assets/images/edit-blue-inc.svg" alt="">
+                            </i>
+                          </a>
+                        </div>
+
+                        <div class="cart-img-innr clearfix"> 
+                          <div class="cart-item-table-img">
+                            <i><img src="assets/images/cart-img001.png"></i>
+                          </div>
+                          <div class="cart-item-table-img-des"> 
+                            <p>Yellow Split Fava</p>
+                          </div>          
+                        </div>
+
+                      </div>
+                    </td>
+                    <td class="tbl-col-2">
+                      <div class="ctbl-qty clearfix">
+                        <div class="modal-select">
+                          <select id="modal-select" class="selectpicker" data-size="3">
+                            <option selected="selected">1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                          </select>            
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tbl-col-3">
+                      <div class="ctbl-price">
+                        <span>37,50€</span>
+                      </div>
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+            <div class="basket-sec-select-wrp clearfix"> 
+              <div class="basket-sec-select"> 
+                <div class="ful-wth-slct"> 
+                  <div class="select-input">
+                    <div class="select-dep">
+                      <button class="busket-apply-discount">Apply Discount Code</button>
+                      <div class="bdcode apply-discount-code">
+                        <input type="text" name="" placeholder="Enter discount code">
+                        <button type="submit">Apply</button>
+                      </div>                    
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              
+              <div class="basket-sec-select-right"> 
+                <a href="#">Refresh</a>
+              </div>
+            </div>              
+          </div>
+          <div class="order-summary">
+            <div class="order-summary-innr clearfix">
+              <h5>Order Summary</h5>
+              <div class="summary-top"> 
+                <span class="cart-qnt"> 2 </span> 
+                <span class="cart-des">προϊόντα </span> 
+              </div>
+              <div class="cart-summary-prices">
+                <ul class="ulc">
+                  <li class="clearfix">
+                    <span>Subtotal</span> 
+                    <span><strong>280.00€</strong></span>
+                  </li>
+                  <li class="clearfix">
+                    <span>Payment Fee </span>
+                    <span>0.00€ <br>  0.00€</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="cart-item-summary-ftr">
+                <label>Shipping</label>
+                <div class="cart-summary-tax clearfix">
+                  <span>Tax</span>
+                  <span>30.00€</span>
+                </div>
+                <div class="cart-summary-current-blc clearfix">
+                  <span><small>Συνολικο ποσο</small> <strong>310.00€</strong></span>
+                </div>
+                <div class="lst-cart-btn">
+                  <a href="#">Checkout</a>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="footer-singup-form-sec-wrp">
+  <div class="footer-singup-form-img">
+    <img src="assets/images/footer-singup-form-img.png">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="footer-singup-form-wrp clearfix">
+          <form>
+            <div class="footer-singup-form clearfix">
+              <h5>Sign up and discover more new tastes.</h5>
+              <input class="email-icon" type="email" name="email" placeholder="Your email">
+              <input type="submit" value="Sign me up now">
+              <div class="checkbox">
+                <label class="container">I accept <a href="#">Terms & Conditions</a> 
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer-wrp">
+  <div class="ftr-top-wrp">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+            <div class="ftr-col-innr clearfix">
+              <div class="ftr-col-dsc ftr-menu-item">
+                <h5>INFORMATION</h5>
+                <ul>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Press</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Contact us</a></li>
+                </ul>
+              </div>
+              <div class="ftr-col-dsc ftr-menu-item">
+                <h5>SERVICES</h5>
+                <ul>
+                  <li><a href="#">Shipping </a></li>
+                  <li><a href="#">Loyalty Program</a></li>
+                </ul>
+              </div>
+              <div class="ftr-col-dsc ftr-contact">
+                <h5>Contact Us</h5>
+                <a href="tel:+30 210 12345678">+30 210 12345678</a>
+                <a href="mailto:info@zeinnatura.com">info@zeinnatura.com</a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <div class="ftr-middel-wrp">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="ftr-middel-inr">
+            <ul class="clearfix">
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Return Exchange Policy</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ftr-btm-wrp">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="ftr-btm-inr">
+            <div class="ftr-btm-payment">
+              <a href="#"><img src="assets/images/payment.png"></a>
+            </div>
+            <div class="ftr-btm-copy-right clearfix">
+              <p>Copyright &copy; 2019 Zein Natura.<a href="#"> Handcrafted with love by</a></p>
+              <a href="#"><img src="assets/images/webjar-logo.png"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap-select.min.js"></script>
+<script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+<script src="assets/fancybox3/dist/jquery.fancybox.min.js"></script>
+<script src="assets/slick.slider/slick.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBo2-QJ7RdCkLw3NFZEu71mEKJ_8LczG-c"></script>
+<script src="assets/js/jquery.matchHeight-min.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
