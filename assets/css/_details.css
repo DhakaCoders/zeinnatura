@@ -235,21 +235,17 @@
 }
 .ship-ord-smry .product-img {
     float: left;
-    padding-top: 12px;
     width: 87px;
     height: 87px;
     border: 1px solid  #979797;
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: #fff;
 }
 .ship-ord-smry .product-img img {
 	max-width: 55px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
 	transition: initial;
 
 }
@@ -691,9 +687,6 @@ button.apply-discount-btn:hover,
 }
 
 @media(max-width: 1199px){
-	.ship-ord-smry .product-img {
-	    padding-top: 5px;
-	}
 	.ship-ord-smry .product-dsc span.price-spn {
 	    padding-left: 0;
 	    display: block;
@@ -718,9 +711,6 @@ button.apply-discount-btn:hover,
 	}
 	.ship-ord-smry .product-dsc span.price-spn {
 	    display: inline-block;
-	}
-	.ship-ord-smry .product-img {
-	    padding-top: 10px;
 	}
 	.ship-ord-smry .order-sumry-rgt-innr{
 		margin-top: 0;
@@ -748,6 +738,9 @@ button.apply-discount-btn:hover,
 	}
 	.tab-btn-wrp ul li:first-child{
 		padding-left: 0;
+	}
+	.shipping-sec-form .contact-info input[type="submit"]{
+		margin-right: auto;
 	}
 
 }
@@ -790,8 +783,6 @@ button.apply-discount-btn:hover,
 		max-width: 100%;
 	}
 	.ship-ord-smry .product-dsc .product-dsc-top span:last-child {
-	    float: left;
-	    top: 0;
 	    margin-bottom: 10px;
 	}
 	.ship-ord-smry .order-sumry-rgt-innr{
@@ -812,12 +803,24 @@ button.apply-discount-btn:hover,
 	.ship-ord-smry .product-dsc span.price-spn {
 	    display: block;
 	}
-	.ship-ord-smry .product-img {
-	    padding-top: 5px;
-	}
 	.shipping-sec-form .contact-info .input-submit-group {
 	    padding: 24px 16px 0;
 	    text-align: center;
+	}
+	.ship-ord-smry .product-img{
+		height: 90px;
+	}
+	.ship-ord-smry .product-dsc .product-dsc-top span:last-child{
+		float: left;
+		width: 100%;
+		margin-bottom: 0;
+	}
+	.shipping-sec-form .contact-info .form-group-wrp,
+	.shipping-sec-form .contact-info .sb-input-2{
+		padding-right: 0;
+	}
+	.shipping-sec-form{
+		padding-left: 5px;
 	}
 }
 
@@ -826,7 +829,6 @@ button.apply-discount-btn:hover,
 @media(max-width: 359px){
 	.ship-ord-smry .product-img{
 		width: 70px;
-		height: 70px;
 	}
 	.ship-ord-smry .product-dsc {
 	    padding-left: 80px;

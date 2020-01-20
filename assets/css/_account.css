@@ -322,6 +322,9 @@ hr.form-devider{
 .filter-check-row > label a{
 	color: #8D9E2F;
 }
+.filter-check-row > label a:hover{
+	color: #000;
+}
 .filter-check-row input[type="checkbox"],
 .filter-check-row input[type="radio"]{
 	display: inline-block;
@@ -355,6 +358,7 @@ hr.form-devider{
 	padding-left: 35px;
 	margin-left: auto;
 }
+
 .fl-connect-fb-btn i {
     border-radius: 100%;
     display: inline-block;
@@ -387,6 +391,8 @@ hr.form-devider{
 }
 
 .account-login-page-con-ctlr .account-form-field-grd p{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 300;
 	font-size: 13px;
 	line-height: 18px;
 	color: #000000;
@@ -426,7 +432,7 @@ hr.form-devider{
 }
 
 .fl-login-lft-con form{
-	max-width: 365px;
+	max-width: 350px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
@@ -452,6 +458,7 @@ hr.form-devider{
 	background: #F5F5F5;
 	padding: 45px 20px 55px;
 	text-align: center;
+	margin-left: 15px;
 }
 
 .fl-login-rgt-con h6{
@@ -486,4 +493,141 @@ hr.form-devider{
 }
 .fl-login-rgt-con div:last-child{
 	padding-bottom: 0;
+}
+
+
+
+
+
+
+@media(max-width: 1199px){
+	.pl-70 {
+		padding-left: 30px;
+	}
+}
+
+@media(max-width: 991px){
+	.fl-account-page-entry-hdr a{
+		margin-left: 0;
+	}
+	.fl-account-page-entry-hdr h1{
+		padding-left: 65px;
+	}
+	.id-order-email{
+		padding-left: 10px;
+	}
+	.account-page-sidebar-ctlr{
+		margin-right: -20px;
+	}
+	.account-form-fields-grds .account-form-field-grd{
+		width: 100%;
+	}
+	.fl-account-page-entry-hdr h1{
+		padding-top: 15px;
+	}
+	.fl-login-rgt-con{
+		margin-left: 0;
+	}
+}
+
+@media(max-width: 767px){
+	.fl-account-page-entry-hdr a i svg{
+		width: 100px!important;
+	}
+	.fl-account-page-entry-hdr a span{
+		font-size: 17px;
+	}
+	.fl-account-page-entry-hdr h1 {
+	    font-size: 30px;
+	    line-height: 36px;
+	    color: #3B3B3B;
+	   	padding-top: 3px;
+	   	padding-left: 30px;
+	}
+	.account-page-sidebar-ctlr{
+		margin-right: 0;
+	}
+	.btn-767 button {
+		width: 100%;
+		height: 50px;
+		font-size: 20px;
+		line-height: 16px;
+		font-weight: 700;
+		color: #fff;
+		border: none;
+		padding: 17px 45px 19px 20px;
+		margin-bottom: 0;
+		position: relative;
+		transition: all 0.5s;
+		-ms-transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		background-color: #8D9E2F;
+		position: relative;
+	}
+	.btn-767 button:after {
+	    position: absolute;
+	    content: "\f107";
+	    font-family: 'Font Awesome 5 Free';
+	    font-weight: 600;
+	    text-decoration: inherit;
+	    right: 20px;
+	    top: 16px;
+	    font-size: 30px;
+	}
+	.btn-767 button.active:after {
+	    content: "\f106";
+	}
+	.account-page-sidebar{
+		margin-top: 40px;
+	}
+	.xs-sidebar-con{
+		display: none;
+	}
+	.account-page-form-ctlr{
+		padding-top: 50px;
+	}
+	.pl-70 {
+	    padding-left: 0;
+	}
+	.account-page-sidebar-ctlr {
+	    padding-right: 0;
+	}
+	.account-form-fields-grds {
+	    margin-left: 0;
+	    margin-right: 0;
+	}
+	.account-form-fields-grds .account-form-field-grd{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.fl-login-rgt-con{
+		margin-top: 40px;
+	}
+	.account-login-page-con-ctlr .account-form-submit-btn{
+		padding-top: 20px;
+	}
+}
+
+@media(max-width: 575px){
+	.account-page-sidebar ul li a, 
+	.manage-my-order a, 
+	.manage-my-order span{
+		min-height: 40px;
+	}
+	.account-page-sidebar {
+	    margin-top: 25px;
+	}
+	.fl-login-lft-con{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+@media(max-width: 479px){
+
+
+}
+
+@media(max-width: 359px){
+
 }

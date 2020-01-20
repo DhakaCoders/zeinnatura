@@ -470,5 +470,13 @@ End checkout
 ------
 */
 
+if (windowWidth < 768) {
+  if ($('.btn-767 button').length) {
+    $('.btn-767 button').on('click', function(){
+      $('.xs-sidebar-con').slideToggle(300);
+      $(this).toggleClass('active');
+    });
+  }
+}
 
 })(jQuery);
