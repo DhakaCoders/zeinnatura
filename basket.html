@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Account Login</title>
+	<title>Basket</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,7 +10,7 @@
   <link rel="shortcut icon" href="<?php echo $favicon; ?>" />
   <?php } ?> -->
 
- <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
   <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome/font-awesome.css">
   
@@ -96,7 +96,7 @@
 
 <div style="height: 220px; background: #423f38;"></div>
 
-<section class="account-page-con-wrp">
+<section class="account-page-con-wrp fl-login-pge-wrp-ctlr">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
@@ -109,100 +109,133 @@
               </svg> 
             </i>
           </a>
-          <h1>My profile </h1>
+          <h1>Basket </h1>
         </div>
       </div>
     </div>
     <div  class="row">
-      <div class="col-sm-4 col-md-3">
-        <div class="account-page-sidebar-ctlr">
-          <div class="btn-767 show-xs">
-           <button type="button">Profile Menu</button>
-          </div>
-          <div class="account-page-sidebar">
-            <ul class="ulc clearfix">
-              <li class="profile-item-active"><a href="profile-my-account.html">My Profile</a></li>
-              <li><a href="#">Personal data </a></li>
-              <li><a href="#">Orders</a></li>
-              <li><a href="#">History</a></li>
-              <li class="#"><a href="#">Payments</a></li>
-              <li><a href="#">Newsletter</a></li>
-            </ul>
-          </div>
-          <div class="account-page-sidebar-btm">
-              <div class="manage-my-order">
-                <span>Manage my order</span>
-              </div>
-              <div class="id-order-email">
-                <form>
-                  <input type="text" name="" placeholder="ID Order / Email">
-                  <button>
-                    <i>
-                      <svg class="btn-right-angle-svg" width="6" height="10" viewBox="0 0 6 10" fill="white">
-                        <use xlink:href="#btn-right-angle-svg"></use>
-                      </svg> 
-                    </i>
-                  </button>
-                </form>
-              </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-8 col-md-9">
-        <div class="account-page-form-ctlr  account-login-page-con-ctlr pl-70">
-          <form>
-            <div>
-              <h6>Account details</h6>
+      <div class="col-sm-12">
+
+        <div class="basket-sec-inr container-inner clearfix"> 
+          <div class="basket-sec-table"> 
+            <div class="basket-sec-table-controller">
+              <table class="clearfix">
+                <tbody>
+                  <tr class="tr-th">
+                    <th class="tbl-col-1"><div class="ctbl-th ctbl-th-img">Προϊόν</div></th>
+                    <th class="tbl-col-2"><div class="ctbl-th ctbl-th-price">Qty</div></th>
+                    <th class="tbl-col-2"><div class="ctbl-th ctbl-th-qty">Τιμή</div></th>
+                  </tr>
+                  <tr>
+                    <td class="tbl-col-1">
+                      <div class="cart-img-des clearfix">
+
+                        <div class="cart-img-inc"> 
+                          <a href="#">
+                            <i>
+                              <img src="assets/images/trash-blue-inc.svg" alt="">
+                            </i>
+                          </a>
+                          <a href="#">
+                            <i>
+                              <img src="assets/images/edit-blue-inc.svg" alt="">
+                            </i>
+                          </a>
+                        </div>
+
+                        <div class="cart-img-innr clearfix"> 
+                          <div class="cart-item-table-img">
+                            <i><img src="assets/images/cart-img001.png"></i>
+                          </div>
+                          <div class="cart-item-table-img-des"> 
+                            <p>Yellow Split Fava</p>
+                          </div>          
+                        </div>
+
+                      </div>
+                    </td>
+                    <td class="tbl-col-2">
+                      <div class="ctbl-qty clearfix">
+                        <div class="modal-select">
+                          <select id="modal-select" class="selectpicker" data-size="3">
+                            <option selected="selected">1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                          </select>            
+                        </div>
+                      </div>
+                    </td>
+                    <td class="tbl-col-3">
+                      <div class="ctbl-price">
+                        <span>37,50€</span>
+                      </div>
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
             </div>
-            <div class="clearfix account-form-fields-grds">
-              <div class="account-form-field-grd">
-                <label>Contact info </label>
-                <p>ioanna barouta<br>
-                  ibarouta@webjar.gr</p>
-                <div style="height: 5px;"></div>
-                  <div class="fl-edit-btn">
-                    <a href="#">Change info</a> | 
-                    <a href="#">Change Password</a>
+            <div class="basket-sec-select-wrp clearfix"> 
+              <div class="basket-sec-select"> 
+                <div class="ful-wth-slct"> 
+                  <div class="select-input">
+                    <div class="select-dep">
+                      <button class="busket-apply-discount">Apply Discount Code</button>
+                      <div class="bdcode apply-discount-code">
+                        <input type="text" name="" placeholder="Enter discount code">
+                        <button type="submit">Apply</button>
+                      </div>                    
+                    </div>
                   </div>
+                </div> 
               </div>
-              <div class="account-form-field-grd">
-                <label>Newslleter</label>
-                <div class="fl-edit-btn">
-                    <a href="#">Change</a>
+              
+              <div class="basket-sec-select-right"> 
+                <a href="#">Refresh</a>
+              </div>
+            </div>              
+          </div>
+          <div class="order-summary">
+            <div class="order-summary-innr clearfix">
+              <h5>Order Summary</h5>
+              <div class="summary-top"> 
+                <span class="cart-qnt"> 2 </span> 
+                <span class="cart-des">προϊόντα </span> 
+              </div>
+              <div class="cart-summary-prices">
+                <ul class="ulc">
+                  <li class="clearfix">
+                    <span>Subtotal</span> 
+                    <span><strong>280.00€</strong></span>
+                  </li>
+                  <li class="clearfix">
+                    <span>Payment Fee </span>
+                    <span>0.00€ <br>  0.00€</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="cart-item-summary-ftr">
+                <label>Shipping</label>
+                <div class="cart-summary-tax clearfix">
+                  <span>Tax</span>
+                  <span>30.00€</span>
+                </div>
+                <div class="cart-summary-current-blc clearfix">
+                  <span><small>Συνολικο ποσο</small> <strong>310.00€</strong></span>
+                </div>
+                <div class="lst-cart-btn">
+                  <a href="#">Checkout</a>
                 </div>
               </div>
             </div>
-            <hr class="form-devider">
-
-
-            <div class="account-form-heading-multi-item">
-              <h6>Addresses</h6>
-              <div class="fl-edit-btn">
-                  <a href="#">Change</a>
-              </div>
-            </div>
-            <div class="clearfix account-form-fields-grds">
-              <div class="account-form-field-grd">
-                <label>Default Billing address</label>
-                <p>You have not set a default billing address.</p>
-                <div class="fl-edit-btn">
-                  <a href="#">Change</a>
-                </div>
-              </div>
-              <div class="account-form-field-grd">
-                <label>Default Payment address</label>
-                <p>You have not set a default shipping address.</p>
-                <div class="fl-edit-btn">
-                    <a href="#">Change</a>
-                </div>
-              </div>
-            </div>
-            <div class="clearfix account-form-submit-btn fl-order-right">
-              <input type="submit" name="" value="Logout">
-            </div>
-
-          </form>
+          </div> 
         </div>
+
       </div>
     </div>
   </div>

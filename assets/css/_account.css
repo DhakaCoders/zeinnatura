@@ -12,6 +12,7 @@
 	font-family: 'Abril Fatface', cursive;
 	text-transform: uppercase;
 	max-width: 165px;
+	margin-left: 35px;
 }
 
 .fl-account-page-entry-hdr a:hover{
