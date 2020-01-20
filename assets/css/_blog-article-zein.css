@@ -195,6 +195,9 @@ sp-content-sec-wrp
 	.sp-content-rgt > h6 {
 	    max-width: 350px;
 	}
+	.sweet-potato-head h4 {
+	    line-height: 48px;
+	}
 
 
 	
@@ -204,6 +207,7 @@ sp-content-sec-wrp
 	.sweet-potato-head h4 {
 	    padding-left: 15px;
 	    padding-right: 15px;
+	    line-height: 48px;
 	}
 	
 	.sweet-potato-dsc {
