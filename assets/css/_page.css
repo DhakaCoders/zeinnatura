@@ -1,8 +1,51 @@
+/*=============
+  Banner Design
+==============*/
 
-.quick-by-zein-sec .modal-body {
+.page-banner-sec-con{
+  position: relative;
+  min-height: 510px;
+  overflow: hidden;
+}
+.page-banner-bg-con{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.page-banner-inner{
+  padding-top:215px;
+  padding-bottom: 50px;
+  color: #fff;
+  max-width: 625px;
+}
+.page-banner-inner h1,
+.page-banner-inner strong{
+  font-family: 'Abril Fatface', cursive;
+  display: inline-block;
+  vertical-align: baseline;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 78px;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+.page-banner-inner p{
+  line-height: 28px;
+}
+
+
+/*=============
+  Modal Design
+==============*/
+.quick-by-zein-modal-con{
+  padding:30px 0; 
+}
+.quick-by-zein-modal-con .modal-body {
   padding: 0;
 }
-.quick-by-zein-sec .modal-dialog{
+.quick-by-zein-modal-con .modal-dialog{
   max-width: 1275px;
   width: 100%;
   margin: 0 auto;
@@ -85,6 +128,10 @@
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   z-index: 5;
+  cursor: pointer;
+  -ms-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
 }
 .thumbSlider-arrows > .rightArrow{
   position: absolute;
@@ -93,7 +140,15 @@
   -ms-transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  z-index: 5; 
+  z-index: 5;
+  cursor: pointer;
+  -ms-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.thumbSlider-arrows > .leftArrow:hover,
+.thumbSlider-arrows > .rightArrow:hover{
+  opacity: .6
 }
 .modal-des-rgt-con{
   width: 37%;
@@ -217,7 +272,7 @@
   line-height: 27px;
   color: #3B3B3B;
   position: relative;
-  margin-left: 5px;
+  margin-right: 5px;
   border-bottom: 1px dashed #979797;
 }
 .quick-by-modal-main-tab .nav a.active {
@@ -266,20 +321,20 @@
 .modal-tab-ftr a:hover::after{
   left: 7px;
 }
-.quick-by-zein-sec .modal-body button.close{
+.quick-by-zein-modal-con .modal-body button.close{
   position: absolute;
   top: 33px;
   right: 35px;
   opacity: 1!important;
 }
-.quick-by-zein-sec .modal-body button.close:not(:disabled):not(.disabled):focus, 
-.quick-by-zein-sec .modal-body button.close:not(:disabled):not(.disabled):hover {
+.quick-by-zein-modal-con .modal-body button.close:not(:disabled):not(.disabled):focus, 
+.quick-by-zein-modal-con .modal-body button.close:not(:disabled):not(.disabled):hover {
   opacity: .7!important;
 }
-.quick-by-zein-sec .modal-body button.close span{
+.quick-by-zein-modal-con .modal-body button.close span{
   max-width: 35px;
 }
-.quick-by-zein-sec .modal-body button.close span img{
+.quick-by-zein-modal-con .modal-body button.close span img{
   width: 100%;
 }
 
