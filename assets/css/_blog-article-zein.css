@@ -128,6 +128,31 @@ sp-content-sec-wrp
 	color: #3B3B3B;;
 	font-weight: 300;
 }
+.bl-product-btn{
+	padding-top: 60px;
+}
+.bl-product-btn a{
+	display: inline-block;
+	vertical-align: baseline;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 18px;
+	color: #fff;
+	max-width: 330px;
+	width: 100%;
+	margin: 0 auto;
+	background: #8D9E2F;
+	border-radius: 100px;
+	padding: 14px 60px 15px;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.bl-product-btn a:hover{
+	background: #546303;
+}
 
 /*
 ----------------------
