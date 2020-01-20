@@ -38,11 +38,13 @@ hm-product-sec-wrp
 .hm-product-slider-wrp{
 	position: relative;
 }
+.hm-new-product-slider,
 .hm-product-slider{
 	max-width: 1110px;
 	width: 100%;
 	margin: 0 auto;
 }
+.hm-new-product-slide-item,
 .hm-product-slide-item{
 	text-align: center;
 }
@@ -76,11 +78,12 @@ hm-product-sec-wrp
     width: 100%;
     margin: 0 auto;
 }
+.hm-new-product-slide-item:nth-child(1) .hm-product-item-img,
 .hm-product-slide-item:nth-child(1) .hm-product-item-img{
-	 border-left: 1px solid #9D9D9D;
+	border-left: 1px solid #9D9D9D;
 }
 .slick-slide.slick-current .hm-product-item-img{
-	 border-left: 0;
+	border-left: 0;
 }
 .hm-product-item-img img{
 	display: inline-block;
@@ -133,6 +136,7 @@ hm-product-sec-wrp
  Main Slider Next Prev css
 ------------------------------
 */
+.productNewSliderArrows .leftArrow,
 .productsliderarrows .leftArrow{
 	position: absolute;
 	left:0;
@@ -144,6 +148,7 @@ hm-product-sec-wrp
 	background: url(../images/leftArrow.png);
 	background-size: 42px 42px;
 }
+.productNewSliderArrows .rightArrow,
 .productsliderarrows .rightArrow{
 	position: absolute;
 	right:0;
@@ -155,6 +160,8 @@ hm-product-sec-wrp
 	background: url(../images/rightArrow.png);
 	background-size: 42px 42px;
 }
+.productNewSliderArrows .leftArrow,
+.productNewSliderArrows .rightArrow,
 .productsliderarrows .leftArrow,
 .productsliderarrows .rightArrow{
 	display: block;
@@ -173,6 +180,8 @@ hm-product-sec-wrp
 	     -o-transition: all .25s ease;
 	        transition: all .25s ease;
 }
+.productNewSliderArrows .rightArrow:hover,
+.productNewSliderArrows .leftArrow:hover,
 .productsliderarrows .rightArrow:hover,
 .productsliderarrows .leftArrow:hover{
 	color: #0e857b;
