@@ -1,3 +1,28 @@
+.hm-product-sec-wrp.listing-new-product {
+  padding-top: 45px;
+}
+.listing-new-product .hm-product-item-title h6 {
+  min-height: 72px!important;
+}
+.listing-new-product .hm-product-item-img {
+  padding-top: 25px!important;
+  padding-bottom: 27px!important;
+}
+.listing-new-product .hm-product-item-img strong {
+  padding-bottom: 0 !important;
+  position: relative !important;
+  bottom: -46px !important;
+}
+.listing-new-product .hm-product-item-btn {
+  padding-top: 58px !important;
+}
+
+
+
+
+
+
+
 
 #product-grd-sec {
   padding-top: 52px;
@@ -13,6 +38,141 @@
   border-left:0;
   clear: left;
 }
+
+
+#product-grd-sec .hm-product-item-title h6 {
+  min-height: 72px!important;
+}
+#product-grd-sec .hm-product-item-img {
+/*   padding-top: 25px!important;
+  padding-bottom: 27px!important; */
+}
+#product-grd-sec .hm-product-item-img strong {
+  padding-bottom: 0 !important;
+  position: relative !important;
+  bottom: -46px !important;
+}
+#product-grd-sec .hm-product-item-btn {
+  padding-top: 58px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #product-grd-sec .load-more-btn{
   width: 100%;
   padding: 100px 0 50px;
@@ -59,6 +219,218 @@
 #product-grd-sec .hm-product-head h5 {
   margin-bottom: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .pro-select-main{
   max-width: 265px;
@@ -132,21 +504,5 @@
 .type-pasts-sec.special-products-sec .specialProductsSlider-item-innr {
   padding: 100px 40px 95px 25px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
