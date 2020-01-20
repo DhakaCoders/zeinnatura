@@ -128,3 +128,50 @@ sp-content-sec-wrp
 	color: #3B3B3B;;
 	font-weight: 300;
 }
+
+/*
+----------------------
+ Responsive Css
+----------------------
+*/
+
+
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	
+
+}
+
+@media(max-width: 991px){
+	
+	
+}
+
+@media(max-width: 767px){
+	
+}
+
+@media(max-width: 575px){
+	
+
+}
+
+@media(max-width: 479px){
+
+
+}
+
+@media(max-width: 359px){
+
+}
