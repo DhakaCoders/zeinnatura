@@ -67,7 +67,8 @@
     margin-left: auto;
 }
 .basket-sec-select-right a:hover{
-
+    background: #8D9E2F;
+    color: #fff;
 }
 .basket-sec-select .bootstrap-select .btn-default,
 .busket-apply-discount{
@@ -395,14 +396,14 @@
 .contact-info .oder-btn button,
 .contact-info button.apply-discount-btn{
     background: #f5f5f5;
-    color: #000;
+    color: #8D9E2F;
     width: auto;
 }
 .lst-cart-btn a:hover,
 .lst-cart-btn button:hover,
 .oder-btn button:hover,
 .contact-info button.apply-discount-btn:hover{
-    background: #000;
+    background: #8D9E2F;
     color: #fff;
 }
 
