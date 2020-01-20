@@ -1,7 +1,39 @@
+/* 
+.listing-new-product .hm-product-item-btn {
+  padding-top: 58px !important;
+}
+
+*/
+
+ 
+.hm-product-sec-wrp.listing-new-product {
+  padding-top: 40px;
+}
+.hm-product-sec-wrp.listing-new-product .hm-product-item-img {
+  padding-top: 45px;
+  padding-bottom: 27px;
+  overflow: hidden;
+}
+.hm-product-sec-wrp.listing-new-product .hm-product-item-price {
+  margin-top: -9px;
+}
+.hm-product-sec-wrp.listing-new-product .hm-product-item-img-overflow {
+  max-width: 188px;
+  overflow: initial;
+}
+.hm-product-sec-wrp.listing-new-product .hm-product-head {
+  padding-bottom: 50px;
+}
+
+
+
 
 #product-grd-sec {
-    padding-top: 52px;
-    padding-bottom: 85px;
+  padding-top: 52px;
+  padding-bottom: 85px;
+}
+#product-grd-sec .hm-product-head {
+  padding-bottom: 60px;
 }
 #product-grd-sec .product-grd-item{
   width: 33.333%;
@@ -13,6 +45,45 @@
   border-left:0;
   clear: left;
 }
+
+#product-grd-sec .hm-product-item-img {
+/*   padding-top: 25px!important;
+  padding-bottom: 27px!important; */
+}
+
+#product-grd-sec .hm-product-item-btn {
+  /* padding-top: 58px !important; */
+}
+
+#product-grd-sec .hm-product-item-img-overflow {
+    max-width: 248px;
+}
+
+#product-grd-sec .hm-product-item-img {
+  padding-top: 22px;
+}
+
+#product-grd-sec .hm-product-item-price {
+  margin-top: -17px;
+}
+#product-grd-sec .hm-product-item-img {
+  padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #product-grd-sec .load-more-btn{
   width: 100%;
   padding: 100px 0 50px;
@@ -57,8 +128,220 @@
   top: 57%;
 }
 #product-grd-sec .hm-product-head h5 {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .pro-select-main{
   max-width: 265px;
@@ -124,21 +407,13 @@
 
 
 
+.type-pasts-sec.special-products-sec .specialProductsSlider-item-innr > i.active, 
+.type-pasts-sec.special-products-sec .specialProductsSlider-item-innr > i:hover {
+  color: #D0C300;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.type-pasts-sec.special-products-sec .specialProductsSlider-item-innr {
+  padding: 100px 40px 95px 25px;
+}
 
 

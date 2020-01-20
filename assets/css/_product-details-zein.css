@@ -1,0 +1,164 @@
+/*
+---------------------
+sweet-potato-sec-wrp
+---------------------
+*/
+.product-detalis-wrp {
+    padding-bottom: 30px;
+}
+.product-detalis-lft{
+	float: left;
+	width: 72%;
+	padding-left: 105px;
+	padding-top: 40px;
+}
+.product-detalis-rgt{
+	float: right;
+	width: 28%;
+	padding: 115px 55px 20px 20px;
+}
+.product-big-slider-wrp {
+    float: right;
+    width: 87%;
+    padding-top: 55px;
+    padding-left: 115px;
+}
+.product-thumb-slider-wrp {
+    position: relative;
+    padding: 70px 0 80px;
+    float: left;
+    width: 13%;
+}
+.product-thumb-img {
+    width: 92px;
+    height: 93px;
+    margin: 0 auto;
+}
+.slick-current .product-thumb-img{
+    border: 2px solid #000;
+    overflow: hidden;
+}
+.product-thumb-img img {
+    width: 100%;
+    height: 100%;
+}
+.product-detalis-tp{
+	float: right;
+	width: 100%;
+	text-align: right;
+}
+.product-detalis-tp strong{
+	font-size: 40px;
+	line-height: 42px;
+	color: #3B3B3B;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: baseline;
+	font-family: 'Abril Fatface', cursive;
+}
+.product-detalis-btn {
+    padding-top: 60px;
+    float: right;
+    max-width: 132px;
+}
+.product-detalis-btn button{
+	display: block;
+	font-size: 16px;
+	line-height: 18px;
+	text-align: center;
+	color: #8D9E2F;
+	font-weight: 500;
+	height: 46px;
+	background:transparent;
+	border: 2px solid #8D9E2F;
+	box-sizing: border-box;
+	border-radius: 100px;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	cursor: pointer;
+}
+.product-detalis-btn button:first-of-type{
+	max-width: 131px;
+	width: 100%;
+	float: right;
+}
+.product-detalis-btn button:last-of-type{
+	margin-top: 21px;
+	max-width: 113px;
+	width: 100%;
+	float: right;
+}
+.product-detalis-btn button:hover{
+	background:#8D9E2F;
+	color: #fff;
+}
+
+.product-detalis-select form label {
+    display: block;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+/*
+-----------------------------
+ Main Slider Next Prev css
+------------------------------
+*/
+.ThumbSliderArrows .leftArrow,
+.ThumbSliderArrows .rightArrow{
+	position: absolute;
+	left:50%;
+	-ms-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	z-index: 5;
+}
+.ThumbSliderArrows .leftArrow{
+	top: 0;
+	background: url(../images/tp-leftArrow.png);
+	background-size: 14px 20px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.ThumbSliderArrows .rightArrow{
+	bottom: 0;	
+	background: url(../images/btm-rightArrow.png);
+	background-size: 14px 20px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.ThumbSliderArrows .leftArrow,
+.ThumbSliderArrows .rightArrow{
+	display: block;
+	height: 42px;
+	width: 42px;
+	cursor: pointer;
+	text-align: center;
+	border: 2px solid #8D9E2F;
+	box-sizing: border-box;
+	font-size: 29px;
+	line-height: 34px;
+	border-radius: 50px;
+	opacity: .5;
+	-webkit-transition: all .25s ease;
+	   -moz-transition: all .25s ease;
+	    -ms-transition: all .25s ease;
+	     -o-transition: all .25s ease;
+	        transition: all .25s ease;
+}
+.product-tab{
+	max-width: 1075px;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+.pd-food-two-part-sec .hm-food-rgt-part-innr{
+    max-width: 650px;
+}
+.pd-food-two-part-sec .hm-food-rgt-part-innr p{
+	padding-right: 30px;
+}

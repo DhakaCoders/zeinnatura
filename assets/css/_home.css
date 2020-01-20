@@ -22,12 +22,12 @@
 hm-product-sec-wrp
 ----------------
 */
-.hm-product-sec-wrp{
-	padding-top: 52px;
-	padding-bottom: 85px;
+.hm-product-sec-wrp {
+    padding-top: 55px;
+    padding-bottom: 85px;
 }
-.hm-product-head{
-	padding-bottom: 80px;
+.hm-product-head {
+    padding-bottom: 70px;
 }
 .hm-product-head h5{
 	margin: 0;
@@ -38,11 +38,13 @@ hm-product-sec-wrp
 .hm-product-slider-wrp{
 	position: relative;
 }
+.hm-new-product-slider,
 .hm-product-slider{
 	max-width: 1110px;
 	width: 100%;
 	margin: 0 auto;
 }
+.hm-new-product-slide-item,
 .hm-product-slide-item{
 	text-align: center;
 }
@@ -51,7 +53,8 @@ hm-product-sec-wrp
 	line-height: 35px;
 	color: #3B3B3B;
 	text-align: center;
-	margin-bottom: 5px;
+	margin-bottom: 2px;
+	min-height: 70px;
 }
 .hm-product-item-title h6 a{
 	display: inline-block;
@@ -64,28 +67,39 @@ hm-product-sec-wrp
 }
 .hm-product-item-img {
     border-left: 1px solid #9D9D9D;
+    padding-top: 25px;
+    padding-bottom: 42px;
+    min-height: 285px;
+}
+.hm-product-item-img-overflow {
     position: relative;
     overflow: hidden;
-    padding-top: 25px;
+    max-width: 170px;
+    width: 100%;
+    margin: 0 auto;
 }
+.hm-new-product-slide-item:nth-child(1) .hm-product-item-img,
 .hm-product-slide-item:nth-child(1) .hm-product-item-img{
-	 border-left: 1px solid #9D9D9D;
+	border-left: 1px solid #9D9D9D;
 }
 .slick-slide.slick-current .hm-product-item-img{
-	 border-left: 0;
+	border-left: 0;
 }
-
 .hm-product-item-img img{
 	display: inline-block;
 	vertical-align: baseline;
 }
-.hm-product-item-img strong{
+.hm-product-item-price {
+    margin-top: -42px;
+}
+.hm-product-item-price strong{
 	display:block;
 	font-size: 26px;
 	line-height: 28px;
 	color: #3B3B3B;
 	font-weight: 400;
 	padding-bottom: 14px;
+	font-family: 'Abril Fatface', cursive;
 }
 .hm-product-item-btn{
 	padding-top: 20px;
@@ -122,6 +136,7 @@ hm-product-sec-wrp
  Main Slider Next Prev css
 ------------------------------
 */
+.productNewSliderArrows .leftArrow,
 .productsliderarrows .leftArrow{
 	position: absolute;
 	left:0;
@@ -133,6 +148,7 @@ hm-product-sec-wrp
 	background: url(../images/leftArrow.png);
 	background-size: 42px 42px;
 }
+.productNewSliderArrows .rightArrow,
 .productsliderarrows .rightArrow{
 	position: absolute;
 	right:0;
@@ -144,6 +160,8 @@ hm-product-sec-wrp
 	background: url(../images/rightArrow.png);
 	background-size: 42px 42px;
 }
+.productNewSliderArrows .leftArrow,
+.productNewSliderArrows .rightArrow,
 .productsliderarrows .leftArrow,
 .productsliderarrows .rightArrow{
 	display: block;
@@ -155,13 +173,15 @@ hm-product-sec-wrp
 	font-size: 29px;
 	line-height: 34px;
 	border-radius: 50px;
-	opacity: .5;
+	opacity: 1;
 	-webkit-transition: all .25s ease;
 	   -moz-transition: all .25s ease;
 	    -ms-transition: all .25s ease;
 	     -o-transition: all .25s ease;
 	        transition: all .25s ease;
 }
+.productNewSliderArrows .rightArrow:hover,
+.productNewSliderArrows .leftArrow:hover,
 .productsliderarrows .rightArrow:hover,
 .productsliderarrows .leftArrow:hover{
 	color: #0e857b;
@@ -171,7 +191,7 @@ hm-product-sec-wrp
 	    -ms-transition: all .25s ease;
 	     -o-transition: all .25s ease;
 	        transition: all .25s ease;
-	opacity: 1;
+	opacity: .5;
 }
 
 
@@ -202,7 +222,7 @@ hm-product-sec-wrp
 .hm-bitmap-lft-dsc h3{
 	margin: 0;
 	line-height: 64px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	color: #fff;
 }
 .hm-bitmap-dsc-btn a{

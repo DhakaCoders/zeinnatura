@@ -5,15 +5,22 @@ footer-wrp
 */
 .ftr-top-wrp{
 	padding-top: 42px;
-	padding-bottom: 53px;
+	padding-bottom: 43px;
+}
+.ftr-col-innr{
+	max-width: 950px;
+	width: 100%;
+	margin: 0 auto;
 }
 .ftr-menu-item{
-	width: 42%;
+	width: 41.5%;
 	float: left;
 }
+
 .ftr-contact{
-	width: 16%;
+	width: 17%;
 	float: right;
+	padding-left: 30px;
 }
 .ftr-contact h5,
 .ftr-menu-item h5{
@@ -29,7 +36,7 @@ footer-wrp
 }
 .ftr-contact h5{
 	text-transform: capitalize;
-	margin-bottom: 8px;
+	margin-bottom: 14px;
 }
 .ftr-menu-item ul{
 	list-style: none;
@@ -54,17 +61,17 @@ footer-wrp
 	color: #8c9e26;
 }
 .ftr-contact a{
-	display: inline-block;
-	vertical-align: baseline;
+	display:block;
 	text-decoration: none;
 	font-size: 14px;
 	line-height: 16px;
 	color: #4A4A4A;
 	font-weight: 400;
+	padding-bottom: 8px;
 }
 .ftr-middel-wrp{
 	background:#8d9e2e;
-	padding: 25px 0;
+	padding: 18px 0;
 }
 .ftr-middel-inr ul{
 	margin: 0 auto;
@@ -98,14 +105,20 @@ footer-wrp
 	text-decoration: none;
 	font-weight: 500;
 	color: #fff;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.ftr-middel-inr ul li a:hover{
+	color: #495603;
 }
 .ftr-btm-wrp{
-	padding-bottom: 35px;
+	padding-bottom: 30px;
 }
 .ftr-btm-payment {
     text-align: center;
     padding-top: 12px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 .ftr-btm-payment a{
 	display: inline-block;
@@ -178,7 +191,7 @@ footer-wrp
 	background-image: url(../images/email-icon.png);
 	background-repeat: no-repeat;
 	background-size: 16px 12px;
-	background-position: left 18px top 20px;
+	background-position: left 18px top 22px;
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
@@ -285,4 +298,153 @@ footer-wrp
 .footer-singup-form input[type=submit]:hover{
 	background: #8a9d2a;
 	color: #fff;
+}
+
+
+/*
+----------------------
+ Responsive Css
+----------------------
+*/
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	.footer-singup-form-img {
+	    top: 80px;
+	    max-width: 400px;
+	    width: 100%;
+	}
+}
+
+@media(max-width: 991px){
+	.ftr-contact {
+	    width: 22%;
+	}
+	.ftr-menu-item {
+	    width: 39%;
+	}
+	.footer-singup-form-img {
+	    max-width: 400px;
+	    width: 100%;
+	    position: static;
+	    text-align: center;
+	    margin: 0 auto;
+	    padding-bottom: 30px;
+	}
+	.footer-singup-form {
+	    max-width: 520px;
+	    width: 100%;
+	    float: none;
+	    margin: 0 auto;
+	}
+	
+}
+
+@media(max-width: 767px){
+	.ftr-contact {
+	    width: 30%;
+	}
+	.ftr-menu-item {
+	    width: 35%;
+	}
+	.ftr-top-wrp {
+	    padding-top: 30px;
+	    padding-bottom: 30px;
+	}
+	.footer-singup-form-sec-wrp {
+	    padding: 40px 0 20px;
+	}
+}
+
+@media(max-width: 575px){
+	.ftr-menu-item {
+	    width: 100%;
+	    float: none;
+	    text-align: center;
+	}
+	.ftr-menu-item h5:last-of-type{
+		padding-top: 15px;
+	}
+	.ftr-contact {
+	    width: 100%;
+	    text-align: center;
+	    padding-left: 0;
+	    padding-top: 15px;
+	}
+	.ftr-middel-inr ul li {
+	    padding: 0 15px;
+	}
+	.ftr-btm-copy-right p > a {
+	    display: block;
+	    padding-left: 0;
+	    text-align: center;
+	    padding-top: 10px;
+	}
+	.ftr-btm-copy-right{
+		text-align: center;
+	}
+	.ftr-btm-copy-right p {
+	    float: none;
+	}
+	.ftr-btm-copy-right > a {
+	    float: none;
+	    margin-top: 10px;
+	}
+	.ftr-btm-payment {
+	    padding-bottom: 20px;
+	}
+	.footer-singup-form-img {
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+	.footer-singup-form input[type="email"] {
+	    height: 50px;
+	    padding: 15px 20px 15px 54px;
+	    background-position: left 18px top 18px;
+	}
+	.footer-singup-form input[type=submit] {
+	    max-width: 150px;
+	    width: 100%;
+	    height: 45px;
+	    margin-top: 20px;
+	    font-size: 15px;
+	    line-height: 17px;
+	}
+	.checkbox .container {
+	    padding-left: 30px;
+	    padding-right: 0;
+	}
+	.checkbox {
+	    padding-left: 0;
+	}
+}
+
+@media(max-width: 479px){
+	.ftr-middel-inr ul li {
+	    padding: 0;
+	    text-align: center;
+	    float: none;
+	    padding-bottom: 5px;
+	}
+	.ftr-middel-inr ul li:after{
+		content: none;
+	}
+	.checkbox .container {
+	    padding-right: 5px;
+	}
+
+}
+
+@media(max-width: 359px){
+
 }

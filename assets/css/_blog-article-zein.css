@@ -1,0 +1,130 @@
+/*
+----------------
+hm-product-sec-wrp
+----------------
+*/
+.sweet-potato-block{
+	background:#fff;
+	margin-top: -285px;
+	padding-top: 40px;
+}
+.sweet-potato-head{
+	border-bottom: 1px dashed #3B3B3B;
+}
+.sweet-back{
+	max-width: 200px;
+	width: 100%;
+	float: left;
+}
+.sweet-back a {
+    display: inline-block;
+    vertical-align: baseline;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 22px;
+    color: #8D9E2F;
+    text-transform: uppercase;
+    float: right;
+    font-family: 'Abril Fatface', cursive;
+}
+.sweet-back span {
+    display: inline-block;
+    vertical-align: baseline;
+    float: right;
+    margin-top: -8px;
+}
+.sweet-potato-head h4{
+	float: left;
+	width: 100%;
+	padding-left: 95px;
+	margin: 0;
+	color: #3B3B3B;
+	margin-top: 15px;
+	margin-bottom: 33px;
+}
+.sweet-potato-img{
+	text-align: center;
+	padding-top: 50px;
+}
+.sweet-potato-dsc{
+	padding: 35px 58px 95px;
+	text-align: center;
+}
+.sweet-potato-dsc h6{
+	margin: 0;
+	font-size: 20px;
+	line-height: 22px;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 400;
+	border-bottom: 1px dashed #979797;
+	max-width: 500px;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 18px;
+	margin-bottom: 28px;
+}
+.sweet-potato-dsc p{
+	margin-bottom: 20px;
+	font-size: 20px;
+	line-height: 32px;
+	color: #3B3B3B;
+	font-weight: 300;
+}
+/*
+-------------------
+sp-content-sec-wrp
+-------------------
+*/
+.sp-content-sec-wrp{
+	padding-bottom: 40px;
+}
+.sp-content-rgt,
+.sp-content-lft{
+	float: left;
+	text-align: center;
+}
+.sp-content-lft{
+	width: 45%;
+}
+.sp-content-rgt{
+	width: 55%;
+}
+.sp-content-rgt h6,
+.sp-content-lft h6{
+	margin: 0;
+	font-size: 20px;
+	line-height: 22px;
+	color: #3B3B3B;
+	font-family: 'Abril Fatface', cursive;
+	padding-bottom: 20px;
+}
+.sp-content-rgt > h6{
+	max-width: 495px;
+	width: 100%;
+	margin: 0 auto;
+	border-bottom: 1px dashed #979797;
+}
+.sp-btm-dsc{
+	font-size: 20px;
+	line-height: 32px;
+	color: #3B3B3B;
+}
+.sp-btm-dsc p{
+	margin-bottom: 30px;
+}
+.sp-btm-dsc-lft{
+	background:#EAEAEA;
+	padding: 32px 20px 25px;
+}
+
+.sp-btm-dsc-rgt{
+	padding-left: 65px;
+	padding-top: 45px;
+}
+.sp-btm-dsc-rgt h6{
+	margin: 0 !important;
+	font-size: 20px;
+	line-height: 22px;
+	color: #3B3B3B;;
+	font-weight: 300;
+}
