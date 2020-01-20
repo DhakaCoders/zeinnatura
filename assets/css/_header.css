@@ -210,7 +210,7 @@ main-slider-sec-wrp
 	line-height: 36px;
 }
 
-.main-slide-item-dsc i{
+.main-slide-item-dsc a{
 	display: inline-block;
 	vertical-align: baseline;
 	max-width: 40px;
@@ -222,10 +222,10 @@ main-slider-sec-wrp
 	-ms-transition: all .5s ease;
 	transition: all .5s ease;
 }
-.main-slide-item-dsc i:hover{
+.main-slide-item-dsc a:hover{
 	top: 18px;
 }
-.main-slide-item-dsc i img{
+.main-slide-item-dsc a img{
 	width: 100%;
 }
 .main-slider .main-slide-item{
@@ -616,8 +616,7 @@ main-slider-sec-wrp
 }
 
 
-
-.hm-product-sec-wrp.hm-new-product-sec {
+#hm-new-product-sec {
     padding-top: 20px;
     padding-bottom: 60px;
 }

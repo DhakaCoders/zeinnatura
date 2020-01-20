@@ -1,8 +1,51 @@
+/*=============
+  Banner Design
+==============*/
 
-.quick-by-zein-sec .modal-body {
+.page-banner-sec-con{
+  position: relative;
+  min-height: 510px;
+  overflow: hidden;
+}
+.page-banner-bg-con{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.page-banner-inner{
+  padding-top:215px;
+  padding-bottom: 50px;
+  color: #fff;
+  max-width: 625px;
+}
+.page-banner-inner h1,
+.page-banner-inner strong{
+  font-family: 'Abril Fatface', cursive;
+  display: inline-block;
+  vertical-align: baseline;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 78px;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+.page-banner-inner p{
+  line-height: 28px;
+}
+
+
+/*=============
+  Modal Design
+==============*/
+.quick-by-zein-modal-con{
+  padding:30px 0; 
+}
+.quick-by-zein-modal-con .modal-body {
   padding: 0;
 }
-.quick-by-zein-sec .modal-dialog{
+.quick-by-zein-modal-con .modal-dialog{
   max-width: 1275px;
   width: 100%;
   margin: 0 auto;
@@ -34,7 +77,7 @@
   float: right;
 }
 .bigViewSlider-item {
-  padding: 0 20px 20px 20px;
+  padding: 0 20px 0 20px;
   position: relative;
 }
 .bigViewSlider-item img {
@@ -85,6 +128,10 @@
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   z-index: 5;
+  cursor: pointer;
+  -ms-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
 }
 .thumbSlider-arrows > .rightArrow{
   position: absolute;
@@ -93,12 +140,20 @@
   -ms-transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  z-index: 5; 
+  z-index: 5;
+  cursor: pointer;
+  -ms-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.thumbSlider-arrows > .leftArrow:hover,
+.thumbSlider-arrows > .rightArrow:hover{
+  opacity: .6
 }
 .modal-des-rgt-con{
   width: 37%;
   float: left;
-  padding-top: 120px;
+  padding-top: 113px;
   line-height: 54px;
 }
 .modal-des-rgt-con h4{
@@ -162,9 +217,8 @@
 .modal-select .btn-light:not(:disabled):not(.disabled):active, 
 .modal-select .show > .btn-light.dropdown-toggle {
   background: #fff;
-  border: 0.2px solid #000000 !important;
+  border: 0.2px solid #000000;
   border-radius: 0;
-  border: 0;
   padding: 6px 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -204,8 +258,8 @@
   margin-bottom: 0;
 }
 .quick-by-modal-main-tab{
-  padding-top: 70px;
-  padding-bottom: 50px;
+  padding-top: 62px;
+  padding-bottom: 77px;
 }
 .quick-by-modal-main-tab .nav a{
   font-family: 'Abril Fatface', cursive;
@@ -217,7 +271,7 @@
   line-height: 27px;
   color: #3B3B3B;
   position: relative;
-  margin-left: 5px;
+  margin-right: 5px;
   border-bottom: 1px dashed #979797;
 }
 .quick-by-modal-main-tab .nav a.active {
@@ -233,7 +287,7 @@
   background: #8D9E2F;
 }
 .quick-by-modal-main-tab .tab-content{
-  padding-top: 20px;
+  padding-top: 30px;
 }
 .quick-by-modal-main-tab .tab-content p{
   margin-bottom: 30px;
@@ -259,27 +313,27 @@
   background-size: 100% 100%;
   left: 0;
   bottom: -25px;
-  transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -webkit-transition: all 0.5s;
+  transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
 }
 .modal-tab-ftr a:hover::after{
   left: 7px;
 }
-.quick-by-zein-sec .modal-body button.close{
+.quick-by-zein-modal-con .modal-body button.close{
   position: absolute;
   top: 33px;
   right: 35px;
   opacity: 1!important;
 }
-.quick-by-zein-sec .modal-body button.close:not(:disabled):not(.disabled):focus, 
-.quick-by-zein-sec .modal-body button.close:not(:disabled):not(.disabled):hover {
+.quick-by-zein-modal-con .modal-body button.close:not(:disabled):not(.disabled):focus, 
+.quick-by-zein-modal-con .modal-body button.close:not(:disabled):not(.disabled):hover {
   opacity: .7!important;
 }
-.quick-by-zein-sec .modal-body button.close span{
+.quick-by-zein-modal-con .modal-body button.close span{
   max-width: 35px;
 }
-.quick-by-zein-sec .modal-body button.close span img{
+.quick-by-zein-modal-con .modal-body button.close span img{
   width: 100%;
 }
 
