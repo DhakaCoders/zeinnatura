@@ -188,6 +188,11 @@
 	padding: 10px;
 	background: transparent;
 }
+.account-form-field-grd input[type="text"]:focus,
+.account-form-field-grd input[type="email"]:focus,
+.account-form-field-grd input[type="password"]:focus{
+	background: #b0b0b0;
+}
 .account-form-submit-btn{
 	padding: 0 0 29px 0;
 }
@@ -205,6 +210,19 @@
 	line-height: 19px;
 	color: #8D9E2F;
 	cursor: pointer;
+}
+.account-form-submit-btn input[type="submit"]:hover,
+.fl-login-rgt-con a:hover,
+.fl-connect-fb-btn a:hover{
+	background: #8D9E2F;
+	color: #fff;
+}
+.fl-connect-fb-btn a:hover i{
+	background: #4f5e04;
+	color: #fff;
+}
+.fl-forgot-password-link a:hover{
+	color: #000;
 }
 hr.form-devider{
 	display: block;
