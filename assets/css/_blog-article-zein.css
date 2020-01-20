@@ -153,7 +153,9 @@ sp-content-sec-wrp
 .bl-product-btn a:hover{
 	background: #546303;
 }
-
+.blog-sec-wrp .hm-product-head {
+    padding-bottom: 35px;
+}
 /*
 ----------------------
  Responsive Css
