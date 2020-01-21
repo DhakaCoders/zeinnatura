@@ -17,6 +17,19 @@
 	.show-lg{
 		display: block!important;
 	}
+	h1{
+		font-size: 75px;
+	}
+	h2{
+		font-size: 65px;
+	}
+	h3{
+		font-size: 45px;
+	}
+	h4{
+		font-size: 37px;
+	}
+	
 
 }
 
@@ -27,6 +40,22 @@
 	.show-md{
 		display: block!important;
 	}
+	h1{
+		font-size: 70px;
+	}
+	h2{
+		font-size: 60px;
+	}
+	h3{
+		font-size: 42px;
+	}
+	h4{
+		font-size: 33px;
+	}
+	h5{
+		font-size: 28px;
+	}
+	 
 	
 }
 
@@ -37,6 +66,24 @@
 	.show-sm{
 		display: block!important;
 	}
+	h1{
+		font-size: 65px;
+	}
+	h2{
+		font-size: 55px;
+	}
+	h3{
+		font-size: 38px;
+	}
+	h4{
+		font-size: 32px;
+	}
+	h5{
+		font-size: 27px;
+	} 
+	h6{
+		font-size: 25px;
+	} 
 }
 
 @media(max-width: 575px){
@@ -46,11 +93,46 @@
 	.show-xs{
 		display: block!important;
 	}
+	h1{
+		font-size: 60px;
+	}
+	h2{
+		font-size: 50px;
+	}
+	h3{
+		font-size: 35px;
+	}
+	h4{
+		font-size: 30px;
+	}
+	h5{
+		font-size: 26px;
+	} 
+	h6{
+		font-size: 24px;
+	} 
 
 }
 
 @media(max-width: 479px){
-
+	h1{
+		font-size: 57px;
+	}
+	h2{
+		font-size: 50px;
+	}
+	h3{
+		font-size: 33px;
+	}
+	h4{
+		font-size: 28px;
+	}
+	h5{
+		font-size: 24px;
+	} 
+	h6{
+		font-size: 22px;
+	} 
 
 }
 
