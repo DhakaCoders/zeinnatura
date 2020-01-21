@@ -36,6 +36,9 @@ Responsive on 767px
 // }
 
 
+if($('.mHc').length){
+  $('.mHc').matchHeight();
+};
 
 // http://codepen.io/norman_pixelkings/pen/NNbqgG
 // https://stackoverflow.com/questions/38686650/slick-slides-on-pagination-hover
@@ -295,13 +298,6 @@ if( $('.specialProductsSlider').length ){
       slidesToShow: 2.73,
       slidesToScroll: 1,
       responsive: [
-        
-        {
-          breakpoint: 991,
-          settings: {
-            slidesToShow: 1.7
-          }
-        },
         {
           breakpoint: 767,
           settings: {
@@ -317,7 +313,7 @@ if( $('.specialProductsSlider').length ){
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1.7
+            slidesToShow: 1.3
           }
         }
       ]
@@ -327,16 +323,6 @@ if( $('.specialProductsSlider').length ){
 
 //product slider
 if( $('.product-slider-wrp').length ){
-  $('.bigViewSlider').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    infinite: true,
-    speed: 700,
-    fade: true,
-    dots: false,
-    arrows: false,
-    asNavFor: '.thumbSlider'
-  });
   $('.thumbSlider').slick({
     slidesToShow: 2,
     slidesToScroll: 1,
@@ -352,8 +338,23 @@ if( $('.product-slider-wrp').length ){
     nextArrow: $('.thumbSlider-arrows .rightArrow')
   });
 
+  $('.bigViewSlider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true,
+    speed: 700,
+    fade: true,
+    dots: false,
+    arrows: false,
+    asNavFor: '.thumbSlider'
+  });
+
 }
 
+$('.zein-modal-btn').on('click', function(){
+  $('.thumbSlider').slick('refresh');
+  $('.bigViewSlider').slick('refresh');
+});
 
 if( $('.hm-new-product-slider').length ){
   $('.hm-new-product-slider').slick({
@@ -371,20 +372,28 @@ if( $('.hm-new-product-slider').length ){
   });
 }
 
-
-
+// Add Toggle Class
 if( $('.specialProductsSlider-item-innr').length ){
   $('.specialProductsSlider-item-innr > i').on('click', function(){
     $(this).toggleClass('active');
   });
 }
 
-
+// Body animate function
 $(".main-slide-item-dsc a").click(function(e) {
   e.preventDefault();
   var goto = $(this).attr('href');
   $('html, body').animate({ scrollTop: $(goto).offset().top - 30 }, 800);
 });
+
+//Food section matchHeight
+var windowWidth = $(window).width();
+if (windowWidth >= 767) {
+  if($('.hm-food-col').length){
+    $('.hm-food-col').matchHeight();
+  }
+}
+
 
 
 
