@@ -121,6 +121,21 @@
 }
 
 
+.banner-section{
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	padding-top: 215px;
+	padding-bottom: 225px;
+}
+.banner-sct-inner h1{
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: normal;
+	line-height: 78px;
+}
+
+
 
 
 
@@ -174,6 +189,16 @@
 	.show-md{
 		display: block!important;
 	}
+	.banner-section {
+	    padding-top: 170px;
+	    padding-bottom: 175px;
+	}
+	.banner-sct-inner h1 {
+		font-size: 75px;
+	    line-height: 72px;
+	}
+
+
 	.blog-grid-sct-wrap {
 	    margin-top: -120px;
 	    padding-bottom: 55px;
@@ -214,6 +239,16 @@
 	.show-sm{
 		display: block!important;
 	}
+	.banner-section {
+	    padding-top: 215px;
+	    padding-bottom: 63px;
+	}
+	.banner-sct-inner h1 {
+	    font-size: 60px;
+	    line-height: 65px;
+	}
+
+
 	.blog-grid-sct-wrap {
 	    margin-top: 0px;
 	    padding-bottom: 45px;
@@ -274,6 +309,14 @@
 	.show-xs{
 		display: block!important;
 	}
+	.banner-section {
+	    padding-top: 205px;
+	    padding-bottom: 50px;
+	}
+	.banner-sct-inner h1 {
+	    font-size: 50px;
+	    line-height: 55px;
+	}
 	.blog-grid-img, .bbgs-img {
 	    min-height: 175px;
 	}
@@ -325,6 +368,14 @@
 	}
 	.blz-load-more-btn {
 	    padding-bottom: 40px;
+	}
+	.banner-section {
+	    padding-top: 175px;
+	    padding-bottom: 25px;
+	}
+	.banner-sct-inner h1 {
+	    font-size: 40px;
+	    line-height: 45px;
 	}
 
 }
