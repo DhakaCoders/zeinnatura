@@ -262,12 +262,15 @@ hm-product-sec-wrp
 }
 
 @media(max-width: 1199px){
-	
-
+	.hm-product-item-title h6 br{
+		display: none;
+	}
 }
 
 @media(max-width: 991px){
-	
+	.hm-product-item-title h6{
+		min-height: 50px;
+	}
 	
 }
 
@@ -279,6 +282,19 @@ hm-product-sec-wrp
 	    background-size: 62px 60px;
 	    width: 62px;
 	    height: 60px;
+	}
+	.hm-product-item-img{
+		border-left: none;
+	}
+	.hm-product-slide-item:nth-child(1) .hm-product-item-img{
+		border-left: none;
+	}
+	.hm-product-sec-wrp {
+	    padding-top: 40px;
+	    padding-bottom: 60px;
+	}
+	.hm-product-head {
+	    padding-bottom: 40px;
 	}
 }
 

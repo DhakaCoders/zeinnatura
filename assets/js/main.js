@@ -54,6 +54,34 @@ if( $('.hm-product-slider').length ){
       slidesToScroll: 1,
       prevArrow: $('.productsliderarrows .leftArrow'),
       nextArrow: $('.productsliderarrows .rightArrow'),
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
     });
 }
 
@@ -168,7 +196,38 @@ if( $('.product-thumb-slider-wrp').length ){
     verticalSwiping: true,
     asNavFor: '.product-big-slider',
     prevArrow: $('.ThumbSliderArrows .leftArrow'),
-    nextArrow: $('.ThumbSliderArrows .rightArrow')
+    nextArrow: $('.ThumbSliderArrows .rightArrow'),
+    responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false,
+            focusOnSelect: true,
+            vertical: false,
+            verticalSwiping: false,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
   });
 
 }
@@ -333,8 +392,132 @@ $(".main-slide-item-dsc a").click(function(e) {
 
 /*Rannojit*/
 
+$('.busket-apply-discount').on('click', function(){
+  $(this).next('.bdcode').slideToggle(300);
+  $(this).toggleClass('active');
+
+});
+
+/*
+--------------
+Start checkout
+------------
+*/
+
+$('.odr-clk-btn button').on('click', function(){
+    $(this).toggleClass('btn-expend');
+    $('.product-item').slideToggle(500);
+  });
+
+$('.odr-sumry-btn-clk button').on('click', function(){
+    $(this).toggleClass('odr-btn-expend');
+    $('.product-des-innr').slideToggle(500);
+  });
+
+
+$('.view-dtls').on('click', function(){
+    $(this).toggleClass('menu-expend');
+    $('.view-clr-clk ul').slideToggle(500);
+  });
+
+$('.odr-view-dtls').on('click', function(){
+  $(this).toggleClass('menu-odr-expend');
+  $('.view-odr-clr-clk ul').slideToggle(500);
+});
+
+$("input[name='paymethod']").each( function (){
+    if($(this).prop('checked') == true){
+        $(this).parent().find('.toggleit').fadeIn();
+        console.log( $(this).val() );
+    }
+});
+function paymethod(){
+  $('.cashondelivery, .paypal, .bankcc').hide();
+  var value = $( 'input[name=paymethod]:checked' ).val();
+  if( value == 'cashondelivery' )
+    $('.cashondelivery').fadeIn();
+  if( value == 'paypal' )
+    $('.paypal').fadeIn();
+  if( value == 'bankcc' )
+    $('.bankcc').fadeIn();
+}
+paymethod();
+
+$("input[name='paymethod']").change(function(){
+  paymethod();
+});
+
+$("input[name='sameaddress']").on('change', function(){
+  
+  if ( $(this).is(':checked') ) {
+    $(this).parents('.cashondelivery').find('.address-dsc').show();
+    $(this).parents('.cashondelivery').find('.account-form').hide();
+  }else{    
+    $(this).parents('.cashondelivery').find('.address-dsc').hide();
+    $(this).parents('.cashondelivery').find('.account-form').show();
+  }
+});
+
+$('#afcencel').on('click', function(e){
+  e.preventDefault();
+  $("input[name='sameaddress']").prop('checked', true);
+  $('.address-dsc').show();
+  $('.account-form').hide();
+});
+
+$('.apply-discount-innr span.disc-code').on('click', function(){
+  $(this).toggleClass('ds-btn-expend');
+  $('.submit-fields').slideToggle(500);
+});
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+
+if( $('#shipping').length ){
+  $('#shipping').validator().on('submit', function (e) {
+    if (e.isDefaultPrevented()) {
+     
+      $('#shipping').hide();
+      $('#payment').fadeIn();
+      $('#shipto, #shipmethod').fadeIn();
+      $('.tab-btn-wrp').removeClass('step1').addClass('step2');
+    } else {
+      e.preventDefault();
+      
+      $('#shipping').hide();
+      $('#payment').fadeIn();
+      $('#shipto, #shipmethod').fadeIn();
+      $('.tab-btn-wrp').removeClass('step1').addClass('step2');
+      
+    }
+  });
+}
+
+$('.order-history-item-des').slideUp();
+$('.order-history-item-tab').on('click', function(e){
+  e.preventDefault();
+  $(this).toggleClass('order-history-tab-active');
+  $(this).parent().find('.order-history-item-des').slideToggle(300);
+  $(this).parent().siblings().find('.order-history-item-des').slideUp(300);
+  $(this).parent().siblings().find('.order-history-item-tab').removeClass('order-history-tab-active');
+});
 
 
 
+/*
+------
+End checkout
+------
+*/
+
+if (windowWidth < 768) {
+  if ($('.btn-767 button').length) {
+    $('.btn-767 button').on('click', function(){
+      $('.xs-sidebar-con').slideToggle(300);
+      $(this).toggleClass('active');
+    });
+  }
+}
 
 })(jQuery);
