@@ -202,7 +202,7 @@ if( $('.product-thumb-slider-wrp').length ){
     nextArrow: $('.ThumbSliderArrows .rightArrow'),
     responsive: [
         {
-          breakpoint: 767,
+          breakpoint: 768,
           settings: {
             slidesToShow: 4,
             slidesToScroll: 1,
@@ -214,17 +214,22 @@ if( $('.product-thumb-slider-wrp').length ){
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 575,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            focusOnSelect: true,
+            vertical: false,
+            verticalSwiping: false,
           }
         },
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            vertical: false,
+            verticalSwiping: false,
           }
         }
         // You can unslick at a given breakpoint now by adding:

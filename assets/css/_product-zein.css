@@ -25,7 +25,7 @@ sweet-potato-sec-wrp
 }
 .product-thumb-slider-wrp {
     position: relative;
-    padding: 70px 0 80px;
+    padding: 70px 0 75px;
     float: left;
     width: 13%;
 }
@@ -119,15 +119,15 @@ sweet-potato-sec-wrp
 }
 .ThumbSliderArrows .leftArrow{
 	top: 0;
-	background: url(../images/tp-leftArrow.png);
-	background-size: 14px 20px;
+	background: url(../images/pro-thumb-slider-top.png);
+	background-size: 42px 42px;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 .ThumbSliderArrows .rightArrow{
 	bottom: 0;	
-	background: url(../images/btm-rightArrow.png);
-	background-size: 14px 20px;
+	background: url(../images/pro-thumb-slider-btm.png);
+	background-size: 42px 42px;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
@@ -138,8 +138,6 @@ sweet-potato-sec-wrp
 	width: 42px;
 	cursor: pointer;
 	text-align: center;
-	border: 2px solid #8D9E2F;
-	box-sizing: border-box;
 	font-size: 29px;
 	line-height: 34px;
 	border-radius: 50px;
@@ -167,6 +165,17 @@ sweet-potato-sec-wrp
 }
 .product-sec .hm-product-head {
     padding-bottom: 35px;
+}
+
+.product-detalis-select .modal-select .bootstrap-select .dropdown-toggle::after {
+    top: 15px !important;
+    right: 7px !important;
+}
+.product-detalis-select .modal-select .bootstrap-select button, .modal-select .btn-light:not(:disabled):not(.disabled).active, .modal-select .btn-light:not(:disabled):not(.disabled):active, .modal-select .show > .btn-light.dropdown-toggle{
+	padding: 10px 20px 8px;
+}
+.product-detalis-select .modal-select{
+	margin-bottom: 32px;
 }
 
 /*
@@ -232,39 +241,105 @@ sweet-potato-sec-wrp
 	    width: 100%;
 	    padding-left: 0;
 	    text-align: center;
+	    padding-top: 20px;
+	    padding-bottom: 20px;
 	}
 	.product-thumb-slider-wrp {
 	    width: 100%;
 	    padding: 0;
 	}
 	.ThumbSliderArrows .leftArrow {
-	    top: 15px;
+	    top: 27px;
 	    left: 15px;
+	    transform: none;
+	    background: url(../images/leftArrow.png);
+		background-size: 42px 42px;
+		background-repeat: no-repeat;
 	}
 	.ThumbSliderArrows .rightArrow {
-	    bottom: 15px;
+	    bottom: 28px;
 	    right: 15px;
 	    left: auto;
+	    transform: none;
+	    background: url(../images/rightArrow.png);
+		background-size: 42px 42px;
+		background-repeat: no-repeat;
 	}
 	.product-thumb-slider-wrp {
 	    width: 100%;
-	    padding: 0 100px;
 	    position: relative;
+	}
+	.product-thumb-slider{
+		max-width: 430px;
+		width: 100%;
+		margin: 0 auto;
 	}
 	.product-thumb-img {
 	    width: 93px;
 	    height: 93px;
 	}
+	.product-big-slider .slick-slide img {
+	    display: inline-block;
+	}
+	.product-detalis-select.text-right{
+		text-align: center !important;
+	}
+	.product-detalis-select form label {
+	    text-align: center;
+	}
+	.product-detalis-tp {
+	    float: none;
+	    width: 100%;
+	    text-align: center;
+	}
+	.product-detalis-btn {
+	    padding-top: 40px;
+	    float: none;
+	    max-width: 132px;
+	    margin: 0 auto;
+	}
+	.product-detalis-btn button:first-of-type {
+	    float: none;
+	}
+	.product-detalis-btn button:last-of-type {
+	    float: none;
+	    margin: 0 auto;
+	    margin-top: 20px;
+	}
 }
 
 @media(max-width: 575px){
-	
+	.ThumbSliderArrows .leftArrow {
+	    top: 27px;
+	    left: 0px;
+	    transform: none;
+	    background: url(../images/leftArrow.png);
+		background-size: 42px 42px;
+		background-repeat: no-repeat;
+	}
+	.ThumbSliderArrows .rightArrow {
+	    bottom: 28px;
+	    right: 0;
+	    left: auto;
+	    transform: none;
+	    background: url(../images/rightArrow.png);
+		background-size: 42px 42px;
+		background-repeat: no-repeat;
+	}
+	.product-thumb-slider {
+	    max-width: 360px;
+	    width: 100%;
+	    margin: 0 auto;
+	}
 
 }
 
 @media(max-width: 479px){
-
-
+	.product-thumb-slider {
+	    max-width: 200px;
+	    width: 100%;
+	    margin: 0 auto;
+	}
 }
 
 @media(max-width: 359px){
