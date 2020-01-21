@@ -3,9 +3,9 @@
 footer-wrp
 ---------------------
 */
-.ftr-top-wrp{
-	padding-top: 42px;
-	padding-bottom: 43px;
+.ftr-top-wrp {
+    padding-top: 35px;
+    padding-bottom: 43px;
 }
 .ftr-col-innr{
 	max-width: 950px;
@@ -113,7 +113,7 @@ footer-wrp
 	color: #495603;
 }
 .ftr-btm-wrp{
-	padding-bottom: 30px;
+	padding-bottom: 40px;
 }
 .ftr-btm-payment {
     text-align: center;
