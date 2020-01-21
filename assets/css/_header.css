@@ -855,19 +855,6 @@ main-slider-sec-wrp
     -ms-transform: perspective(100px) rotateX(0);
     transform: perspective(100px) rotateX(0);
 }
-.banner-section{
-	background-repeat: no-repeat !important;
-	background-size: cover !important;
-	padding-top: 215px;
-	padding-bottom: 225px;
-}
-.banner-sct-inner h1{
-	text-align: center;
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: normal;
-	line-height: 78px;
-}
 #hm-new-product-sec {
     padding-top: 20px;
     padding-bottom: 60px;
