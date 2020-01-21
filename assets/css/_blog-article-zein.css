@@ -162,15 +162,6 @@ sp-content-sec-wrp
 ----------------------
 */
 
-
-@media(max-width: 1499px){
-
-}
-
-@media(max-width: 1399px){
-
-}
-
 @media(max-width: 1299px){
 
 }
@@ -186,6 +177,9 @@ sp-content-sec-wrp
 	    padding-left: 15px;
 	    padding-right: 15px;
 	}
+	.sweet-potato-head h4 {
+	    line-height: 46px;
+	}
 }
 
 @media(max-width: 991px){
@@ -196,7 +190,7 @@ sp-content-sec-wrp
 	    max-width: 350px;
 	}
 	.sweet-potato-head h4 {
-	    line-height: 48px;
+	    line-height: 42px;
 	}
 
 
@@ -207,7 +201,7 @@ sp-content-sec-wrp
 	.sweet-potato-head h4 {
 	    padding-left: 15px;
 	    padding-right: 15px;
-	    line-height: 48px;
+	    line-height: 38px;
 	}
 	
 	.sweet-potato-dsc {
@@ -249,6 +243,9 @@ sp-content-sec-wrp
 	}
 	.bl-product-btn a {
 	    padding: 14px 40px 15px;
+	}
+	.sweet-potato-head h4 {
+	    line-height: 36px;
 	}
 
 }
