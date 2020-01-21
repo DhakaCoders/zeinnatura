@@ -178,6 +178,18 @@ if( $('.product-thumb-slider-wrp').length ){
 
 /*Prashanto*/
 
+//responsive menu
+
+var windowWidth = $(window).width();
+if (windowWidth <= 991) {
+  $('.nav-opener .opener-inner').on('click', function(){
+    $(this).toggleClass('menu-expend')
+    $('.header nav.hdr-nav > ul').slideToggle(300);
+  });
+};
+
+
+
 //banner animation
 $(window).scroll(function() {
   var scroll = $(window).scrollTop();
@@ -197,7 +209,7 @@ $(window).scroll(function() {
 if( $('.main-slider').length ){
     $('.main-slider').slick({
       pauseOnHover: false,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 7000,
       dots: true,
       arrows:false,
@@ -280,19 +292,19 @@ if( $('.product-slider-wrp').length ){
 
 
 if( $('.hm-new-product-slider').length ){
-    $('.hm-new-product-slider').slick({
-      pauseOnHover: false,
-      autoplay: true,
-      autoplaySpeed: 6000,
-      dots: false,
-      infinite: false,
-      arrows:true,
-      speed: 1000,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      prevArrow: $('.productNewSliderArrows .leftArrow'),
-      nextArrow: $('.productNewSliderArrows .rightArrow'),
-    });
+  $('.hm-new-product-slider').slick({
+    pauseOnHover: false,
+    autoplay: true,
+    autoplaySpeed: 6000,
+    dots: false,
+    infinite: false,
+    arrows:true,
+    speed: 1000,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    prevArrow: $('.productNewSliderArrows .leftArrow'),
+    nextArrow: $('.productNewSliderArrows .rightArrow'),
+  });
 }
 
 
@@ -309,8 +321,6 @@ $(".main-slide-item-dsc a").click(function(e) {
   var goto = $(this).attr('href');
   $('html, body').animate({ scrollTop: $(goto).offset().top - 30 }, 800);
 });
-
-
 
 
 
