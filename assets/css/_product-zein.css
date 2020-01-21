@@ -298,6 +298,14 @@ sweet-potato-sec-wrp
 	    max-width: 132px;
 	    margin: 0 auto;
 	}
+	.product-detalis-btn button:first-of-type {
+	    float: none;
+	}
+	.product-detalis-btn button:last-of-type {
+	    float: none;
+	    margin: 0 auto;
+	    margin-top: 20px;
+	}
 }
 
 @media(max-width: 575px){
