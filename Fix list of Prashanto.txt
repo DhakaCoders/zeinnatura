@@ -18,7 +18,7 @@ Desktop------>
 
 5. https://www.screencast.com/t/5FzB9hWuRT5
 	big window te ai box ta haray jay
-	onno page ao check kore fix kore felte hobe red
+	onno page ao check kore fix kore felte hobe --done
 
 02.Listing_Zein
 --------------------------
