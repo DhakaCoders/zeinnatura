@@ -26,7 +26,7 @@ new----->
 	gap thakbena --done
 
 2. https://www.screencast.com/t/4GE8KkI2
-	ai icon ta mileni. transparent ache red
+	ai icon ta mileni. transparent ache --done
 
 3. https://www.screencast.com/t/k9NE4AJrVPR
 	ai icon ta r aktu upore uthbe --done
@@ -54,14 +54,14 @@ New----->
 	h1 hobe --done
 
 2. https://www.screencast.com/t/RI5rcnjCUQjA
-	i) hover korle 2 tatei opacity daw.
-	ii) hover a arrow ta niche nambe aktu . 
+	i) hover korle 2 tatei opacity daw. --done
+	ii) hover a arrow ta niche nambe aktu .  --done
 
 3. https://www.screencast.com/t/qaScBfjz
-	break hobe
+	break hobe  --done
 
 4. https://www.screencast.com/t/uxqkTZYfHz
-	size 3 daw. ager fix ar moto
+	size 3 daw. ager fix ar moto --done
 
 
 02.Listing_QuikBuy_Zein (Popup)
@@ -91,8 +91,8 @@ Desktop------>
 
 new------>
 1. https://www.screencast.com/t/6ZzBVTuq
-	i) modal ta center a daw
-	ii)ai page a header with banner and footer with footer top section thakbe just. baki section gulo badh diye daw
+	i) modal ta center a daw --done
+	ii)ai page a header with banner and footer with footer top section thakbe just. baki section gulo badh diye daw --done
 
 
 

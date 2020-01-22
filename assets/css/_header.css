@@ -50,18 +50,12 @@ header.header{
 	font-size: 14px;
 	line-height: 16px;
 	color: #FFFFFF;
-}
-.hdr-rgt-acc a:hover{
-    color: #ccc;
-}
-
-.hdr-rgt-acc a svg{
   -webkit-transition: all .5s ease;
   -ms-transition: all .5s ease;
   transition: all .5s ease;
 }
-.hdr-rgt-acc a:hover svg{
-    fill: #ccc!important;
+.hdr-rgt-acc a:hover{
+    opacity: .7;
 }
 .hdr-rgt-acc li a i{
 	display: inline-block;
@@ -699,13 +693,13 @@ main-slider-sec-wrp
 .main-slide-item-dsc a img{
 	width: 100%;
 }
-.main-slider .main-slide-item{
+.main-slider > .main-slide-item{
 	display: none !important;
 }
-.main-slider .main-slide-item:first-child{
+.main-slider > .main-slide-item:first-child{
 	display: block !important;
 }
-.main-slider.slick-initialized .main-slide-item{
+.main-slider.slick-initialized > .main-slide-item{
 	display: block !important;
 }
 .main-slider.slick-dotted.slick-slider {
@@ -1199,6 +1193,9 @@ main-slider-sec-wrp
 	}
 	.special-products-des h3{
 		line-height: 50px;
+	}
+	.special-products-des h3 br{
+		display: none;
 	}
 }
 
