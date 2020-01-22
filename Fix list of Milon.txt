@@ -1,0 +1,17 @@
+Home
+------------------------
+
+Desktop------>
+
+1. https://www.screencast.com/t/OBlI46GKn5
+	hover korle puro icon ta green daw
+
+2. https://www.screencast.com/t/K6wf1WWv
+	ai link a hover korle black color daw
+
+3. https://www.screencast.com/t/ZF0gZ5XG4eyY
+	grd a hove korle img ta aktu scale hobe
+
+4. https://www.screencast.com/t/x0t190r3AMD
+	realod dile slider break gulo off korte hobe. jemonta amra kori
+
