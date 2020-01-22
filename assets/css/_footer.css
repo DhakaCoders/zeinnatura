@@ -15,7 +15,9 @@ footer-wrp
 .ftr-menu-item{
 	width: 41.5%;
 	float: left;
+	padding-right: 20px;
 }
+
 
 .ftr-contact{
 	width: 17%;
@@ -254,7 +256,7 @@ footer-wrp
 /* Style the checkmark/indicator */
 .checkbox .container .checkmark:after {
     left: 5px;
-    top: 0px;
+    top: 1px;
     width: 5px;
     height: 10px;
     border: solid #3B3B3B;
@@ -332,18 +334,16 @@ footer-wrp
 	    width: 39%;
 	}
 	.footer-singup-form-img {
-	    max-width: 400px;
-	    width: 100%;
-	    position: static;
-	    text-align: center;
-	    margin: 0 auto;
-	    padding-bottom: 30px;
+	    display: none;
 	}
 	.footer-singup-form {
 	    max-width: 520px;
 	    width: 100%;
 	    float: none;
 	    margin: 0 auto;
+	}
+	.footer-singup-form h5{
+		text-align: center;
 	}
 	
 }
@@ -362,6 +362,7 @@ footer-wrp
 	.footer-singup-form-sec-wrp {
 	    padding: 40px 0 20px;
 	}
+	
 }
 
 @media(max-width: 575px){
@@ -369,15 +370,16 @@ footer-wrp
 	    width: 100%;
 	    float: none;
 	    text-align: center;
+	    padding: 0 15px;
 	}
 	.ftr-menu-item h5:last-of-type{
-		padding-top: 15px;
+		padding-top: 25px;
 	}
 	.ftr-contact {
 	    width: 100%;
 	    text-align: center;
 	    padding-left: 0;
-	    padding-top: 15px;
+	    padding: 25px 15px 0;
 	}
 	.ftr-middel-inr ul li {
 	    padding: 0 15px;
@@ -439,6 +441,17 @@ footer-wrp
 	}
 	.checkbox .container {
 	    padding-right: 5px;
+	}
+	.checkbox {
+	    padding-left: 0;
+	    position: absolute;
+	    bottom: 50px;
+	}
+	.footer-singup-form{
+		position: relative;
+	}
+	.footer-singup-form input[type=submit]{
+		margin-top: 40px;
 	}
 
 }
