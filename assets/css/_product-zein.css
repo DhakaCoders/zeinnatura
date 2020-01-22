@@ -206,6 +206,10 @@ sweet-potato-sec-wrp
 	    padding-top: 55px;
 	    padding-left: 60px;
 	}
+	.pd-food-two-part-sec .hm-food-lft-part-innr h3 br,
+	.pd-food-two-part-sec .hm-food-rgt-part-innr h3 br{
+		display: none;
+	}
 
 }
 

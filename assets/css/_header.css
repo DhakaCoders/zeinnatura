@@ -251,13 +251,17 @@ li.menu-item-has-children:hover .mega-menu-wrap {
 }
 
 @media(max-width: 1199px){
-nav.main-nav > ul > li {
-    padding: 0 10px;
-}
-nav.main-nav > ul > li > a {
-    padding-left: 10px;
-    padding-right: 10px;
-}
+	nav.main-nav > ul > li {
+	    padding: 0 10px;
+	}
+	nav.main-nav > ul > li > a {
+	    padding-left: 10px;
+	    padding-right: 10px;
+	}
+	.hm-food-lft-part-innr h3,
+	.hm-food-rgt-part-innr h3 {
+	    line-height: 60px !important;
+	}
 }
 
 @media(max-width: 991px){
@@ -453,6 +457,11 @@ nav.main-nav > ul > li > a {
 	    color: #FFF;
 	}
 
+	.hm-food-lft-part-innr h3,
+	.hm-food-rgt-part-innr h3 {
+	    line-height: 58px !important;
+	}
+
 }
 
 @media(max-width: 767px){
@@ -474,10 +483,17 @@ nav.main-nav > ul > li > a {
 	    width: 60%;
 	    padding-right: 0;
 	}
+	.hm-food-lft-part-innr h3,
+	.hm-food-rgt-part-innr h3 {
+	    line-height: 55px !important;
+	}
 }
 
 @media(max-width: 575px){
-
+	.hm-food-lft-part-innr h3,
+	.hm-food-rgt-part-innr h3 {
+	    line-height: 50px !important;
+	}
 
 }
 
@@ -497,6 +513,10 @@ nav.main-nav > ul > li > a {
 	}
 	.header-logo a {
 	    max-width: 115px;
+	}
+	.hm-food-lft-part-innr h3,
+	.hm-food-rgt-part-innr h3 {
+	    line-height: 48px !important;
 	}
 
 }

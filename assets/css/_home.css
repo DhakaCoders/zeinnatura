@@ -231,7 +231,10 @@ hm-product-sec-wrp
 
 
 @media(max-width: 1299px){
-
+	.pd-food-two-part-sec .hm-food-rgt-part-innr h3 br,
+	.pd-food-two-part-sec .hm-food-rgt-part-innr h3 br{
+		display: none !important;
+	}
 }
 
 @media(max-width: 1199px){
