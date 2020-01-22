@@ -38,10 +38,10 @@ new----->
 Responsive---->
 
 1. https://www.screencast.com/t/Wq68YxYuq
-	logo ar vitore text dhuke jay
+	logo ar vitore text dhuke jay --done
 
 2. https://www.screencast.com/t/FSfUvLOvE
-	img haray jay. fix hole baki slider gulo teo dekhte hobe thik ache kina 
+	img haray jay. fix hole baki slider gulo teo dekhte hobe thik ache kina  --done
 
 
 02.Listing_Zein
@@ -75,7 +75,7 @@ New----->
 
 Responsive---->
 1. https://www.screencast.com/t/yssQl3blv
-	575px a ai gap ta aktu komay daw
+	575px a ai gap ta aktu komay daw --done
 
 
 02.Listing_QuikBuy_Zein (Popup)
