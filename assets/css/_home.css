@@ -91,6 +91,8 @@ hm-product-sec-wrp
 }
 .hm-product-item-price {
     margin-top: -42px;
+    position: relative;
+    z-index: 2;
 }
 .hm-product-item-price strong{
 	display:block;
