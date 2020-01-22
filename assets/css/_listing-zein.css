@@ -253,7 +253,13 @@
     clear: initial;
   }
   #product-grd-sec .hm-product-item-img {
-    min-height: 250px;
+    min-height: 210px;
+  }
+  #product-grd-sec .hm-product-item-price {
+    margin-top: 0;
+  }
+  #product-grd-sec .hm-product-item-btn {
+      padding-top: 10px;
   }
 }
 
@@ -265,3 +271,17 @@
 @media(max-width: 359px){
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

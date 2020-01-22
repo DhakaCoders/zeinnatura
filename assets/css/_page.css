@@ -603,11 +603,11 @@ Start sitemap
     display: none;
   }
   .quick-by-modal-main-tab .nav a {
-    min-width: 118px;
-    padding: 5px 0 5px 0;
-    font-size: 18px;
-    margin-right: 8px;
-    line-height: 22px;
+      min-width: 109px;
+      padding: 5px 0 5px 0;
+      font-size: 18px;
+      margin-right: 8px;
+      line-height: 22px;
   }
   .modal-des-rgt-con h4{
     margin-bottom: 22px;
