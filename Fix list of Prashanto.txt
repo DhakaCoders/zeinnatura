@@ -40,6 +40,9 @@ Responsive---->
 1. https://www.screencast.com/t/Wq68YxYuq
 	logo ar vitore text dhuke jay
 
+2. https://www.screencast.com/t/FSfUvLOvE
+	img haray jay. fix hole baki slider gulo teo dekhte hobe thik ache kina 
+
 
 02.Listing_Zein
 --------------------------
@@ -68,6 +71,11 @@ New----->
 
 4. https://www.screencast.com/t/uxqkTZYfHz
 	size 3 daw. ager fix ar moto --done
+
+
+Responsive---->
+1. https://www.screencast.com/t/yssQl3blv
+	575px a ai gap ta aktu komay daw
 
 
 02.Listing_QuikBuy_Zein (Popup)
@@ -103,4 +111,10 @@ new------>
 
 
 Extra: tomar section gulo te dekho , page reload dile slider break hoy kina. hole fix koro
+
+
+Responsive---->
+
+1. https://www.screencast.com/t/FO0mOFvxh
+	320 pojonto 2 ta button ai akline a rakho
 
