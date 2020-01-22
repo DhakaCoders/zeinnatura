@@ -18,11 +18,10 @@ $('.fancybox').fancybox({
     //openEffect  : 'none',
     //closeEffect : 'none'
   });
-
 }
 
 
-/**
+/*
 Responsive on 767px
 */
 
