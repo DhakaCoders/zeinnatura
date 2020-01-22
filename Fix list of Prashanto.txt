@@ -73,6 +73,11 @@ New----->
 	size 3 daw. ager fix ar moto --done
 
 
+Responsive---->
+1. https://www.screencast.com/t/yssQl3blv
+	575px a ai gap ta aktu komay daw
+
+
 02.Listing_QuikBuy_Zein (Popup)
 --------------------------------
 
