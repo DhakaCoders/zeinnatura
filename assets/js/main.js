@@ -292,8 +292,8 @@ $(window).scroll(function() {
 if( $('.main-slider').length ){
     $('.main-slider').slick({
       pauseOnHover: false,
-      autoplay: false,
-      autoplaySpeed: 7000,
+      autoplay: true,
+      autoplaySpeed: 8000,
       dots: true,
       arrows:false,
       infinite: true,
@@ -448,11 +448,23 @@ $(".main-slide-item-dsc a").click(function(e) {
   $('html, body').animate({ scrollTop: $(goto).offset().top - 30 }, 800);
 });
 
+//
+var windowWidth = $(window).width();
+if(windowWidth > 2500){
+  $('.special-products-slider-wrp').css('left', '47%');
+  $('.specialProductsSlider > .slick-dots').css('width', '680px');
+}else if(windowWidth >= 1441){
+  $('.special-products-slider-wrp').css('left', '40%');
+  $('.specialProductsSlider > .slick-dots').css('width', '680px');
+
+}else{
+  $('.special-products-slider-wrp').css('left', '33%');
+}
+
 
 //Food section matchHeight
 
 var windowWidth = $(window).width();
-
 if (windowWidth >= 767) {
   if($('.hm-food-col').length){
     $('.hm-food-col').matchHeight();

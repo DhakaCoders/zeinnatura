@@ -354,6 +354,7 @@ li.menu-item-has-children:hover .mega-menu-wrap {
 	    line-height: 20px;
 	    display: none;
 	    border-top: 3px solid #000;
+	    overflow: hidden;
 	}
 	.md-expanded-menu-inner{
 		position: relative;
@@ -387,7 +388,7 @@ li.menu-item-has-children:hover .mega-menu-wrap {
 	    text-transform: uppercase;
 	    display: inline-block;
 	    vertical-align: baseline;
-	    font-size: 17px;
+	    font-size: 15px;
 	    color: #fff;
 	    padding: 13px 0;
 	    line-height: 20px;
@@ -452,9 +453,10 @@ li.menu-item-has-children:hover .mega-menu-wrap {
 	.md-menu-item-has-childrean > srtong {
 	    display: inline-block;
 	    vertical-align: baseline;
-	    font-weight: 400;
-	    line-height: 41px;
+	    font-weight: 500;
+	    line-height: 40px;
 	    color: #FFF;
+	    font-size: 20px;
 	}
 
 }
@@ -812,7 +814,7 @@ main-slider-sec-wrp
     -webkit-animation-delay: 1.7s;
     animation-delay: 1.7s;
 }
-.main-slider .slick-current .main-slide-item-dsc i{
+.main-slider .slick-current .main-slide-item-dsc a{
     -webkit-animation-name: fadeInUpShort;
     animation-name: fadeInUpShort;
     -webkit-animation-duration: 1s;
@@ -863,8 +865,6 @@ main-slider-sec-wrp
 .hm-food-rgt-part-innr p{
 	line-height: 28px;
 }
-/* .hm-food-lft-part-innr a{
-} */
 .hm-food-lft-part-innr a {
 	position: absolute;
 	top: 50px;
@@ -1085,6 +1085,9 @@ main-slider-sec-wrp
 
 
 
+
+
+
 @media(max-width: 1499px){
 
 }
@@ -1124,6 +1127,12 @@ main-slider-sec-wrp
 	.main-slider .slick-dots {
 	    padding-left: 55px;
 	}
+	.main-slide-item-dsc h1, 
+	.main-slide-item-dsc strong {
+	    margin-bottom: 25px;
+	    font-size: 55px;
+	    line-height: 70px;
+	}
 	.hm-food-lft-part-innr {
 	    padding: 230px 15px 20px 0;
 	}
@@ -1136,9 +1145,6 @@ main-slider-sec-wrp
 	.hm-food-lft-part-innr a {
 	    right: 15px;
 	}
-	.hm-food-lft-part-innr a:hover {
-	    right: 8px;
-	}
 	.hm-food-lft-part-innr h3,
 	.hm-food-rgt-part-innr h3 {
 	    line-height: 60px !important;
@@ -1149,6 +1155,16 @@ main-slider-sec-wrp
 }
 
 @media(max-width: 991px){
+	.main-slide-item {
+	    padding-top: 300px;
+	    padding-bottom: 120px;
+	}
+	.main-slide-item-dsc h1, 
+	.main-slide-item-dsc strong {
+	    margin-bottom: 20px;
+	    font-size: 48px;
+	    line-height: 55px;
+	}
 	.hm-food-lft-part, 
 	.hm-food-rgt-part {
 	    min-height: 500px !important;
@@ -1157,7 +1173,6 @@ main-slider-sec-wrp
 	.hm-food-rgt-part-innr h3 {
 	    line-height: 58px !important;
 	}
-
 	.special-products-slider-wrp {
 	    padding: 30px 0 10px;
 	    position: static;
@@ -1179,6 +1194,29 @@ main-slider-sec-wrp
 }
 
 @media(max-width: 767px){
+	.main-slide-item-dsc h1, 
+	.main-slide-item-dsc strong {
+	    margin-bottom: 20px;
+	    font-size: 42px;
+	    line-height: 50px;
+	}
+	.main-slide-item-dsc h1 br, 
+	.main-slide-item-dsc strong br{
+	    display: none;
+	}
+	.main-slide-item-dsc em {
+	    font-size: 20px;
+	    line-height: 30px;
+	}
+	.main-slide-item-dsc hr {
+	    margin-bottom: 18px;
+	}
+	.main-slide-item-dsc a {
+	    max-width: 30px;
+	}
+	.hm-food-lft-part-innr a {
+	    right: 0px;
+	}
 	.hm-food-lft-part {
 		width: 100%;
 	    padding-right: 15px;
@@ -1202,21 +1240,38 @@ main-slider-sec-wrp
 	.hm-food-rgt-part-innr h3 {
 	    line-height: 55px !important;
 	}
-	.hm-food-rgt-part-innr a:hover,
-	.hm-food-lft-part-innr a,
-	.hm-food-lft-part-innr a:hover {
-	    right: 0;
+	.hm-food-rgt-part-innr h3 br{
+	    display: none;
 	}
 	.specialProductsSlider-item-innr {
-	    padding: 90px 15px 95px;
-	    min-height: 410px;
+	    padding: 80px 15px 70px;
+	    min-height: 365px;
+	}
+	.specialProductsSlider-item h4 {
+	    line-height: 42px;
+	    margin-bottom: 35px;
+	    font-size: 34px;
 	}
 }
 
 @media(max-width: 575px){
+	.main-slide-item {
+	    padding-top: 260px;
+	    padding-bottom: 100px;
+	}
+	.main-slider .slick-dots {
+	    position: relative;
+	    bottom: 90px;
+	}
 	.hm-food-lft-part-innr h3,
 	.hm-food-rgt-part-innr h3 {
 	    line-height: 50px !important;
+	}
+	.main-slide-item-dsc h1, 
+	.main-slide-item-dsc strong {
+	    margin-bottom: 20px;
+	    font-size: 33px;
+	    line-height: 42px;
 	}
 }
 
@@ -1224,6 +1279,11 @@ main-slider-sec-wrp
 	.hm-food-lft-part-innr h3,
 	.hm-food-rgt-part-innr h3 {
 	    line-height: 48px !important;
+	}
+	.specialProductsSlider-item h4 {
+	    line-height: 34px;
+	    margin-bottom: 28px;
+	    font-size: 30px;
 	}
 }
 
