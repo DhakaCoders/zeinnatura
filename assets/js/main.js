@@ -258,6 +258,7 @@ if (windowWidth <= 991) {
   $('.nav-opener .opener-inner').on('click', function(){
     $(this).toggleClass('menu-expend');
     $('.md-expanded-menu').slideToggle(500);
+    $('.hdr-menu-controller').toggleClass('hdr-menu-con-height');
   });
 
   $('.md-expanded-menu-btn i').on('click', function(){
