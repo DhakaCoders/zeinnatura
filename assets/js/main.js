@@ -450,7 +450,7 @@ $(".main-slide-item-dsc a").click(function(e) {
 });
 
 
-//
+
 var windowWidth = $(window).width();
 if(windowWidth > 2500){
   $('.special-products-slider-wrp').css('left', '47%');
