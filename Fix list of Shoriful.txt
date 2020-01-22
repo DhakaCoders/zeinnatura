@@ -1,0 +1,13 @@
+Blog Listing
+-------------------------
+Desktop---->
+
+1. https://www.screencast.com/t/dlfHTgChg
+	hover korle title a j color ta hosche. sei color ta border ao daw
+
+2. https://www.screencast.com/t/icMqNwgj
+	ai section ta pest korte hobe. sobar fix ses hole
+
+3. https://www.screencast.com/t/JmVyRM78Op
+	hover korle purotar opacity komay daw. 
+	.7 or .8 diye dekho, jeta valo lage use koro
