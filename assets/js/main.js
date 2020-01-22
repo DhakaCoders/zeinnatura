@@ -247,10 +247,7 @@ if( $('.product-thumb-slider-wrp').length ){
 
 //responsive menu
 
-
-
 var windowWidth = $(window).width();
-
 
 if (windowWidth <= 991) {
   $('nav.main-nav > ul > li.menu-item-has-children > a').on('click', function(e){
@@ -275,8 +272,6 @@ if (windowWidth <= 991) {
 
 
 
-
-
 //banner animation
 $(window).scroll(function() {
   var scroll = $(window).scrollTop();
@@ -290,6 +285,8 @@ $(window).scroll(function() {
 });
 
 
+
+//slick slider
 
 if( $('.main-slider').length ){
     $('.main-slider').slick({
@@ -306,6 +303,8 @@ if( $('.main-slider').length ){
     });
 }
 
+
+//slick slider
 
 if( $('.specialProductsSlider').length ){
     $('.specialProductsSlider').slick({
@@ -333,7 +332,8 @@ if( $('.specialProductsSlider').length ){
 }
 
 
-//product slider
+//slick slider
+
 if( $('.product-slider-wrp').length ){
 
   $('.bigViewSlider').slick({
@@ -373,10 +373,8 @@ if( $('.product-slider-wrp').length ){
 
 }
 
-$('.zein-modal-btn').on('click', function(){
-  $('.thumbSlider').slick('refresh');
-  $('.bigViewSlider').slick('refresh');
-});
+
+//slick slider
 
 if( $('.hm-new-product-slider').length ){
   $('.hm-new-product-slider').slick({
@@ -394,7 +392,17 @@ if( $('.hm-new-product-slider').length ){
   });
 }
 
+
+// slick refresh function
+
+$('.zein-modal-btn').on('click', function(){
+  $('.thumbSlider').slick('refresh');
+  $('.bigViewSlider').slick('refresh');
+});
+
+
 // Add Toggle Class
+
 if( $('.specialProductsSlider-item-innr').length ){
   $('.specialProductsSlider-item-innr > a.fa-heart').on('click', function(e){
     e.preventDefault();
@@ -402,15 +410,20 @@ if( $('.specialProductsSlider-item-innr').length ){
   });
 }
 
+
 // Body animate function
+
 $(".main-slide-item-dsc a").click(function(e) {
   e.preventDefault();
   var goto = $(this).attr('href');
   $('html, body').animate({ scrollTop: $(goto).offset().top - 30 }, 800);
 });
 
+
 //Food section matchHeight
+
 var windowWidth = $(window).width();
+
 if (windowWidth >= 767) {
   if($('.hm-food-col').length){
     $('.hm-food-col').matchHeight();
