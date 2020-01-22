@@ -402,7 +402,7 @@ if( $('.product-slider-wrp').length ){
     infinite: true,
     speed: 700,
     dots: false,
-    arrows: true,
+    arrows: true, 
     focusOnSelect: true,
     vertical: true,
     verticalSwiping: true,
