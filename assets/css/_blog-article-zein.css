@@ -255,6 +255,9 @@ sp-content-sec-wrp
 	.sp-btm-dsc p br{
 		display: none;
 	}
+	.pd-banner-sec{
+		min-height: 460px !important;
+	}
 }
 
 @media(max-width: 359px){
