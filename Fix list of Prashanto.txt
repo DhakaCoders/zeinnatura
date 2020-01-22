@@ -40,6 +40,9 @@ Responsive---->
 1. https://www.screencast.com/t/Wq68YxYuq
 	logo ar vitore text dhuke jay
 
+2. https://www.screencast.com/t/FSfUvLOvE
+	img haray jay. fix hole baki slider gulo teo dekhte hobe thik ache kina 
+
 
 02.Listing_Zein
 --------------------------
@@ -103,4 +106,10 @@ new------>
 
 
 Extra: tomar section gulo te dekho , page reload dile slider break hoy kina. hole fix koro
+
+
+Responsive---->
+
+1. https://www.screencast.com/t/FO0mOFvxh
+	320 pojonto 2 ta button ai akline a rakho
 
