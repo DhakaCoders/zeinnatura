@@ -16,8 +16,8 @@ hm-product-sec-wrp
 	width: 100%;
 	float: left;
 }
-.sweet-back a {
-    display: inline-block;
+.sweet-back span{
+    display:block;
     vertical-align: baseline;
     text-decoration: none;
     font-size: 20px;
@@ -26,8 +26,14 @@ hm-product-sec-wrp
     text-transform: uppercase;
     float: right;
     font-family: 'Abril Fatface', cursive;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 }
-.sweet-back span {
+.sweet-back a:hover span{
+	color: #000;
+}
+.sweet-back i{
     display: inline-block;
     vertical-align: baseline;
     float: right;
@@ -97,6 +103,7 @@ sp-content-sec-wrp
 	color: #3B3B3B;
 	font-family: 'Abril Fatface', cursive;
 	padding-bottom: 28px;
+	font-weight: 400;
 }
 .sp-content-rgt > h6{
 	max-width: 495px;
@@ -126,8 +133,9 @@ sp-content-sec-wrp
 	font-size: 20px;
 	line-height: 22px;
 	color: #3B3B3B;;
-	font-weight: 300;
+	font-weight: 700;
 	padding-bottom: 0;
+	font-family: 'Roboto', sans-serif;
 }
 .bl-product-btn{
 	padding-top: 60px;
