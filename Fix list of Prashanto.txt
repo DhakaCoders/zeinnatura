@@ -21,18 +21,18 @@ Desktop------>
 	onno page ao check kore fix kore felte hobe --done  <----ok
 
 
-new----->
+new-----> 
 1. https://www.screencast.com/t/LEQNyoVx3
-	gap thakbena
+	gap thakbena --done
 
 2. https://www.screencast.com/t/4GE8KkI2
-	ai icon ta mileni. transparent ache
+	ai icon ta mileni. transparent ache red
 
-3. ai icon ta r aktu upore uthbe
-	https://www.screencast.com/t/k9NE4AJrVPR
-
+3. https://www.screencast.com/t/k9NE4AJrVPR
+	ai icon ta r aktu upore uthbe --done
+	
 4. https://www.screencast.com/t/sfHtabhz
-	label mileni nai
+	label mileni nai --done
 
 
 02.Listing_Zein
@@ -51,7 +51,7 @@ Desktop------>
 
 New----->
 1. https://www.screencast.com/t/Uo6fgrCw
-	h1 hobe
+	h1 hobe --done
 
 2. https://www.screencast.com/t/RI5rcnjCUQjA
 	i) hover korle 2 tatei opacity daw.

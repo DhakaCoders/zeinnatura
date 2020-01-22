@@ -4,7 +4,7 @@ header.header{
     left: 0;
     right: 0;
     top: 0;
-    z-index: 5;
+    z-index: 5; 
 } 
 .hdr-top-innr{
 	position: relative;
@@ -70,6 +70,8 @@ header.header{
 }
 .hdr-rgt-acc li:last-child a i{
 	padding-right: 12px;
+	position: relative;
+	top: -3px;
 }
 .hdr-menu-controller{
 	background: #8D9E2F;
@@ -83,7 +85,9 @@ header.header{
     padding-top: 15px;
     padding-left: 160px;
 }
-
+nav.main-nav > ul{
+	margin-right: -11px;
+}
 nav.main-nav > ul > li,
 nav.main-nav > ul > li > a{
     display: inline-block;
@@ -179,14 +183,14 @@ li.menu-item-has-children:hover .mega-menu-wrap {
     -webkit-transform: scale3d(1,1,1);
 }
 .mega-menu-col-item{
-	width: 37.53%;
+	width: 37%;
 	float: left;
 	margin-bottom: 62px;
 	padding-right: 10px;
 }
 .mega-menu-col-item:nth-child(3),
 .mega-menu-col-item:nth-child(6){
-	width: 24.94%;
+	width: 26%;
 	padding-right: 0px;
 }
 .mega-menu-col-item:nth-child(3n+1){
