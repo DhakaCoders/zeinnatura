@@ -55,7 +55,6 @@ footer-wrp
 	color: #4A4A4A;;
 	font-weight: 400;
 }
-.ftr-btm-copy-right p > a:hover,
 .ftr-contact a:hover,
 .ftr-menu-item ul li a:hover{
 	color: #8c9e26;
@@ -140,7 +139,7 @@ footer-wrp
 	letter-spacing: -0.175px;
 	float: left;
 }
-.ftr-btm-copy-right p > a{
+.ftr-btm-copy-right p > span{
 	display: inline-block;
 	vertical-align: baseline;
 	text-decoration: none;
