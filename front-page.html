@@ -8,8 +8,8 @@
 
 <!--   <?php $favicon = get_theme_mod('favicon'); if(!empty($favicon)) { ?> 
   <link rel="shortcut icon" href="<?php echo $favicon; ?>" />
-  <?php } ?> -->
-
+  <?php } ?> --> 
+ 
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
   <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome/font-awesome.css">
@@ -30,6 +30,31 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->	
 
+<svg style="display: none;">
+  <!-- header -->
+
+<svg id="hdr-cell-icon-svg" width="27" height="27" viewBox="0 0 27 27" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8.84323 18.1568C15.2162 24.5297 21.3027 25.8775 23.5487 26C24.9847 23.8966 25.5917 22.16 26 20.6081C24.448 19.0963 22.1884 17.5539 20.1176 16.6865L17.6669 19.1372C16.8296 18.9123 14.5316 17.9627 11.7844 15.2156C9.0373 12.4684 8.08766 10.1704 7.86283 9.33314L10.3135 6.88242C9.44615 4.81156 7.90365 2.55196 6.39192 1C4.83996 1.40826 3.1034 2.01531 1 3.45131C1.12248 5.69789 2.47031 11.7839 8.84323 18.1568Z" stroke-width="1.2"/>
+</svg> 
+
+<symbol id="hdr-cart-icon-svg" width="24" height="26" viewBox="0 0 24 26" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.5 9.81549H18.1915V11.0625C18.1915 12.1655 17.2945 13.0625 16.1915 13.0625C15.089 13.0625 14.1915 12.1655 14.1915 11.0625V9.81549H9.86699V11.0625C9.86699 12.1655 8.96999 13.0625 7.86699 13.0625C6.76399 13.0625 5.86699 12.1655 5.86699 11.0625V9.81549H0.499985C0.223985 9.81549 0.0534854 10.033 0.118985 10.301L3.61749 24.55C3.82899 25.351 4.67149 26 5.49999 26H18.5C19.329 26 20.171 25.3505 20.3835 24.55L23.8815 10.301C23.9465 10.0325 23.7765 9.81549 23.5 9.81549Z" />
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.9995 10.0625C8.5515 10.0625 8.9995 9.6145 8.9995 9.0625V5.1625C8.9995 3.419 10.418 2 12.162 2C13.9055 2 15.3245 3.419 15.3245 5.1625V9.0625C15.3245 9.6145 15.7725 10.0625 16.3245 10.0625C16.8765 10.0625 17.3245 9.6145 17.3245 9.0625V5.1625C17.3245 2.316 15.0085 0 12.162 0C9.316 0 7 2.316 7 5.1625V9.0625C6.9995 9.6145 7.4475 10.0625 7.9995 10.0625Z" />
+</symbol>
+
+<!-- Home page -->
+
+<!-- <symbol id="food-twopart-link-svg" width="79" height="77" viewBox="0 0 79 77" xmlns="http://www.w3.org/2000/svg">
+<path d="M78 38.5C78 59.1867 60.7873 76 39.5 76C18.2127 76 1 59.1867 1 38.5C1 17.8133 18.2127 1 39.5 1C60.7873 1 78 17.8133 78 38.5Z" stroke="white" stroke-width="2"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M21.9446 37.2547H52.585L42.4442 27.1829L43.9708 25.6667L57.0557 38.6625L55.5291 40.1787L55.4201 40.0704L44.1889 51.3334L42.6623 49.8172L53.1302 39.4206H21.9446V37.2547Z" />
+</symbol> -->
+
+<symbol id="food-twopart-link-arw-svg" width="37" height="27" viewBox="0 0 37 27" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0.944553 12.2547H31.585L21.4442 2.18292L22.9708 0.666748L36.0557 13.6625L34.5291 15.1787L34.4201 15.0704L23.1889 26.3334L21.6623 24.8172L32.1302 14.4206H0.944553V12.2547Z" />
+</symbol>
+
+</svg>
+
 </head>
 <body>
 
@@ -45,24 +70,38 @@
             <div class="hdr-rgt-acc text-right">
               <ul class="clearfix ulc hide-sm">
                 <li>
-                  <a href="#"><img src="assets/images/hdr-cell-icon.svg" alt="">Phone Orders: 2814003225</a>
+                  <a href="#">
+                    <i>
+                      <svg class="hdr-cell-icon-svg" width="27" height="27" viewBox="0 0 27 27" fill="#fff">
+                        <use xlink:href="#hdr-cell-icon-svg"></use>
+                      </svg> 
+                    </i>
+                    <span>Phone Orders: 2814003225</span>
+                  </a>
                 </li>
                 <li>
                   <a href="#">My profile</a>
                 </li>
                 <li>
-                  <a href="#"><img src="assets/images/hdr-cart-icon.svg" alt="">Basket</a>
+                  <a href="#">
+                    <i>
+                      <svg class="hdr-cart-icon-svg" width="24" height="27" viewBox="0 0 24 27" fill="#fff">
+                        <use xlink:href="#hdr-cart-icon-svg"></use>
+                      </svg> 
+                    </i>
+                    <span>Basket</span>
+                  </a>
                 </li>
               </ul>
               <ul class="clearfix ulc show-sm">
                 <li>
-                  <a href="#"><img src="assets/images/hdr-cell-icon.svg" alt=""></a>
+                  <a href="#"><img src="assets/images/hdr-cell-icon.png" alt=""></a>
                 </li>
                 <li>
                   <a href="#"><img src="assets/images/hdr-pro-icon.png" alt=""></a>
                 </li>
                 <li>
-                  <a href="#"><img src="assets/images/hdr-cart-icon.svg" alt=""></a>
+                  <a href="#"><img src="assets/images/hdr-cart-icon.png" alt=""></a>
                 </li>
               </ul>
             </div>
@@ -71,13 +110,11 @@
       </div>
     </div>       
   </div>
-
   <div class="hdr-menu-controller">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <div class="hdr-menu-innr">             
-         
+          <div class="hdr-menu-innr">       
             <nav class="main-nav text-right">                
               <div class="nav-opener show-md">
                 <div class="opener-inner">
@@ -86,7 +123,7 @@
                   <span></span>
                 </div>
               </div>
-              <ul class="clearfix ulc">   
+              <ul class="clearfix ulc hide-md">   
                 <li><a href="#">HONEY</a></li>
                 <li><a href="#">HERBS</a></li>
                 <li><a href="#">OLIVE OIL</a></li>
@@ -94,103 +131,258 @@
                 <li class="menu-item-has-children">
                   <a href="#">PASTA</a>
                   <div class="mega-menu-wrap">
-                    <div class="mega-menu-innr-wrap">
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-sm-12">
-                            <div class="mega-menu-con clearfix">
-                              <div class="mega-menu-col-item">
-                                <strong>Spaghetti</strong>
-                                <ul>
-                                  <li><a href="#">BIO SPAGHETTI</a></li>
-                                  <li><a href="#">ΒΙΟΛΟΓΙΚΑ ΖΥΜΑΡΙΚΑ </a></li>
-                                  <li><a href="#">BUCATINIΚΛΑΣΙΚΑ </a></li>
-                                  <li><a href="#">CAPELLINIΚΛΑΣΙΚΑ</a></li>
-                                  <li><a href="#">ΧΩΡΙΣ ΓΛΟΥΤΕΝΗ</a></li>
-                                  <li><a href="#">LINGUINECOLLEZIONE </a></li>
-                                  <li><a href="#">MAFALDINECOLLEZIONE </a></li>
-                                  <li><a href="#">SPAGHETTIΚΛΑΣΙΚΑ </a></li>
-                                </ul>
-                              </div>
-                              <div class="mega-menu-col-item">
-                                <strong>Spaghetti</strong>
-                                <ul>
-                                  <li><a href="#">BIO SPAGHETTI</a></li>
-                                  <li><a href="#">ΒΙΟΛΟΓΙΚΑ ΖΥΜΑΡΙΚΑ </a></li>
-                                  <li><a href="#">BUCATINIΚΛΑΣΙΚΑ </a></li>
-                                  <li><a href="#">CAPELLINIΚΛΑΣΙΚΑ</a></li>
-                                  <li><a href="#">ΧΩΡΙΣ ΓΛΟΥΤΕΝΗ</a></li>
-                                  <li><a href="#">LINGUINECOLLEZIONE </a></li>
-                                  <li><a href="#">MAFALDINECOLLEZIONE </a></li>
-                                  <li><a href="#">SPAGHETTIΚΛΑΣΙΚΑ </a></li>
-                                </ul>
-                              </div>
-                              <div class="mega-menu-col-item">
-                                <strong>Spaghetti</strong>
-                                <ul>
-                                  <li><a href="#">BIO SPAGHETTI</a></li>
-                                  <li><a href="#">ΒΙΟΛΟΓΙΚΑ ΖΥΜΑΡΙΚΑ </a></li>
-                                  <li><a href="#">BUCATINIΚΛΑΣΙΚΑ </a></li>
-                                  <li><a href="#">CAPELLINIΚΛΑΣΙΚΑ</a></li>
-                                  <li><a href="#">ΧΩΡΙΣ ΓΛΟΥΤΕΝΗ</a></li>
-                                  <li><a href="#">LINGUINECOLLEZIONE </a></li>
-                                  <li><a href="#">MAFALDINECOLLEZIONE </a></li>
-                                  <li><a href="#">SPAGHETTIΚΛΑΣΙΚΑ </a></li>
-                                </ul>
-                              </div>
-                              <div class="mega-menu-col-item">
-                                <strong>Spaghetti</strong>
-                                <ul>
-                                  <li><a href="#">BIO SPAGHETTI</a></li>
-                                  <li><a href="#">ΒΙΟΛΟΓΙΚΑ ΖΥΜΑΡΙΚΑ </a></li>
-                                  <li><a href="#">BUCATINIΚΛΑΣΙΚΑ </a></li>
-                                  <li><a href="#">CAPELLINIΚΛΑΣΙΚΑ</a></li>
-                                  <li><a href="#">ΧΩΡΙΣ ΓΛΟΥΤΕΝΗ</a></li>
-                                  <li><a href="#">LINGUINECOLLEZIONE </a></li>
-                                  <li><a href="#">MAFALDINECOLLEZIONE </a></li>
-                                  <li><a href="#">SPAGHETTIΚΛΑΣΙΚΑ </a></li>
-                                </ul>
-                              </div>
-                              <div class="mega-menu-col-item">
-                                <strong>Spaghetti</strong>
-                                <ul>
-                                  <li><a href="#">BIO SPAGHETTI</a></li>
-                                  <li><a href="#">ΒΙΟΛΟΓΙΚΑ ΖΥΜΑΡΙΚΑ </a></li>
-                                  <li><a href="#">BUCATINIΚΛΑΣΙΚΑ </a></li>
-                                  <li><a href="#">CAPELLINIΚΛΑΣΙΚΑ</a></li>
-                                  <li><a href="#">ΧΩΡΙΣ ΓΛΟΥΤΕΝΗ</a></li>
-                                  <li><a href="#">LINGUINECOLLEZIONE </a></li>
-                                  <li><a href="#">MAFALDINECOLLEZIONE </a></li>
-                                  <li><a href="#">SPAGHETTIΚΛΑΣΙΚΑ </a></li>
-                                </ul>
-                              </div>
-                              <div class="mega-menu-col-item">
-                                <strong>Spaghetti</strong>
-                                <ul>
-                                  <li><a href="#">BIO SPAGHETTI</a></li>
-                                  <li><a href="#">ΒΙΟΛΟΓΙΚΑ ΖΥΜΑΡΙΚΑ </a></li>
-                                  <li><a href="#">BUCATINIΚΛΑΣΙΚΑ </a></li>
-                                  <li><a href="#">CAPELLINIΚΛΑΣΙΚΑ</a></li>
-                                  <li><a href="#">ΧΩΡΙΣ ΓΛΟΥΤΕΝΗ</a></li>
-                                  <li><a href="#">LINGUINECOLLEZIONE </a></li>
-                                  <li><a href="#">MAFALDINECOLLEZIONE </a></li>
-                                  <li><a href="#">SPAGHETTIΚΛΑΣΙΚΑ </a></li>
-                                </ul>
-                              </div>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-sm-12">
+                          <div class="mega-menu-con clearfix">
+                            <div class="mega-menu-col-item">
+                              <strong>Spaghetti</strong>
+                              <ul>
+                                <li><a href="#">BIO SPAGHETTI</a></li>
+                                <li><a href="#">ΒΙΟΛΟΓΙΚΑ ΖΥΜΑΡΙΚΑ </a></li>
+                                <li><a href="#">BUCATINIΚΛΑΣΙΚΑ </a></li>
+                                <li><a href="#">CAPELLINIΚΛΑΣΙΚΑ</a></li>
+                                <li><a href="#">ΧΩΡΙΣ ΓΛΟΥΤΕΝΗ</a></li>
+                                <li><a href="#">LINGUINECOLLEZIONE </a></li>
+                                <li><a href="#">MAFALDINECOLLEZIONE </a></li>
+                                <li><a href="#">SPAGHETTIΚΛΑΣΙΚΑ </a></li>
+                              </ul>
+                            </div>
+                            <div class="mega-menu-col-item">
+                              <strong>Spaghetti</strong>
+                              <ul>
+                                <li><a href="#">BIO SPAGHETTI</a></li>
+                                <li><a href="#">ΒΙΟΛΟΓΙΚΑ ΖΥΜΑΡΙΚΑ </a></li>
+                                <li><a href="#">BUCATINIΚΛΑΣΙΚΑ </a></li>
+                                <li><a href="#">CAPELLINIΚΛΑΣΙΚΑ</a></li>
+                                <li><a href="#">ΧΩΡΙΣ ΓΛΟΥΤΕΝΗ</a></li>
+                                <li><a href="#">LINGUINECOLLEZIONE </a></li>
+                                <li><a href="#">MAFALDINECOLLEZIONE </a></li>
+                                <li><a href="#">SPAGHETTIΚΛΑΣΙΚΑ </a></li>
+                              </ul>
+                            </div>
+                            <div class="mega-menu-col-item">
+                              <strong>Spaghetti</strong>
+                              <ul>
+                                <li><a href="#">BIO SPAGHETTI</a></li>
+                                <li><a href="#">ΒΙΟΛΟΓΙΚΑ ΖΥΜΑΡΙΚΑ </a></li>
+                                <li><a href="#">BUCATINIΚΛΑΣΙΚΑ </a></li>
+                                <li><a href="#">CAPELLINIΚΛΑΣΙΚΑ</a></li>
+                                <li><a href="#">ΧΩΡΙΣ ΓΛΟΥΤΕΝΗ</a></li>
+                                <li><a href="#">LINGUINECOLLEZIONE </a></li>
+                                <li><a href="#">MAFALDINECOLLEZIONE </a></li>
+                                <li><a href="#">SPAGHETTIΚΛΑΣΙΚΑ </a></li>
+                              </ul>
+                            </div>
+                            <div class="mega-menu-col-item">
+                              <strong>Spaghetti</strong>
+                              <ul>
+                                <li><a href="#">BIO SPAGHETTI</a></li>
+                                <li><a href="#">ΒΙΟΛΟΓΙΚΑ ΖΥΜΑΡΙΚΑ </a></li>
+                                <li><a href="#">BUCATINIΚΛΑΣΙΚΑ </a></li>
+                                <li><a href="#">CAPELLINIΚΛΑΣΙΚΑ</a></li>
+                                <li><a href="#">ΧΩΡΙΣ ΓΛΟΥΤΕΝΗ</a></li>
+                                <li><a href="#">LINGUINECOLLEZIONE </a></li>
+                                <li><a href="#">MAFALDINECOLLEZIONE </a></li>
+                                <li><a href="#">SPAGHETTIΚΛΑΣΙΚΑ </a></li>
+                              </ul>
+                            </div>
+                            <div class="mega-menu-col-item">
+                              <strong>Spaghetti</strong>
+                              <ul>
+                                <li><a href="#">BIO SPAGHETTI</a></li>
+                                <li><a href="#">ΒΙΟΛΟΓΙΚΑ ΖΥΜΑΡΙΚΑ </a></li>
+                                <li><a href="#">BUCATINIΚΛΑΣΙΚΑ </a></li>
+                                <li><a href="#">CAPELLINIΚΛΑΣΙΚΑ</a></li>
+                                <li><a href="#">ΧΩΡΙΣ ΓΛΟΥΤΕΝΗ</a></li>
+                                <li><a href="#">LINGUINECOLLEZIONE </a></li>
+                                <li><a href="#">MAFALDINECOLLEZIONE </a></li>
+                                <li><a href="#">SPAGHETTIΚΛΑΣΙΚΑ </a></li>
+                              </ul>
+                            </div>
+                            <div class="mega-menu-col-item">
+                              <strong>Spaghetti</strong>
+                              <ul>
+                                <li><a href="#">BIO SPAGHETTI</a></li>
+                                <li><a href="#">ΒΙΟΛΟΓΙΚΑ ΖΥΜΑΡΙΚΑ </a></li>
+                                <li><a href="#">BUCATINIΚΛΑΣΙΚΑ </a></li>
+                                <li><a href="#">CAPELLINIΚΛΑΣΙΚΑ</a></li>
+                                <li><a href="#">ΧΩΡΙΣ ΓΛΟΥΤΕΝΗ</a></li>
+                                <li><a href="#">LINGUINECOLLEZIONE </a></li>
+                                <li><a href="#">MAFALDINECOLLEZIONE </a></li>
+                                <li><a href="#">SPAGHETTIΚΛΑΣΙΚΑ </a></li>
+                              </ul>
                             </div>
                           </div>
                         </div>
-                      </div>                      
-                    </div>
-
+                      </div>
+                    </div>                      
                   </div>
                 </li>
                 <li><a href="#">SALT</a></li>
                 <li><a href="#">SOAP</a></li>
                 <li><a href="#">SPECIAL PRODUCTS</a></li>
               </ul>
-            </nav>                  
-        
+            </nav>
+            <div class="md-expanded-menu" style="display: none;">
+              <div class="md-expanded-menu-inner">
+                <ul>
+                  <li><a href="#">HONEY</a></li>
+                  <li><a href="#">HERBS</a></li>
+                  <li><a href="#">OLIVE OIL</a></li>
+                  <li><a href="#">VINEGAR</a></li>
+                  <li class="md-menu-item-has-childrean">
+                    <a href="#">PASTA</a>
+                    <div class="md-expanded-menu-btn">
+                      <i class="fa fa-angle-right"></i>
+                    </div>
+                    <div class="expend-list-wrapper">
+                      <div class="menu-item-back-btn">
+                        <i class="fa fa-angle-left"></i>
+                        <srtong>PASTA</srtong>
+                      </div>
+                      <ul class="label-2">
+                        <li class="md-menu-item-has-childrean">
+                          <srtong>Spaghetti</srtong>
+                          <div class="md-expanded-menu-btn">
+                            <i class="fa fa-angle-right"></i>
+                          </div>
+                          <div class="expend-list-wrapper">
+                            <div class="menu-item-back-btn">
+                              <i class="fa fa-angle-left"></i>
+                              <srtong>Spaghetti</srtong>
+                            </div>
+                            <ul class="label-3">
+                              <li><a href="#">BIO SPAGHETTI</a></li>
+                              <li><a href="#">ΒΙΟΛΟΓΙΚΑ ΖΥΜΑΡΙΚΑ </a></li>
+                              <li><a href="#">BUCATINIΚΛΑΣΙΚΑ </a></li>
+                              <li><a href="#">CAPELLINIΚΛΑΣΙΚΑ</a></li>
+                              <li><a href="#">ΧΩΡΙΣ ΓΛΟΥΤΕΝΗ</a></li>
+                              <li><a href="#">LINGUINECOLLEZIONE </a></li>
+                              <li><a href="#">MAFALDINECOLLEZIONE </a></li>
+                              <li><a href="#">SPAGHETTIΚΛΑΣΙΚΑ </a></li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="md-menu-item-has-childrean">
+                          <srtong>Spaghetti</srtong>
+                          <div class="md-expanded-menu-btn">
+                            <i class="fa fa-angle-right"></i>
+                          </div>
+                          <div class="expend-list-wrapper">
+                            <div class="menu-item-back-btn">
+                              <i class="fa fa-angle-left"></i>
+                              <srtong>Spaghetti</srtong>
+                            </div>
+                            <ul class="label-3">
+                              <li><a href="#">BIO SPAGHETTI</a></li>
+                              <li><a href="#">ΒΙΟΛΟΓΙΚΑ ΖΥΜΑΡΙΚΑ </a></li>
+                              <li><a href="#">BUCATINIΚΛΑΣΙΚΑ </a></li>
+                              <li><a href="#">CAPELLINIΚΛΑΣΙΚΑ</a></li>
+                              <li><a href="#">ΧΩΡΙΣ ΓΛΟΥΤΕΝΗ</a></li>
+                              <li><a href="#">LINGUINECOLLEZIONE </a></li>
+                              <li><a href="#">MAFALDINECOLLEZIONE </a></li>
+                              <li><a href="#">SPAGHETTIΚΛΑΣΙΚΑ </a></li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="md-menu-item-has-childrean">
+                          <srtong>Spaghetti</srtong>
+                          <div class="md-expanded-menu-btn">
+                            <i class="fa fa-angle-right"></i>
+                          </div>
+                          <div class="expend-list-wrapper">
+                            <div class="menu-item-back-btn">
+                              <i class="fa fa-angle-left"></i>
+                              <srtong>Spaghetti</srtong>
+                            </div>
+                            <ul class="label-3">
+                              <li><a href="#">BIO SPAGHETTI</a></li>
+                              <li><a href="#">ΒΙΟΛΟΓΙΚΑ ΖΥΜΑΡΙΚΑ </a></li>
+                              <li><a href="#">BUCATINIΚΛΑΣΙΚΑ </a></li>
+                              <li><a href="#">CAPELLINIΚΛΑΣΙΚΑ</a></li>
+                              <li><a href="#">ΧΩΡΙΣ ΓΛΟΥΤΕΝΗ</a></li>
+                              <li><a href="#">LINGUINECOLLEZIONE </a></li>
+                              <li><a href="#">MAFALDINECOLLEZIONE </a></li>
+                              <li><a href="#">SPAGHETTIΚΛΑΣΙΚΑ </a></li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="md-menu-item-has-childrean">
+                          <srtong>Spaghetti</srtong>
+                          <div class="md-expanded-menu-btn">
+                            <i class="fa fa-angle-right"></i>
+                          </div>
+                          <div class="expend-list-wrapper">
+                            <div class="menu-item-back-btn">
+                              <i class="fa fa-angle-left"></i>
+                              <srtong>Spaghetti</srtong>
+                            </div>
+                            <ul class="label-3">
+                              <li><a href="#">BIO SPAGHETTI</a></li>
+                              <li><a href="#">ΒΙΟΛΟΓΙΚΑ ΖΥΜΑΡΙΚΑ </a></li>
+                              <li><a href="#">BUCATINIΚΛΑΣΙΚΑ </a></li>
+                              <li><a href="#">CAPELLINIΚΛΑΣΙΚΑ</a></li>
+                              <li><a href="#">ΧΩΡΙΣ ΓΛΟΥΤΕΝΗ</a></li>
+                              <li><a href="#">LINGUINECOLLEZIONE </a></li>
+                              <li><a href="#">MAFALDINECOLLEZIONE </a></li>
+                              <li><a href="#">SPAGHETTIΚΛΑΣΙΚΑ </a></li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="md-menu-item-has-childrean">
+                          <srtong>Spaghetti</srtong>
+                          <div class="md-expanded-menu-btn">
+                            <i class="fa fa-angle-right"></i>
+                          </div>
+                          <div class="expend-list-wrapper">
+                            <div class="menu-item-back-btn">
+                              <i class="fa fa-angle-left"></i>
+                              <srtong>Spaghetti</srtong>
+                            </div>
+                            <ul class="label-3">
+                              <li><a href="#">BIO SPAGHETTI</a></li>
+                              <li><a href="#">ΒΙΟΛΟΓΙΚΑ ΖΥΜΑΡΙΚΑ </a></li>
+                              <li><a href="#">BUCATINIΚΛΑΣΙΚΑ </a></li>
+                              <li><a href="#">CAPELLINIΚΛΑΣΙΚΑ</a></li>
+                              <li><a href="#">ΧΩΡΙΣ ΓΛΟΥΤΕΝΗ</a></li>
+                              <li><a href="#">LINGUINECOLLEZIONE </a></li>
+                              <li><a href="#">MAFALDINECOLLEZIONE </a></li>
+                              <li><a href="#">SPAGHETTIΚΛΑΣΙΚΑ </a></li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="md-menu-item-has-childrean">
+                          <srtong>Spaghetti</srtong>
+                          <div class="md-expanded-menu-btn">
+                            <i class="fa fa-angle-right"></i>
+                          </div>
+                          <div class="expend-list-wrapper">
+                            <div class="menu-item-back-btn">
+                              <i class="fa fa-angle-left"></i>
+                              <srtong>Spaghetti</srtong>
+                            </div>
+                            <ul class="label-3">
+                              <li><a href="#">BIO SPAGHETTI</a></li>
+                              <li><a href="#">ΒΙΟΛΟΓΙΚΑ ΖΥΜΑΡΙΚΑ </a></li>
+                              <li><a href="#">BUCATINIΚΛΑΣΙΚΑ </a></li>
+                              <li><a href="#">CAPELLINIΚΛΑΣΙΚΑ</a></li>
+                              <li><a href="#">ΧΩΡΙΣ ΓΛΟΥΤΕΝΗ</a></li>
+                              <li><a href="#">LINGUINECOLLEZIONE </a></li>
+                              <li><a href="#">MAFALDINECOLLEZIONE </a></li>
+                              <li><a href="#">SPAGHETTIΚΛΑΣΙΚΑ </a></li>
+                            </ul>
+                          </div>
+                        </li>            
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">SALT</a></li>
+                  <li><a href="#">SOAP</a></li>
+                  <li><a href="#">SPECIAL PRODUCTS</a></li>
+                </ul>
+              </div>
+            </div>        
           </div>
         </div>
       </div>
@@ -209,7 +401,7 @@
               <div class="main-slide-item-dsc">
                 <strong>Savour Traditional <br/> Greek Flavours</strong>
                 <hr>
-                <em>at your doorstep!</em>
+                <em>At your doorstep!</em>
                 <a href="#hm-new-product-sec"><img src="assets/images/link-icon.svg" alt=""></a>
                </div>
             </div>
@@ -223,7 +415,7 @@
               <div class="main-slide-item-dsc">
                 <strong>Savour Traditional <br/> Greek Flavours</strong>
                 <hr>
-                <em>at your doorstep!</em>
+                <em>At your doorstep!</em>
                 <a href="#hm-new-product-sec"><img src="assets/images/link-icon.svg" alt=""></a>
                </div>
             </div>
@@ -237,7 +429,7 @@
               <div class="main-slide-item-dsc">
                 <strong>Savour Traditional <br/> Greek Flavours</strong>
                 <hr>
-                <em>at your doorstep!</em>
+                <em>At your doorstep!</em>
                 <a href="#hm-new-product-sec"><img src="assets/images/link-icon.svg" alt=""></a>
                </div>
             </div>
@@ -251,7 +443,7 @@
               <div class="main-slide-item-dsc">
                 <strong>Savour Traditional <br/> Greek Flavours</strong>
                 <hr>
-                <em>at your doorstep!</em>
+                <em>At your doorstep!</em>
                 <a href="#hm-new-product-sec"><img src="assets/images/link-icon.svg" alt=""></a>
                </div>
             </div>
@@ -265,7 +457,7 @@
               <div class="main-slide-item-dsc">
                 <strong>Savour Traditional <br/> Greek Flavours</strong>
                 <hr>
-                <em>at your doorstep!</em>
+                <em>At your doorstep!</em>
                 <a href="#hm-new-product-sec"><img src="assets/images/link-icon.svg" alt=""></a>
                </div>
             </div>
@@ -375,14 +567,26 @@
     <div class="hm-food-lft-part-innr">
       <h3>Tradition greek Apple chutney</h3>
       <p>Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-      <a href="#"><img src="assets/images/food-twopart-link.svg" alt=""></a>
+      <a href="#"> 
+        <i>
+          <svg class="food-twopart-link-arw-svg" width="37" height="27" viewBox="0 0 37 27" fill="#fff">
+            <use xlink:href="#food-twopart-link-arw-svg"></use>
+          </svg> 
+        </i>
+      </a>
     </div>
   </div> 
   <div class="hm-food-rgt-part hm-food-col float-left clearfix" style="background-image: url(assets/images/hm-food-right-bg.jpg);">
     <div class="hm-food-rgt-part-innr">
       <h3>Black Truffle Oil<br>at it’s best!</h3>
       <p>Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-      <a href="#"><img src="assets/images/food-twopart-link.svg" alt=""></a>
+      <a href="#"> 
+        <i>
+          <svg class="food-twopart-link-arw-svg" width="37" height="27" viewBox="0 0 37 27" fill="#fff">
+            <use xlink:href="#food-twopart-link-arw-svg"></use>
+          </svg> 
+        </i>        
+      </a>
     </div>
   </div>    
 </section>
@@ -407,32 +611,32 @@
         <div class="specialProductsSlider-item-innr mHc">
           <span>HONEY</span>
           <h4><a href="#">Valsamo Orange Blossom Honey</a></h4>
-          <a href="#">Discover</a>
-          <i class="fa fa-heart"></i>
+          <a class="sp-btn" href="#">Discover</a>
+          <a class="fa fa-heart" href="#"></a>
         </div>  
       </div>
       <div class="specialProductsSlider-item" style="background: url(assets/images/specialProductsSlider-img002.jpg);">
         <div class="specialProductsSlider-item-innr mHc">
           <span>OLIVE OIL</span>
           <h4><a href="#">Ladolea Organic Olive Oil</a></h4>
-          <a href="#">Discover</a>
-          <i class="fa fa-heart"></i>          
+          <a class="sp-btn" href="#">Discover</a>
+          <a class="fa fa-heart" href="#"></a>          
         </div>
       </div>
       <div class="specialProductsSlider-item" style="background: url(assets/images/specialProductsSlider-img001.jpg);">
         <div class="specialProductsSlider-item-innr mHc">
           <span>PASTA</span>
           <h4><a href="#">Traditional Wholewheat “Striftaria”</a></h4>
-          <a href="#">Discover</a> 
-          <i class="fa fa-heart"></i>         
+          <a class="sp-btn" href="#">Discover</a> 
+          <a class="fa fa-heart" href="#"></a>         
         </div>
       </div>
       <div class="specialProductsSlider-item" style="background: url(assets/images/specialProductsSlider-img002.jpg);">
         <div class="specialProductsSlider-item-innr mHc">
           <span>HONEY</span>
           <h4><a href="#">Ladolea Organic Olive Oil</a></h4>
-          <a href="#">Discover</a> 
-          <i class="fa fa-heart"></i>         
+          <a class="sp-btn" href="#">Discover</a> 
+          <a class="fa fa-heart" href="#"></a>         
         </div>
       </div>
     </div>

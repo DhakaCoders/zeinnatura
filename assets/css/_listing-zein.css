@@ -24,10 +24,6 @@
 .hm-product-sec-wrp.listing-new-product .hm-product-head {
   padding-bottom: 50px;
 }
-
-
-
-
 #product-grd-sec {
   padding-top: 52px;
   padding-bottom: 85px;
@@ -41,46 +37,32 @@
   text-align: center;
   margin-bottom: 80px;
 }
+#product-grd-sec .product-grd-item .hm-product-item-img img{
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transition: all .3s ease;
+}
+#product-grd-sec .product-grd-item:hover .hm-product-item-img img{
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
 #product-grd-sec .product-grd-item:nth-child(3n+1) .hm-product-item-img {
   border-left:0;
   clear: left;
 }
-
-#product-grd-sec .hm-product-item-img {
-/*   padding-top: 25px!important;
-  padding-bottom: 27px!important; */
-}
-
-#product-grd-sec .hm-product-item-btn {
-  /* padding-top: 58px !important; */
-}
-
 #product-grd-sec .hm-product-item-img-overflow {
-    max-width: 248px;
+  max-width: 248px;
 }
-
 #product-grd-sec .hm-product-item-img {
   padding-top: 22px;
 }
-
 #product-grd-sec .hm-product-item-price {
   margin-top: -17px;
 }
 #product-grd-sec .hm-product-item-img {
   padding-bottom: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -107,6 +89,9 @@
   border-radius: 100%;
   position: relative;
   text-align: center;
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transition: all .3s ease;
 }
 #product-grd-sec .load-more-btn a img{
   position: absolute;
@@ -115,17 +100,14 @@
   width: 26px;
   left: 50%;
   transform: translate(-50%, -50%);
-  -webkit-transition: all .3s ease;
-  -ms-transition: all .3s ease;
-  transition: all .3s ease;
 }
 #product-grd-sec .load-more-btn a span{
   display: inline-block;
   vertical-align: baseline;
   margin-top: 10px;
 }
-#product-grd-sec .load-more-btn a:hover img{
-  top: 57%;
+#product-grd-sec .load-more-btn a:hover i{
+  opacity: .6
 }
 #product-grd-sec .hm-product-head h5 {
   margin-bottom: 30px;
@@ -188,8 +170,8 @@
 .pro-select-main form .dropdown-menu {
   background-color: #8d994e;
 }
-.type-pasts-sec.special-products-sec .specialProductsSlider-item-innr > i.active, 
-.type-pasts-sec.special-products-sec .specialProductsSlider-item-innr > i:hover {
+.type-pasts-sec.special-products-sec .specialProductsSlider-item-innr .fa-heart.active, 
+.type-pasts-sec.special-products-sec .specialProductsSlider-item-innr .fa-heart:hover {
   color: #D0C300;
 }
 .type-pasts-sec.special-products-sec .specialProductsSlider-item-innr {
