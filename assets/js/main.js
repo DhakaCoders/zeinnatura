@@ -11,7 +11,7 @@ if($('.mHc').length){
 
 //$('[data-toggle="tooltip"]').tooltip();
 
-
+ 
 
 if($('.fancybox').length){
 $('.fancybox').fancybox({
@@ -248,16 +248,32 @@ if( $('.product-thumb-slider-wrp').length ){
 //responsive menu
 
 var windowWidth = $(window).width();
+
 if (windowWidth <= 991) {
-  $('.nav-opener .opener-inner').on('click', function(){
-    $(this).toggleClass('menu-expend')
-    $('.header nav.hdr-nav > ul').slideToggle(300);
+  $('nav.main-nav > ul > li.menu-item-has-children > a').on('click', function(e){
+    e.preventDefault();
+    $(this).parent().find('.sub-menu').slideToggle(500);
+     $(this).toggleClass('menu-item-expend');
   });
-};
+
+  $('.nav-opener .opener-inner').on('click', function(){
+    $(this).toggleClass('menu-expend');
+    $('.md-expanded-menu').slideToggle(500);
+  });
+
+  $('.md-expanded-menu-btn i').on('click', function(){
+    $(this).parent().next().addClass('expend-list-wrapper-visible');
+  });
+
+  $('.menu-item-back-btn').on('click', function(){
+    $(this).parent().removeClass('expend-list-wrapper-visible');
+  });
+}
 
 
 
 //banner animation
+
 $(window).scroll(function() {
   var scroll = $(window).scrollTop();
   $('.animate-banner').css({
@@ -271,7 +287,7 @@ $(window).scroll(function() {
 
 
 
-
+//slick slider
 
 if( $('.main-slider').length ){
     $('.main-slider').slick({
@@ -289,6 +305,8 @@ if( $('.main-slider').length ){
 }
 
 
+//slick slider
+
 if( $('.specialProductsSlider').length ){
     $('.specialProductsSlider').slick({
       dots: true,
@@ -299,13 +317,7 @@ if( $('.specialProductsSlider').length ){
       slidesToScroll: 1,
       responsive: [
         {
-          breakpoint: 767,
-          settings: {
-            slidesToShow: 1.7
-          }
-        },
-        {
-          breakpoint: 576,
+          breakpoint: 768,
           settings: {
             slidesToShow: 1.7
           }
@@ -321,22 +333,9 @@ if( $('.specialProductsSlider').length ){
 }
 
 
-//product slider
+//slick slider
+
 if( $('.product-slider-wrp').length ){
-  $('.thumbSlider').slick({
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    infinite: true,
-    speed: 700,
-    dots: false,
-    arrows: true,
-    focusOnSelect: true,
-    vertical: true,
-    verticalSwiping: true,
-    asNavFor: '.bigViewSlider',
-    prevArrow: $('.thumbSlider-arrows .leftArrow'),
-    nextArrow: $('.thumbSlider-arrows .rightArrow')
-  });
 
   $('.bigViewSlider').slick({
     slidesToShow: 1,
@@ -349,12 +348,34 @@ if( $('.product-slider-wrp').length ){
     asNavFor: '.thumbSlider'
   });
 
+  $('.thumbSlider').slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    infinite: true,
+    speed: 700,
+    dots: false,
+    arrows: true,
+    focusOnSelect: true,
+    vertical: true,
+    verticalSwiping: true,
+    asNavFor: '.bigViewSlider',
+    prevArrow: $('.thumbSlider-arrows .leftArrow'),
+    nextArrow: $('.thumbSlider-arrows .rightArrow'),
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          vertical: false,
+          verticalSwiping: false,
+        }
+      }
+    ]
+  });
+
 }
 
-$('.zein-modal-btn').on('click', function(){
-  $('.thumbSlider').slick('refresh');
-  $('.bigViewSlider').slick('refresh');
-});
+
+//slick slider
 
 if( $('.hm-new-product-slider').length ){
   $('.hm-new-product-slider').slick({
@@ -369,25 +390,69 @@ if( $('.hm-new-product-slider').length ){
     slidesToScroll: 1,
     prevArrow: $('.productNewSliderArrows .leftArrow'),
     nextArrow: $('.productNewSliderArrows .rightArrow'),
+      responsive: [
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
   });
 }
 
+
+// slick refresh function
+
+$('.zein-modal-btn').on('click', function(){
+  $('.thumbSlider').slick('refresh');
+  $('.bigViewSlider').slick('refresh');
+});
+
+
 // Add Toggle Class
+
 if( $('.specialProductsSlider-item-innr').length ){
-  $('.specialProductsSlider-item-innr > i').on('click', function(){
+  $('.specialProductsSlider-item-innr > a.fa-heart').on('click', function(e){
+    e.preventDefault();
     $(this).toggleClass('active');
   });
 }
 
+
 // Body animate function
+
 $(".main-slide-item-dsc a").click(function(e) {
   e.preventDefault();
   var goto = $(this).attr('href');
   $('html, body').animate({ scrollTop: $(goto).offset().top - 30 }, 800);
 });
 
+
 //Food section matchHeight
+
 var windowWidth = $(window).width();
+
 if (windowWidth >= 767) {
   if($('.hm-food-col').length){
     $('.hm-food-col').matchHeight();
