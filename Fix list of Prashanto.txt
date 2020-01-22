@@ -4,55 +4,97 @@ Home
 Desktop------>
 
 1. https://www.screencast.com/t/wQva47NvFmGy
-	i) ai 3 ta text ak level a thakbe -done
-	ii) icon gulo sprite hobe  --done
+	i) ai 3 ta text ak level a thakbe -done  <---ok
+	ii) icon gulo sprite hobe  --done   <----ok
 
 2. https://www.screencast.com/t/CjgwXfFTMfGv
-	'a' ta uppercase hobe --done
+	'a' ta uppercase hobe --done   <----ok
 
 3. https://www.screencast.com/t/jvQdWEDJHh
-	match height use korte hobe. des kom besi hote pare. --done
+	match height use korte hobe. des kom besi hote pare. --done  <-----ok
 
 4. https://www.screencast.com/t/Hj7qXbcFiS
 	hover korle green color daw  --done
 
 5. https://www.screencast.com/t/5FzB9hWuRT5
 	big window te ai box ta haray jay
-	onno page ao check kore fix kore felte hobe red
+	onno page ao check kore fix kore felte hobe --done  <----ok
+
+
+new----->
+1. https://www.screencast.com/t/LEQNyoVx3
+	gap thakbena
+
+2. https://www.screencast.com/t/4GE8KkI2
+	ai icon ta mileni. transparent ache
+
+3. ai icon ta r aktu upore uthbe
+	https://www.screencast.com/t/k9NE4AJrVPR
+
+4. https://www.screencast.com/t/sfHtabhz
+	label mileni nai
+
 
 02.Listing_Zein
 --------------------------
 Desktop------>
 
 1. https://www.screencast.com/t/rwwoooQv
-	link hobe --done
+	link hobe --done  ----<ok
 
 2. https://www.screencast.com/t/yJJnyp8kKy
-	hover korle opacity daw --done
+	hover korle opacity daw --done  <-----ok
 
 3. https://www.screencast.com/t/ziugOQPp
 	grd a hover korle img ta scale hobe --done
+
+
+New----->
+1. https://www.screencast.com/t/Uo6fgrCw
+	h1 hobe
+
+2. https://www.screencast.com/t/RI5rcnjCUQjA
+	i) hover korle 2 tatei opacity daw.
+	ii) hover a arrow ta niche nambe aktu . 
+
+3. https://www.screencast.com/t/qaScBfjz
+	break hobe
+
+4. https://www.screencast.com/t/uxqkTZYfHz
+	size 3 daw. ager fix ar moto
+
 
 02.Listing_QuikBuy_Zein (Popup)
 --------------------------------
 
 Desktop------>
 1. https://www.screencast.com/t/fDnLUljX9rfC
-	max 3 ta show korbe baki gulo hide hobe. data-size="3" daw --done
+	max 3 ta show korbe baki gulo hide hobe. data-size="3" daw --done  <--ok
 
 2. https://www.screencast.com/t/enjswQa7M
-	hover a arrow ta sorale kharap lagteche. text soho sorale valo lagbe maybe --done
+	hover a arrow ta sorale kharap lagteche. text soho sorale valo lagbe maybe --done <--ok
 
 3. https://www.screencast.com/t/P3fnb0IZzL
-	i) text change hobe --done
-	ii) hover korle text a green color daw --done
+	i) text change hobe --done <---ok
+	ii) hover korle text a green color daw --done <---ok
 
 4. Slider ta refresh korte hobe red
 
 
 5. https://www.screencast.com/t/6bcUgfd6d
-	top, bottom, left and right a gap rakho. tahole dekhte valo lagbe --done
+	top, bottom, left and right a gap rakho. tahole dekhte valo lagbe --done  <---ok
 
 
 6. https://www.screencast.com/t/KE6Wp0nBAl9
-	ai pase padding lagbe. text change hole lege jete pare --done
+	ai pase padding lagbe. text change hole lege jete pare --done   <---ok
+
+
+new------>
+1. https://www.screencast.com/t/6ZzBVTuq
+	i) modal ta center a daw
+	ii)ai page a header with banner and footer with footer top section thakbe just. baki section gulo badh diye daw
+
+
+
+Extra: tomar section gulo te dekho , page reload dile slider break hoy kina. hole fix koro
+

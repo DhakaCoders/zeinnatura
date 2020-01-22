@@ -945,8 +945,7 @@ main-slider-sec-wrp
 	width: 100%;
 	padding: 85px 40px 30px 0;
 }
-.special-products-des h3,
-.special-products-des h4{
+.special-products-des h3{
 	line-height: 65px;
 	color: #8D9E2F;
 	margin-bottom: 20px;
@@ -1133,6 +1132,9 @@ main-slider-sec-wrp
 	    font-size: 55px;
 	    line-height: 70px;
 	}
+	.main-slide-item-dsc {
+	    padding-left: 50px;
+	}
 	.hm-food-lft-part-innr {
 	    padding: 230px 15px 20px 0;
 	}
@@ -1149,8 +1151,8 @@ main-slider-sec-wrp
 	.hm-food-rgt-part-innr h3 {
 	    line-height: 60px !important;
 	}
-	.main-slide-item-dsc {
-	    padding-left: 50px;
+	.special-products-des h3{
+		line-height: 55px;
 	}
 }
 
@@ -1190,6 +1192,9 @@ main-slider-sec-wrp
 	.special-products-des {
 	    max-width: initial;
 	    padding: 0;
+	}
+	.special-products-des h3{
+		line-height: 50px;
 	}
 }
 
@@ -1244,13 +1249,16 @@ main-slider-sec-wrp
 	    display: none;
 	}
 	.specialProductsSlider-item-innr {
-	    padding: 80px 15px 70px;
+	    padding: 80px 15px 90px;
 	    min-height: 365px;
 	}
 	.specialProductsSlider-item h4 {
 	    line-height: 42px;
 	    margin-bottom: 35px;
 	    font-size: 34px;
+	}
+	.special-products-des h3{
+		line-height: 45px;
 	}
 }
 
@@ -1273,6 +1281,9 @@ main-slider-sec-wrp
 	    font-size: 33px;
 	    line-height: 42px;
 	}
+	.special-products-des h3{
+		line-height: 40px;
+	}
 }
 
 @media(max-width: 479px){
@@ -1285,6 +1296,7 @@ main-slider-sec-wrp
 	    margin-bottom: 28px;
 	    font-size: 30px;
 	}
+
 }
 
 @media(max-width: 359px){

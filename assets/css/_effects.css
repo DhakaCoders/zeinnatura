@@ -1,12 +1,14 @@
 /**
 All Transitions
 */
+.hm-product-item-img:hover .hm-product-item-img-overflow img,
 a,input,img,textarea,button,
 .fl-connect-fb-btn a i{
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 }
+.hm-product-item-img:hover .hm-product-item-img-overflow img,
 .scale{
 	transform: scale(1.1);
 	-ms-transform: scale(1.1);

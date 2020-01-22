@@ -1,0 +1,47 @@
+Home
+------------------------
+
+Desktop------>
+
+1. https://www.screencast.com/t/OBlI46GKn5
+	hover korle puro icon ta green daw
+
+2. https://www.screencast.com/t/K6wf1WWv
+	ai link a hover korle black color daw
+
+3. https://www.screencast.com/t/ZF0gZ5XG4eyY
+	grd a hove korle img ta aktu scale hobe
+
+4. https://www.screencast.com/t/x0t190r3AMD
+	realod dile slider break gulo off korte hobe. jemonta amra kori
+
+
+
+Product_Zein
+--------------------------
+
+Desktop------>
+
+1. https://www.screencast.com/t/VeSGMdtJZ
+	aita purotai link daw. busket.html thake dekhe nite paro.
+	r hover color black daw
+
+2. https://www.screencast.com/t/fDnLUljX9rfC
+	max 3 ta show korbe baki gulo hide hobe. data-size="3"
+
+3. https://www.screencast.com/t/NsHU0Bq4
+	Double round mone hosche.. 
+
+
+BlogArticle_Zein
+-----------------------
+
+Desktop------>
+1. https://www.screencast.com/t/QcSSDTOo65Vu
+	border ta ber hoye thakteche. boro media te
+
+2. https://www.screencast.com/t/PqSxfr6Gji
+	font-family mileni
+
+3. https://www.screencast.com/t/G4hpz4Fr3A
+	ager fix ar motoi

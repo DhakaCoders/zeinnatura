@@ -1,3 +1,55 @@
+/*
+-----------------
+Start sitemap
+-----------------
+*/
+.sitemap{
+  max-width: 800px;
+  margin: 0 auto;
+  padding:100px 0;
+}
+.sitemap ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sitemap ul ul {
+   margin-left: 30px;
+  padding-top: 12px;
+}
+
+.sitemap ul li {
+  padding: 5px 0;
+}
+
+.sitemap ul li a {
+  display: inline-block;
+  vertical-align: baseline;
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-bottom: 12px;
+  position: relative;
+  -ms-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.sitemap ul li a:hover{
+  color: #8D9E2F;
+}
+.sitemap ul li a:focus{
+  text-decoration: underline;
+}
+.sitemap h2 {
+  margin: 0;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+  color: #8D9E2F;
+}
+
+
 /*=============
   Banner Design
 ==============*/
@@ -402,6 +454,9 @@
     line-height: 45px;
     margin-bottom: 15px;
   }
+  .page-banner-inner h1, .page-banner-inner strong {
+    font-size: 75px;
+  }
 }
 
 @media(max-width: 991px){
@@ -409,11 +464,18 @@
     width: 100%;
     padding-top: 92px;
     border-right: 0;
+    float: none;
   }
   .modal-des-rgt-con {
     width: 100%;
     padding-top: 50px;
     padding-left: 0;
+    float: none;
+    max-width: 600px;
+    margin: auto;
+  }
+  .modal-des-rgt-con h4{
+    line-height: 40px;
   }
   .quick-by-modal-main {
     padding-left: 15px;
@@ -464,7 +526,6 @@
   .thumbSlider-arrows > .rightArrow img:last-child{
     display: inline-block;
   }
-
   .modal-tab-ftr-lft.w-75,
   .modal-tab-ftr-rgt.w-25{
     width: 100%!important;
@@ -478,6 +539,15 @@
     padding-right: 110px;
     opacity: .7
   }
+  .page-banner-inner h1, .page-banner-inner strong {
+    font-size: 70px;
+    line-height: 75px;
+    margin-bottom: 28px;
+  }
+  .page-banner-sec-con {
+    min-height: initial;
+  }
+
 }
 
 @media(max-width: 767px){
@@ -496,6 +566,11 @@
   .quick-by-modal-main-tab {
     padding-top: 35px;
     padding-bottom: 65px;
+  }
+  .page-banner-inner h1, .page-banner-inner strong {
+    font-size: 65px;
+    line-height: 70px;
+    margin-bottom: 25px;
   }
 }
 
@@ -516,6 +591,11 @@
   .quick-by-modal-main-tab .tab-content p {
     margin-bottom: 20px;
   }
+  .page-banner-inner h1, .page-banner-inner strong {
+    font-size: 60px;
+    line-height: 65px;
+    margin-bottom: 25px;
+  }
 }
 
 @media(max-width: 479px){
@@ -525,13 +605,21 @@
   .quick-by-modal-main-tab .nav a {
     min-width: 118px;
     padding: 5px 0 5px 0;
-    font-size: 15px;
+    font-size: 18px;
     margin-right: 8px;
     line-height: 22px;
+  }
+  .modal-des-rgt-con h4{
+    margin-bottom: 22px;
   }
   .thumbSlider-wrp {
     padding:20px 0 20px;
     max-width: 220px;
+  }
+  .page-banner-inner h1, .page-banner-inner strong {
+    font-size: 57px;
+    line-height: 65px;
+    margin-bottom: 22px;
   }
 }
 
