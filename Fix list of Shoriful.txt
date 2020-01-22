@@ -11,3 +11,13 @@ Desktop---->
 3. https://www.screencast.com/t/JmVyRM78Op
 	hover korle purotar opacity komay daw. 
 	.7 or .8 diye dekho, jeta valo lage use koro
+
+
+4. https://www.screencast.com/t/f48ngznDLOGS
+	ai property ta add koro
+
+
+Responsive----->
+
+1. https://www.screencast.com/t/PGe1by976iv
+	767px a ai div ar max width 450px daw

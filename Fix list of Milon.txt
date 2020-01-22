@@ -17,6 +17,33 @@ Desktop------>
 
 
 
+
+
+5.https://www.screencast.com/t/oVpHarmo0Nl
+	ata link hobena
+
+6. https://www.screencast.com/t/gNLCCK77zGU
+	click korle checkmark ta center a rakho
+
+Responsive---->
+1.  767px te , ai gap ta aktu komay daw
+	https://www.screencast.com/t/db8ZNCqzYr
+
+2. https://www.screencast.com/t/LjXSp9tbf
+	i) 991 a heading ta center daw
+	ii) 991 a uporer img ta none kore daw
+
+3. https://www.screencast.com/t/TcyD0KnbR
+	button niche thakbe r checkbox line ta upore thakbe always
+
+4. https://www.screencast.com/t/5ZgsFKcz11T
+	col ar right a padding diye rakhte hobe . desktop thakei.
+	boro text ar line add korle jeno akta r aktar sathe lege na jay
+
+5. https://www.screencast.com/t/aCOap2Ypt6C
+	ai media te ai gap ta aktu baray daw. alada alada jeno buja jay
+
+
 Product_Zein
 --------------------------
 
@@ -45,3 +72,7 @@ Desktop------>
 
 3. https://www.screencast.com/t/G4hpz4Fr3A
 	ager fix ar motoi
+
+
+
+

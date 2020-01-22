@@ -21,18 +21,27 @@ Desktop------>
 	onno page ao check kore fix kore felte hobe --done  <----ok
 
 
-new----->
+new-----> 
 1. https://www.screencast.com/t/LEQNyoVx3
-	gap thakbena
+	gap thakbena --done
 
 2. https://www.screencast.com/t/4GE8KkI2
-	ai icon ta mileni. transparent ache
+	ai icon ta mileni. transparent ache --done
 
-3. ai icon ta r aktu upore uthbe
-	https://www.screencast.com/t/k9NE4AJrVPR
-
+3. https://www.screencast.com/t/k9NE4AJrVPR
+	ai icon ta r aktu upore uthbe --done
+	
 4. https://www.screencast.com/t/sfHtabhz
-	label mileni nai
+	label mileni nai --done
+
+
+Responsive---->
+
+1. https://www.screencast.com/t/Wq68YxYuq
+	logo ar vitore text dhuke jay
+
+2. https://www.screencast.com/t/FSfUvLOvE
+	img haray jay. fix hole baki slider gulo teo dekhte hobe thik ache kina 
 
 
 02.Listing_Zein
@@ -51,17 +60,22 @@ Desktop------>
 
 New----->
 1. https://www.screencast.com/t/Uo6fgrCw
-	h1 hobe
+	h1 hobe --done
 
 2. https://www.screencast.com/t/RI5rcnjCUQjA
-	i) hover korle 2 tatei opacity daw.
-	ii) hover a arrow ta niche nambe aktu . 
+	i) hover korle 2 tatei opacity daw. --done
+	ii) hover a arrow ta niche nambe aktu .  --done
 
 3. https://www.screencast.com/t/qaScBfjz
-	break hobe
+	break hobe  --done
 
 4. https://www.screencast.com/t/uxqkTZYfHz
-	size 3 daw. ager fix ar moto
+	size 3 daw. ager fix ar moto --done
+
+
+Responsive---->
+1. https://www.screencast.com/t/yssQl3blv
+	575px a ai gap ta aktu komay daw
 
 
 02.Listing_QuikBuy_Zein (Popup)
@@ -91,10 +105,16 @@ Desktop------>
 
 new------>
 1. https://www.screencast.com/t/6ZzBVTuq
-	i) modal ta center a daw
-	ii)ai page a header with banner and footer with footer top section thakbe just. baki section gulo badh diye daw
+	i) modal ta center a daw --done
+	ii)ai page a header with banner and footer with footer top section thakbe just. baki section gulo badh diye daw --done
 
 
 
 Extra: tomar section gulo te dekho , page reload dile slider break hoy kina. hole fix koro
+
+
+Responsive---->
+
+1. https://www.screencast.com/t/FO0mOFvxh
+	320 pojonto 2 ta button ai akline a rakho
 
