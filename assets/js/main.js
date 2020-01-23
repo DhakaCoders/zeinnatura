@@ -267,7 +267,7 @@ if( $('.main-slider').length ){
 if( $('.specialProductsSlider').length ){
   $('.specialProductsSlider').slick({
     dots: true,
-    arrows:true,
+    arrows:false,
     infinite: false,
     speed: 300,
     slidesToShow: 2.5,

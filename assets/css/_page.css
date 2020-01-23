@@ -153,7 +153,7 @@ Start sitemap
   overflow: hidden;
 }
 .thumbSlider-item i {
-  display: table;
+  display: block;
   margin: 0 auto; 
   width: 92px;
   height: 91px;
@@ -393,6 +393,9 @@ Start sitemap
   top: 33px;
   right: 35px;
   opacity: 1!important;
+}
+.quick-by-zein-modal-con .modal-body button.close:not(.primary) {
+    box-shadow: none;
 }
 .quick-by-zein-modal-con .modal-body button.close:not(:disabled):not(.disabled):focus, 
 .quick-by-zein-modal-con .modal-body button.close:not(:disabled):not(.disabled):hover {
