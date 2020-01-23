@@ -39,8 +39,6 @@ if($('.mHc').length){
   $('.mHc').matchHeight();
 };
 
-// http://codepen.io/norman_pixelkings/pen/NNbqgG
-// https://stackoverflow.com/questions/38686650/slick-slides-on-pagination-hover
 
 
 if( $('.hm-product-slider').length ){
@@ -130,47 +128,6 @@ if( $('.responsive-slider').length ){
 }
 
 
-/*Google Map*/
-var CustomMapStyles  = [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
-
-if( $('#mapID').length ){
-var latitude = $('#mapID').data('latitude');
-var longitude = $('#mapID').data('longitude');
-
-var myCenter= new google.maps.LatLng(latitude,  longitude);
-function initialize(){
-    var mapProp = {
-      center:myCenter,
-      mapTypeControl:true,
-      scrollwheel: false,
-      zoomControl: true,
-      disableDefaultUI: true,
-      zoom:7,
-      streetViewControl: false,
-      rotateControl: true,
-      mapTypeId:google.maps.MapTypeId.ROADMAP,
-      styles: CustomMapStyles
-      };
-
-    var map= new google.maps.Map(document.getElementById('mapID'),mapProp);
-    var marker= new google.maps.Marker({
-      position:myCenter,
-        //icon:'map-marker.png'
-      });
-    marker.setMap(map);
-}
-google.maps.event.addDomListener(window, 'load', initialize);
-
-}
-
-    new WOW().init();
-
-
-
-
-
-/*Milon*/
-
 /*
  Product Details Slider
 */
@@ -242,7 +199,7 @@ if( $('.product-thumb-slider-wrp').length ){
 
 
 
-/*Prashanto*/
+
 
 //responsive menu
 
@@ -271,34 +228,6 @@ if (windowWidth <= 991) {
 }
 
 
-$(window).resize(function(){
-
-  var windowWidth = $(window).width();
-
-  if (windowWidth <= 991) {
-    $('nav.main-nav > ul > li.menu-item-has-children > a').on('click', function(e){
-      e.preventDefault();
-      $(this).parent().find('.sub-menu').slideToggle(500);
-       $(this).toggleClass('menu-item-expend');
-    });
-
-    $('.nav-opener .opener-inner').on('click', function(){
-      $(this).toggleClass('menu-expend');
-      $('.md-expanded-menu').slideToggle(500);
-      $('.hdr-menu-controller').toggleClass('hdr-menu-con-height');
-    });
-
-    $('.md-expanded-menu-btn i').on('click', function(){
-      $(this).parent().next().addClass('expend-list-wrapper-visible');
-    });
-
-    $('.menu-item-back-btn').on('click', function(){
-      $(this).parent().removeClass('expend-list-wrapper-visible');
-    });
-  }
-
-
-});
 
 //banner animation
 
@@ -518,16 +447,6 @@ if (windowWidth >= 767) {
 
 
 
-
-
-/*Shoriful*/
-
-
-
-
-
-/*Rannojit*/
-
 $('.busket-apply-discount').on('click', function(){
   $(this).next('.bdcode').slideToggle(300);
   $(this).toggleClass('active');
@@ -655,5 +574,7 @@ if (windowWidth < 768) {
     });
   }
 }
+
+
 
 })(jQuery);
