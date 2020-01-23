@@ -417,6 +417,10 @@
 
 }
 
+
+.modal-select button:not(.primary){
+    box-shadow: none!important;
+}
 .apply-discount-code button{
     width: 171px;
     height: 46px;
