@@ -407,11 +407,14 @@ Start sitemap
 .quick-by-zein-modal-con .modal-body button.close span img{
   width: 100%;
 }
+button.zein-modal-btn:focus,
+button.zein-modal-btn:active,
 .zein-modal-btn{
   padding: 10px 15px;
   font-size: 17px;
   background: #8D9E2F;
   border:0;
+  color: #fff;
   -webkit-transition: all .3s ease;
   -ms-transition: all .3s ease;
   transition: all .3s ease;
@@ -429,13 +432,8 @@ button.zein-modal-btn:not(.primary) {
 
 
 
-@media(max-width: 1499px){
 
-}
 
-@media(max-width: 1399px){
-
-}
 
 @media(max-width: 1299px){
   .quick-by-modal-main {
