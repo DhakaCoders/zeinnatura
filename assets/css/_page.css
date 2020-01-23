@@ -567,6 +567,13 @@ Start sitemap
     padding-top: 35px;
     padding-bottom: 65px;
   }
+  .quick-by-modal-main-tab .nav a {
+    min-width: 215px;
+  }
+  .modal-des-rgt-con strong.price {
+      font-size: 28px;
+      line-height: 35px;
+  }
   .page-banner-inner h1, .page-banner-inner strong {
     font-size: 65px;
     line-height: 70px;
