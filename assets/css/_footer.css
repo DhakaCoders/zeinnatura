@@ -44,6 +44,7 @@
 	font-size: 14px;
 	line-height: 16px;
 	padding: 5px 0;
+	margin-bottom: 0;
 }
 .ftr-menu-item ul li a{
 	display: inline-block;
@@ -81,6 +82,7 @@
 	line-height: 16px;
 	position: relative;
 	padding: 0 25px;
+	margin-bottom: 0;
 }
 .ftr-middel-inr ul li:after{
 	content: "";
