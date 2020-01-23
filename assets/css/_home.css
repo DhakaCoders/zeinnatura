@@ -551,7 +551,6 @@ hm-product-sec-wrp
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
-    overflow: hidden;
 }
 .hm-new-product-slide-item:nth-child(1) .hm-product-item-img,
 .hm-product-slide-item:nth-child(1) .hm-product-item-img{
