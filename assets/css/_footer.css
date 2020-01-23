@@ -340,7 +340,9 @@
 	.footer-singup-form h5{
 		text-align: center;
 	}
-	
+	.footer-singup-form-sec-wrp{
+		padding-bottom: 30px;
+	}
 }
 
 @media(max-width: 767px){

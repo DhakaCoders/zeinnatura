@@ -139,15 +139,18 @@
 	height: 22px;
 	background: #000;
 	cursor: pointer;
-	
+	box-shadow: none;
+	padding: 0;
 }
 .id-order-email form button i{
-	line-height: 16px;
+	line-height: 18px;
     height: 100%;
     display: block;
 }
 .id-order-email form button:hover{
 	background: #8D9E2F;
+	box-shadow: none;
+	border: none;
 }
 
 /*account page form */
@@ -190,8 +193,18 @@
 }
 .account-form-field-grd input[type="text"]:focus,
 .account-form-field-grd input[type="email"]:focus,
-.account-form-field-grd input[type="password"]:focus{
+.account-form-field-grd input[type="password"]:focus,
+.id-order-email form input[type="text"]:focus,
+.select-dep input[type="text"]:focus,
+
+#shipping input[type="text"]:focus,
+#shipping input[type="email"]:focus,
+#shipping input[type="password"]:focus{
 	background: #b0b0b0;
+	box-shadow: none!important;
+}
+.footer-singup-form input[type="email"]:focus{
+	box-shadow: none!important;
 }
 .account-form-submit-btn{
 	padding: 0 0 29px 0;
@@ -578,7 +591,7 @@ hr.form-devider{
 	    content: "\f106";
 	}
 	.account-page-sidebar{
-		margin-top: 40px;
+		padding-top: 40px;
 	}
 	.xs-sidebar-con{
 		display: none;
@@ -615,11 +628,14 @@ hr.form-devider{
 		min-height: 40px;
 	}
 	.account-page-sidebar {
-	    margin-top: 25px;
+	    padding-top: 25px;
 	}
 	.fl-login-lft-con{
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+	.fl-login-lft-con{
+		border-width: 3px;
 	}
 }
 
