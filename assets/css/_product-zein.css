@@ -78,6 +78,7 @@ sweet-potato-sec-wrp
 	-webkit-transition: all 0.5s;
 	cursor: pointer;
 	padding: 0;
+	box-shadow: none;
 }
 .product-detalis-btn button:first-of-type{
 	max-width: 131px;
@@ -147,6 +148,10 @@ sweet-potato-sec-wrp
 	    -ms-transition: all .25s ease;
 	     -o-transition: all .25s ease;
 	        transition: all .25s ease;
+}
+.ThumbSliderArrows .rightArrow:hover,
+.ThumbSliderArrows .leftArrow:hover{
+	opacity: 0.5;
 }
 .product-tab {
     max-width: 1075px;
