@@ -388,8 +388,19 @@ $('.zein-modal-btn').on('click', function(){
 
 });
 
-// slick refresh function
+$('.thumbSlider').on('click', function(){ 
+  $('.bigViewSlider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true,
+    speed: 700,
+    fade: true,
+    dots: false,
+    arrows: false,
+    asNavFor: '.thumbSlider'
+  });
 
+});
 
 
 
