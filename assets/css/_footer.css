@@ -1,8 +1,3 @@
-/*
----------------------
-footer-wrp
----------------------
-*/
 .ftr-top-wrp {
     padding-top: 35px;
     padding-bottom: 43px;
@@ -111,7 +106,7 @@ footer-wrp
 	-webkit-transition: all 0.5s;
 }
 .ftr-middel-inr ul li a:hover{
-	color: #495603;
+	color: #ddd;
 }
 .ftr-btm-wrp{
 	padding-bottom: 40px;
@@ -121,7 +116,7 @@ footer-wrp
     padding-top: 12px;
     padding-bottom: 30px;
 }
-.ftr-btm-payment a{
+.ftr-btm-payment span{
 	display: inline-block;
 	vertical-align: baseline;
 	text-decoration: none;
