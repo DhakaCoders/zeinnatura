@@ -603,6 +603,7 @@ hm-product-sec-wrp
 	-webkit-transition: all 0.5s;
 	cursor: pointer;
 	padding: 0;
+	box-shadow: none;
 }
 .hm-product-item-btn button:last-child{
 	max-width: 114px;

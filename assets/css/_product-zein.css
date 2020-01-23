@@ -78,6 +78,7 @@ sweet-potato-sec-wrp
 	-webkit-transition: all 0.5s;
 	cursor: pointer;
 	padding: 0;
+	box-shadow: none;
 }
 .product-detalis-btn button:first-of-type{
 	max-width: 131px;
