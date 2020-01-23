@@ -1,11 +1,3 @@
-/* 
-.listing-new-product .hm-product-item-btn {
-  padding-top: 58px !important;
-}
-
-*/
-
- 
 .hm-product-sec-wrp.listing-new-product {
   padding-top: 40px;
 }
@@ -182,6 +174,11 @@
 .pro-select-main form .dropdown-menu {
   background-color: #8d994e;
 }
+.pro-select-main button:not(.primary) {
+    box-shadow: none;
+}
+.blog-special-products.special-products-sec .specialProductsSlider-item-innr .fa-heart.active, 
+.blog-special-products.special-products-sec .specialProductsSlider-item-innr .fa-heart:hover,
 .type-pasts-sec.special-products-sec .specialProductsSlider-item-innr .fa-heart.active, 
 .type-pasts-sec.special-products-sec .specialProductsSlider-item-innr .fa-heart:hover {
   color: #D0C300;

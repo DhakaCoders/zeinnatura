@@ -1,5 +1,5 @@
 /* 
------------------
+----------------- 
 Start sitemap
 -----------------
 */ 
@@ -21,6 +21,7 @@ Start sitemap
 
 .sitemap ul li {
   padding: 5px 0;
+  margin-bottom: 0;
 }
 
 .sitemap ul li a {
@@ -280,7 +281,7 @@ Start sitemap
   background: #fff;
   border: 0.2px solid #000000;
   border-radius: 0;
-  padding: 6px 20px;
+  padding: 6px 20px!important;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 12px;
@@ -403,9 +404,22 @@ Start sitemap
 .quick-by-zein-modal-con .modal-body button.close span img{
   width: 100%;
 }
-
-
-
+.zein-modal-btn{
+  padding: 10px 15px;
+  font-size: 17px;
+  background: #8D9E2F;
+  border:0;
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.zein-modal-btn:hover{
+  background: #7F8A40;
+  border:0;
+}
+button.zein-modal-btn:not(.primary) {
+  box-shadow: none;
+}
 
 
 

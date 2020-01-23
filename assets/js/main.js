@@ -249,7 +249,7 @@ $(window).scroll(function() {
 if( $('.main-slider').length ){
     $('.main-slider').slick({
       pauseOnHover: false,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 8000,
       dots: true,
       arrows:false,
