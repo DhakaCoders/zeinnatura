@@ -1,4 +1,4 @@
-
+ 
 header.header{ 
     position: absolute;
     left: 0;
@@ -14,7 +14,7 @@ header.header{
 	position: absolute;
 	left: 0;
 	top: 0;
-	z-index: 11;
+	z-index: 16;
 }
 .header-logo a{
     max-width:150px;
@@ -89,6 +89,7 @@ nav.main-nav > ul > li > a{
 }
 nav.main-nav > ul > li{
     padding: 0 22px;
+    margin-bottom: 0;
 }
 nav.main-nav > ul > li:first-child{
     padding-left: 0;
@@ -151,7 +152,7 @@ nav.main-nav > ul > li > a:hover{
 	left: 0;
 	right: 0;
 	top: 100%;
-	z-index: 10;
+	z-index: 15;
 	background: #FFFFFF;
 	opacity: 0.93;
 	transform: scale3d(1,0,1);
@@ -969,7 +970,7 @@ main-slider-sec-wrp
 	right: 0;
 	bottom: 0;
 	left: 33%;
-	z-index: 10
+	z-index: 4;
 }
 .specialProductsSlider{
 	position: relative;
