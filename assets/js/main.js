@@ -388,7 +388,7 @@ $('.zein-modal-btn').on('click', function(){
 
 });
 
-$('.thumbSlider').on('click', function(){ 
+$('.thumbSlider, .leftArrow, .rightArrow').on('click', function(){ 
   $('.bigViewSlider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,

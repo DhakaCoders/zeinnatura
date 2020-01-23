@@ -135,6 +135,7 @@ Start sitemap
 .bigViewSlider-item {
   padding: 0 20px 0 20px;
   position: relative;
+  text-align: center;
 }
 .bigViewSlider-item img {
   margin: auto;
