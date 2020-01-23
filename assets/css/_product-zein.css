@@ -149,6 +149,10 @@ sweet-potato-sec-wrp
 	     -o-transition: all .25s ease;
 	        transition: all .25s ease;
 }
+.ThumbSliderArrows .rightArrow:hover,
+.ThumbSliderArrows .leftArrow:hover{
+	opacity: 0.5;
+}
 .product-tab {
     max-width: 1075px;
     width: 100%;
