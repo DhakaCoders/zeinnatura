@@ -377,33 +377,28 @@ if( $('.product-slider-wrp').length ){
     ]
   });
 
-
-}
-
-$('.zein-modal-btn').on('click', function(){ 
-
-  $('.thumbSlider').slick('refresh');
-  $('.bigViewSlider').slick('refresh');
-  $('.bigViewSlider').slick('unslick');
-
-});
-
-$('.thumbSlider, .leftArrow, .rightArrow').on('click', function(){ 
-  $('.bigViewSlider').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    infinite: true,
-    speed: 700,
-    fade: true,
-    dots: false,
-    arrows: false,
-    asNavFor: '.thumbSlider'
+  $('.zein-modal-btn').on('click', function(){ 
+    $('.thumbSlider').slick('refresh');
+    $('.bigViewSlider').slick('unslick');
+    
   });
 
-});
+  $('.thumbSlider-wrp').on('click', function(){ 
+    $('.bigViewSlider').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      infinite: true,
+      speed: 700,
+      fade: true,
+      dots: false,
+      arrows: false,
+      asNavFor: '.thumbSlider'
+    });
+
+  });
 
 
-
+}
 
 // Add Toggle Class
 
